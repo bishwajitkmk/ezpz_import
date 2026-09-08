@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "dinajpur-2017-physics1st-q1",
+      "clientId": "dinajpur-2017-chemistry2nd-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q2",
+      "clientId": "dinajpur-2017-chemistry2nd-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$NaOH.CaO$"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$Ca(OH{)}_{2}$"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$CaC{O}_{3}$"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$CaO$"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q3",
+      "clientId": "dinajpur-2017-chemistry2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "8.5"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "7.5"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "7"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "6.5"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q4",
+      "clientId": "dinajpur-2017-chemistry2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "+1.5V"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "+1.4V"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "+1.3V"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "+1.2V"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q5",
+      "clientId": "dinajpur-2017-chemistry2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "মিথোক্সিপ্রোপেন"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "প্রোপানোন"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "প্রোপানোন-১"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "পেন্ট-২-ওন"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q6",
+      "clientId": "dinajpur-2017-chemistry2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$Pb/P{b}^{2+}||C{u}^{2+}/Cu$"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$Pb/PbS{O}_{4}||{H}_{2}S{O}_{4}(aq)/Pb{O}_{2}.Pb$"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$Zn/Z{n}^{2+}||P{b}^{2+}/Pb$"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$Pb/P{b}^{2+}||{H}^{+}/{H}_{2}$"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q7",
+      "clientId": "dinajpur-2017-chemistry2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-273K"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "0 K"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "273 ${}^{o}C$"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0 ${}^{o}C$"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q8",
+      "clientId": "dinajpur-2017-chemistry2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "K"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "L"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "M"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "N"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q9",
+      "clientId": "dinajpur-2017-chemistry2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "শুষ্ক কোষ"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "অ্যালকালি জ্বালানি কোষ"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "লিথিয়াম ব্যাটারি"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "লিথিয়াম আয়ন ব্যাটারি"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q10",
+      "clientId": "dinajpur-2017-chemistry2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "K"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "L"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "M"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "N"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q11",
+      "clientId": "dinajpur-2017-chemistry2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${R}_{3}N>{R}_{2}NH>RN{H}_{2}>N{H}_{3}$"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${R}_{2}NH>{R}_{3}N>RN{H}_{2}>N{H}_{3}$"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "${R}_{2}NH>RN{H}_{2}>{R}_{3}N>N{H}_{3}$"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${R}_{2}NH<RN{H}_{2}<{R}_{3}N<N{H}_{3}$"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q12",
+      "clientId": "dinajpur-2017-chemistry2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1.25M"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "0.983M"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "0.893M"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0.694M"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q13",
+      "clientId": "dinajpur-2017-chemistry2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{4}$"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{6}$"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "${C}_{6}{H}_{6}$"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{6}{H}_{5}C{H}_{3}$"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q14",
+      "clientId": "dinajpur-2017-chemistry2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ঘ"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q15",
+      "clientId": "dinajpur-2017-chemistry2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$N{H}_{3}$"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{6}$"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$C{O}_{2}$"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${O}_{2}$"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q16",
+      "clientId": "dinajpur-2017-chemistry2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$KMn{O}_{4}$"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${K}_{2}C{r}_{2}{O}_{7}$"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{2}{O}_{4}$"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$N{a}_{2}{C}_{2}{O}_{4}$"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q17",
+      "clientId": "dinajpur-2017-chemistry2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$S{O}_{3}$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$NaOH$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$Ca(OCl)Cl$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$HCl$"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q18",
+      "clientId": "dinajpur-2017-chemistry2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/chemistry/2nd/chapter-5"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q19",
+      "clientId": "dinajpur-2017-chemistry2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q20",
+      "clientId": "dinajpur-2017-chemistry2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "5"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "-1"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q21",
+      "clientId": "dinajpur-2017-chemistry2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q22",
+      "clientId": "dinajpur-2017-chemistry2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$3.388\\times{10}^{-4}$"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$3.30\\times{10}^{-4}$"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$3.29\\times{10}^{-4}$"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$3.22\\times{10}^{-4}$"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q23",
+      "clientId": "dinajpur-2017-chemistry2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "453.23 $m{s}^{-1}$"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "463.34 $m{s}^{-1}$"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "473.45 $m{s}^{-1}$"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "483.56 $m{s}^{-1}$"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q24",
+      "clientId": "dinajpur-2017-chemistry2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$O{H}^{-}$"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$N{H}_{3}$"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${H}_{2}O$"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$AlC{l}_{3}$"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "dinajpur-2017-physics1st-q25",
+      "clientId": "dinajpur-2017-chemistry2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$(P+\\frac{2n}{{V}^{2}})(V-2b)=2RT$"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$(P+\\frac{{n}^{2}a}{{V}^{2}})(V-nb)=nRT$"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$(P+\\frac{a}{{V}^{2}})(V-b)=RT$"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$(P+\\frac{a}{{V}^{2}})(V-b)=nRT$"

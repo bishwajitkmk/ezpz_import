@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "10kg"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "20kg"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "60kg"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "360kg"
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\omega=2\\pi\\text{ }T$"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\omega=\\frac{2\\pi}{f}$"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\omega=\\frac{T}{2\\pi}$"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$\\omega=\\frac{2\\pi}{T}$"
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "অণুগুলো নিউটনের সূত্র মেনে চলে"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "অণুগুলো সবদিকে সমবেগে গতিশীল"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "অণুগুলো অতি ক্ষুদ্র"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অণুগুলো স্থিতিস্থাপক গোলক সদৃশ"
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "দিনের আলোয় তীব্রতা বৃদ্ধি পায়"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "আপেক্ষিক আর্দ্রতা বৃদ্ধি পায়"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "তাপমাত্রা বৃদ্ধিতে বায়ু অসম্পৃক্ত হয়"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বাষ্পায়নের হার হ্রাস পায়"
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "- 10m"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "- 5m"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "10m"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5m"
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "পিছট ত্রুটি"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "লেভেল ক্রুটি"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "লম্বন ত্রুটি"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "এলোমেলো ত্রুটি"
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "0°"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "90°"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "180°"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "270°"
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ভেক্টর ক্ষেত্র"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "স্কেলার ক্ষেত্র"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ঐ ভেক্টরের নতিমাত্রা"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অঘূর্ণনশীল"
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "একমাত্রিক অসমত্বরণ সম্পন্ন"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "একমাত্রিক সমতুরণ সম্পন্ন"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "দ্বিমাত্রিক অসমত্বরণ সম্পন্ন"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "দ্বিমাত্রিক সমত্বরণ সম্পন্ন"
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "9.94 m"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "9.95 m"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "9.96 m"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "9.97 m"
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "সংশক্তি বল"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ঘূর্ণন বল"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "তড়িৎ বল"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ঘাত বল"
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "বিভব শক্তি"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "গতি শক্তি"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "রাসায়নিক শক্তি"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "তাপ শক্তি"
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "[ML2T-3]"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "[ML-2T2]"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "[ML2T-1]"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "[ML2T-2]"
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "g"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "g sinθ"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "g cosθ"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "শূন্য"
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "পৃথিবীর কেন্দ্র বরাবর"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "মহাকর্ষ বলের দিকে"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "মহাকর্ষ বলের বিপরীত দিকে"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "পৃথিবীর কেন্দ্র থেকে বাহিরের দিকে"
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "অসংনম্যতা"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "সংনম্যতা"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "কাঠিন্যের গুণাক"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ইয়ং এর গুণাঙ্ক"
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ঘ"
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1.8 m"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2.4 m"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "2.7 m"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "3.6 m"
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{1}{2}A$"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "A"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{1}{2}\\lambda$"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "λ"
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "0.5 sec"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "4 sec"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "2 sec"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "4π sec"
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"

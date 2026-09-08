@@ -2,7 +2,7 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "rajshahi-2017-physics1st-q1",
+      "clientId": "rajshahi-2017-chemistry2nd-q1",
       "curriculum": {
         "path": null
       },
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "স্যালিসাইলিক এসিড"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "প্রাইমারি অ্যামিন"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "পিকরিক এসিড"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "টলেন বিকারক"
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q2",
+      "clientId": "rajshahi-2017-chemistry2nd-q2",
       "curriculum": {
         "path": null
       },
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "মিথেন"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ইথিলিন"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "অ্যামোনিয়া"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ক্লোরিন"
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q3",
+      "clientId": "rajshahi-2017-chemistry2nd-q3",
       "curriculum": {
         "path": null
       },
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "0.01"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "0.04"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "0.05"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0.06"
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q4",
+      "clientId": "rajshahi-2017-chemistry2nd-q4",
       "curriculum": {
         "path": null
       },
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${H}_{3}{O}^{+}$"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "${H}_{2}O$"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${O}^{2-}$"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${O}_{2}$"
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q5",
+      "clientId": "rajshahi-2017-chemistry2nd-q5",
       "curriculum": {
         "path": null
       },
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "50 মিমি"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "55 মিমি"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "60 মিমি"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "65 মিমি"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q6",
+      "clientId": "rajshahi-2017-chemistry2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "1.0M"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2.0M"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "0.5M"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0.25M"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q7",
+      "clientId": "rajshahi-2017-chemistry2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "+0.34V"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "+0.76V"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "+1.00V"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "+1.5V"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q8",
+      "clientId": "rajshahi-2017-chemistry2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q9",
+      "clientId": "rajshahi-2017-chemistry2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$5.85\\times{10}^{21}$"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$6.84\\times{10}^{22}$"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$7.02\\times{10}^{23}$"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$7.17\\times{10}^{23}$"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q10",
+      "clientId": "rajshahi-2017-chemistry2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "8.316 আর্গ ডিগ্রী ${}^{-1}$ মোল ${}^{-1}$"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "8.316 জুল ডিগ্রী ${}^{-1}$ মোল ${}^{-1}$"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "8.316 $\\times{10}^{7}$ আর্গ ডিগ্রী ${}^{-1}$ মোল ${}^{-1}$"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "8.316 $\\times{10}^{-7}$ আর্গ ডিগ্রী ${}^{-1}$ মোল ${}^{-1}$"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q11",
+      "clientId": "rajshahi-2017-chemistry2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q12",
+      "clientId": "rajshahi-2017-chemistry2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "0.089"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "0.215"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "0.317"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "0.375"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q13",
+      "clientId": "rajshahi-2017-chemistry2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ফেনল শনাক্তকরণে"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "অ্যালকোহল শনাক্তকরণে"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "অ্যালডিহাইড শনাক্তকরণে"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ফ্যাটি এসিড শনাক্তকরণে"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q14",
+      "clientId": "rajshahi-2017-chemistry2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-CHO"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "-O-"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "-COOH"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "-C=C-"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q15",
+      "clientId": "rajshahi-2017-chemistry2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "60.78%"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "61.98%"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "62.75%"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "64.86%"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q16",
+      "clientId": "rajshahi-2017-chemistry2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ইথিন"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "ইথাইন"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "বিউটিন-১"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বিউটিন-২"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q17",
+      "clientId": "rajshahi-2017-chemistry2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$A{g}^{+}/Ag$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$F{e}^{2+}/Fe$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$Z{n}^{2+}/Zn$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${H}^{+}/{H}_{2}(g),Pt$"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q18",
+      "clientId": "rajshahi-2017-chemistry2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক্লোরিনেশন"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "সংযোজন"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ডিসপ্রোপোরশন"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "সংশ্লেষণ"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q19",
+      "clientId": "rajshahi-2017-chemistry2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "60C"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "95.52C"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "120C"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "150C"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q20",
+      "clientId": "rajshahi-2017-chemistry2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1701 সেমি ${}^{-1}$"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "1725 সেমি ${}^{-1}$"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1760 সেমি ${}^{-1}$"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "1785 সেমি ${}^{-1}$"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q21",
+      "clientId": "rajshahi-2017-chemistry2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "বর্ণহীন গ্যাস"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "হলুদ তৈলাক্ত যৌগ"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "দ্রবীভূত লবণ"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বর্ণহীন তরল"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q22",
+      "clientId": "rajshahi-2017-chemistry2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q23",
+      "clientId": "rajshahi-2017-chemistry2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "5 ও 2"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "4 ও 3"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "5 ও 3"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "4 ও 2"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q24",
+      "clientId": "rajshahi-2017-chemistry2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/chemistry/2nd/chapter-5"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-q25",
+      "clientId": "rajshahi-2017-chemistry2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/chemistry/2nd/chapter-5"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$COC{l}_{2}$"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$C{l}_{3}CN{O}_{2}$"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$C{l}_{3}CCHO$"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$C{l}_{3}CCON{H}_{2}$"

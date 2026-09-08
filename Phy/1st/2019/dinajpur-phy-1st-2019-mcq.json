@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{3\\lambda}{4}$"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{5\\lambda}{4}$"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{7\\lambda}{4}$"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{9\\lambda}{4}$"
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "7.2 x 109Nm-2"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "3.6 x 109Nm-2"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4.8 x 109Nm-2"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "1.8 x 1011Nm-2"
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "π"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{\\pi}{2}$"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\pi}{4}$"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0"
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "0.56 Kms-1"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "0.74 Kms-1"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "2.50 Kms-1"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5.60 Kms-1"
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "60.0 N"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "117.6 N"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "470.4 N"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "528.0 N"
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "Crms ∝ T"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "Crms ∝ $\\sqrt{T}$"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "Crms ∝ $\\frac{1}{T}$"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "Crms ∝ $\\frac{1}{\\sqrt{T}}$"
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$10\\text{m}$"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$15\\text{m}$"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$20\\text{m}$"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$25\\text{m}$"
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "4 : 1"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2 : 1"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "1 : 2"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "1 : 4"
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "3.98 × 10-7 Wm-2"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "1.59 x 10-6 Wm-2"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "5.0 x 10-6 Wm-2"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "3.98 x 10-6 Wm-2"
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\vec{\\omega}=\\vec{v}\\times\\vec{r}$"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\vec{v}=\\vec{\\omega}.\\vec{r}$"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\vec{\\omega}=\\vec{v}.\\vec{r}$"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$\\vec{v}=\\vec{\\omega}\\times\\vec{r}$"
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "MLT-2"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ML-2T2"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ML-2T"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ML2T-2"
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "বেতার তরঙ্গ"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "স্প্রিং এর তরঙ্গ"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "শব্দ তরঙ্গ"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "টানা তারের তরঙ্গ"
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "200 J"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "1000 J"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "2000 J"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "4000 J"
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{\\vec{P}\\cdot\\vec{Q}}{Q}$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\vec{P}\\times\\vec{Q}}{Q}$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\vec{P}\\cdot\\vec{Q}}{P}$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\vec{P}\\times\\vec{Q}}{P}$"
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "0.4 kN"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "7.1 kN"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "7.5 kN"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "7.9 kN"
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "ক"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ঘ"
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "Kgm2s-2"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "Kg m2s-1"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "Kg ms-2"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "Kg ms-1"
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "i ও iii"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "খ"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ঘ"
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "${g}_{\\lambda}=\\frac{GM}{{R}^{2}}-{\\omega}^{2}Rco{s}^{2}\\lambda$"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${g}_{\\lambda}=\\frac{GM}{{R}^{2}}-{\\omega}^{2}Rcos\\lambda$"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${g}_{\\lambda}=\\frac{GM}{{R}^{2}}-\\omegaRco{s}^{2}\\lambda$"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${g}_{\\lambda}=\\frac{GM}{{R}^{2}}-\\omegaRcos\\lambda$"
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "শূন্য ত্রুটি"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "পিছট ত্রুটি"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "লম্বন ত্রুটি"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "লেভেল ক্রুটি"

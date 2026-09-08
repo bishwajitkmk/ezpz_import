@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "sylhet-2017-physics1st-q1",
+      "clientId": "sylhet-2017-chemistry1st-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q2",
+      "clientId": "sylhet-2017-chemistry1st-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "12.6"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "12.3"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1.7"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "1.4"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q3",
+      "clientId": "sylhet-2017-chemistry1st-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1.02"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "50.5"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "102"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "202"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q4",
+      "clientId": "sylhet-2017-chemistry1st-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/chemistry/1st/chapter-5"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "i ও iii"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q5",
+      "clientId": "sylhet-2017-chemistry1st-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/chemistry/1st/chapter-5"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "সোডিয়াম বেনজয়েট"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "সোডিয়াম নাইট্রাইট"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "সরবিক এসিড"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "প্রোপানয়িক এসিড"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q6",
+      "clientId": "sylhet-2017-chemistry1st-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$HCl$"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$N{H}_{3}$"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${H}_{2}O$"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${H}_{2}S$"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q7",
+      "clientId": "sylhet-2017-chemistry1st-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "60ml $N{H}_{4}OH$"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "40ml $N{H}_{4}OH$"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "100ml HCl"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "20ml HCl"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q8",
+      "clientId": "sylhet-2017-chemistry1st-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$N{H}_{4}OH$"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$HN{O}_{3}$"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$HCOOH$"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$C{H}_{3}COOH$"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q9",
+      "clientId": "sylhet-2017-chemistry1st-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "স্নো"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "কোল্ড ক্রিম"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ট্যালকম পাউডার"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "লিপস্টিক"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q10",
+      "clientId": "sylhet-2017-chemistry1st-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "হাইড্রোজেন বন্ধনযুক্ত যৌগ"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "সমযোজী যৌগ"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "সন্নিবেশ যৌগ"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "আয়নিক যৌগ"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q11",
+      "clientId": "sylhet-2017-chemistry1st-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "৩"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "৪"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "৮"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "৯"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q12",
+      "clientId": "sylhet-2017-chemistry1st-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/1st/chapter-1"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "4% $C{H}_{3}COOH$"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "5% $C{H}_{3}COOH$"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4% $NaHC{O}_{3}$"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "${H}_{3}B{O}_{3}$"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q13",
+      "clientId": "sylhet-2017-chemistry1st-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q14",
+      "clientId": "sylhet-2017-chemistry1st-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$S{O}_{3}$ এর উৎপাদন হ্রাস পায়"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "বিক্রিয়া সম্মুখমুখী হয়"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "তরল $S{O}_{3}$ উৎপন্ন হয়"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${O}_{2}$ এর পরিমাণ কমে যায়"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q15",
+      "clientId": "sylhet-2017-chemistry1st-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "লোথার মেয়ার"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "মেন্ডেলিফ"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "মোসলে"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "রাদারফোর্ড"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q16",
+      "clientId": "sylhet-2017-chemistry1st-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ভ্যানাডিয়াম"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "কোবাল্ট"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ক্রোমিয়াম"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "আয়রন"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q17",
+      "clientId": "sylhet-2017-chemistry1st-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$C{u}^{2+}$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$F{e}^{2+}$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$Z{n}^{2+}$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$C{a}^{2+}$"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q18",
+      "clientId": "sylhet-2017-chemistry1st-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/1st/chapter-2"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q19",
+      "clientId": "sylhet-2017-chemistry1st-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/1st/chapter-1"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q20",
+      "clientId": "sylhet-2017-chemistry1st-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/1st/chapter-1"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "কঠিন কার্বন ডাইঅক্সাইড"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "কার্বন ডাইঅক্সাইড গ্যাস"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "31.1 ${}^{o}C$ এর নিচের কার্বন ডাইঅক্সাইড"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "72.8 ${}^{o}C$ তাপমাত্রার কার্বন ডাইঅক্সাইড"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q21",
+      "clientId": "sylhet-2017-chemistry1st-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "mol L s ${}^{-1}$"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "mol L ${}^{-1}$ s ${}^{-1}$"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "L mol ${}^{-1}$ s ${}^{-1}$"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "mol L ${}^{-1}$ s"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q22",
+      "clientId": "sylhet-2017-chemistry1st-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q23",
+      "clientId": "sylhet-2017-chemistry1st-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/1st/chapter-4"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "টি.এস.পি"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "চুন"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ডলোমাইট"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অ্যামোনিয়াম কার্বনেট"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q24",
+      "clientId": "sylhet-2017-chemistry1st-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "নিয়ন"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "সোডিয়াম"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "নাইট্রোজেন"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অক্সিজেন"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2017-physics1st-q25",
+      "clientId": "sylhet-2017-chemistry1st-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/1st/chapter-3"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$1.428\\times{10}^{-3}nm$"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$14.28\\times{10}^{3}c{m}^{-1}$"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$1.428\\times{10}^{-3}{m}^{-1}$"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$14.28\\times{10}^{-3}\\overset{o}{A}$"

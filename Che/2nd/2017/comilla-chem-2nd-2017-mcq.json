@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "comilla-2017-physics1st-q1",
+      "clientId": "comilla-2017-chemistry2nd-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$NaHC{O}_{3}$ দ্রবণ"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$FeC{l}_{3}$ দ্রবণ"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$B{r}_{2}$ দ্রবণ"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$BaC{l}_{2}$ দ্রবণ"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q2",
+      "clientId": "comilla-2017-chemistry2nd-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "খ"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ঘ"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q3",
+      "clientId": "comilla-2017-chemistry2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$H{g}_{2}C{l}_{2}$"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$HgC{l}_{2}$"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$C{u}_{2}C{l}_{2}$"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$CuC{l}_{2}$"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q4",
+      "clientId": "comilla-2017-chemistry2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/chemistry/2nd/chapter-4"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "সিএনজি স্টেশনে"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "সার কারখানায়"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "বিদ্যুৎ উৎপাদনে"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "আবাসিক ক্ষেত্রে"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q5",
+      "clientId": "comilla-2017-chemistry2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$1.2046\\times{10}^{22}$"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$1.2046\\times{10}^{23}$"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$6.023\\times{10}^{22}$"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$6.023\\times{10}^{23}$"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q6",
+      "clientId": "comilla-2017-chemistry2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-CN"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "-CHO"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "_Cl"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "-NHCOCH ${}_{3}$"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q7",
+      "clientId": "comilla-2017-chemistry2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q8",
+      "clientId": "comilla-2017-chemistry2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "বিউটাইন-২"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "বিউটিন-২"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "বিউটাইন-১"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বিউটিন-১"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q9",
+      "clientId": "comilla-2017-chemistry2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{n}{H}_{2n+2}$"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{n}{H}_{2n+1}$"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "${C}_{n}{H}_{2n}$"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{n}{H}_{2n-2}$"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q10",
+      "clientId": "comilla-2017-chemistry2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ঘ"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q11",
+      "clientId": "comilla-2017-chemistry2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গ"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ঘ"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q12",
+      "clientId": "comilla-2017-chemistry2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$N{H}_{3}$"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$HCl$"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$N{H}_{4}^{+}$"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$C{l}^{-}$"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q13",
+      "clientId": "comilla-2017-chemistry2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$N{F}_{3}$"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$B{F}_{3}$"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$AlC{l}_{3}$"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$C{O}_{2}$"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q14",
+      "clientId": "comilla-2017-chemistry2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q15",
+      "clientId": "comilla-2017-chemistry2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "2"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "2.5"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3.5"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "4"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q16",
+      "clientId": "comilla-2017-chemistry2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${K}_{2}C{r}_{2}{O}_{7}$"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$KMn{O}_{4}$"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$N{a}_{2}{C}_{2}{O}_{4}$"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$N{a}_{2}C{O}_{3}$"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q17",
+      "clientId": "comilla-2017-chemistry2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "i ও iii"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q18",
+      "clientId": "comilla-2017-chemistry2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "250 $c{m}^{2}$"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "200 $c{m}^{2}$"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "100 $c{m}^{2}$"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "50 $c{m}^{2}$"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q19",
+      "clientId": "comilla-2017-chemistry2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "4000"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "6000"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "8000"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "12000"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q20",
+      "clientId": "comilla-2017-chemistry2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/chemistry/2nd/chapter-3"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "৬"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "৫"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "৩"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "১"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q21",
+      "clientId": "comilla-2017-chemistry2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/chemistry/2nd/chapter-1"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "টাইটেনিয়াম অক্সাইড"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "জিংক অক্সাইড"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "আয়রন অক্সাইড"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ম্যাঙ্গানিজ অক্সাইড"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q22",
+      "clientId": "comilla-2017-chemistry2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "${C}_{2}{H}_{2}$"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{4}$"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{2}{H}_{6}$"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${C}_{6}{H}_{6}$"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q23",
+      "clientId": "comilla-2017-chemistry2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q24",
+      "clientId": "comilla-2017-chemistry2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$CaS{O}_{4}.2{H}_{2}O$"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$3CaO.Si{O}_{2}$"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$CaO.A{l}_{2}{O}_{3}$"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$A{l}_{2}{O}_{3}.F{e}_{2}{O}_{3},CaO$"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-q25",
+      "clientId": "comilla-2017-chemistry2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/chemistry/2nd/chapter-2"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"

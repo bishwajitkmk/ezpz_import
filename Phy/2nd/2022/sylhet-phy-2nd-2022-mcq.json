@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "sylhet-2022-physics1st-q1",
+      "clientId": "sylhet-2022-physics2nd-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ভোল্ট"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "ওহম"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "অ্যাম্পিয়ার"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "নিউটন"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q2",
+      "clientId": "sylhet-2022-physics2nd-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "[T]"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "[ ${T}^{-1}$ ]"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "[λ]"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "[ ${\\lambda}^{-1}$ ]"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q3",
+      "clientId": "sylhet-2022-physics2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "6.63 x ${10}^{-34}$ Js"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "8.854 x ${10}^{-12}{N}^{-1}{m}^{-2}{C}^{2}$"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "9 x ${10}^{9}N{m}^{2}{C}^{-2}$"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "3 x ${10}^{8}m{s}^{-1}$"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q4",
+      "clientId": "sylhet-2022-physics2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "5.625 × ${10}^{6}$ N/C"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "1.125 × ${10}^{6}$ N/C"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "শূন্য"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অসীম"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q5",
+      "clientId": "sylhet-2022-physics2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "প্রথম"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "দ্বিতীয়"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "তৃতীয়"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "চতুর্থ"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q6",
+      "clientId": "sylhet-2022-physics2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q7",
+      "clientId": "sylhet-2022-physics2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "শূন্যতম"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "প্রথম"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "দ্বিতীয়"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "তৃতীয়"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q8",
+      "clientId": "sylhet-2022-physics2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "যন্ত্রের সাথে সমান্তরালে যুক্ত বড়ো মানের রোধ"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "যন্ত্রের সাথে শ্রেণিতে যুক্ত ছোটো মানের রোধ"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "যন্ত্রের সাথে সমান্তরালে যুক্ত ছোটো মানের রোধ"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "যন্ত্রের সাথে শ্রেণিতে যুক্ত বড়ো মানের রোধ"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q9",
+      "clientId": "sylhet-2022-physics2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "100 nm হতে 300 nm"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "400 nm হতে 780 nm"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1000 nm হতে 1200 nm"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5000 nm হতে 10,000 nm"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q10",
+      "clientId": "sylhet-2022-physics2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q11",
+      "clientId": "sylhet-2022-physics2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "বিভব পার্থক্য"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "তড়িৎ চালক শক্তি"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "তড়িৎ পরিবাহিতা"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "আপেক্ষিক রোধ"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q12",
+      "clientId": "sylhet-2022-physics2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "কম রোধ, উচ্চ গলনাঙ্ক"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "উচ্চ রোধ, উচ্চ গলনাঙ্ক"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "উচ্চ রোধ, কম গলনাঙ্ক"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "কম রোধ, কম গলনাঙ্ক"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q13",
+      "clientId": "sylhet-2022-physics2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "জার্মেনিয়াম"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ব্রোঞ্জ"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "পিতল"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অভ্র"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q14",
+      "clientId": "sylhet-2022-physics2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "আইসোটোপ"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "আইসোটোন"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "আইসোবার"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "আইসোমার"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q15",
+      "clientId": "sylhet-2022-physics2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "NAND"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "NOR"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "XOR"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "XNOR"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q16",
+      "clientId": "sylhet-2022-physics2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$A=0,B=0$"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$A=0,B=1$"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$A=1,B=0$"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$A=1,B=1$"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q17",
+      "clientId": "sylhet-2022-physics2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "মহাকর্ষ বল"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "নিউক্লীয় দুর্বল বল"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "তাড়িত চৌম্বকীয় বল"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "নিউক্লীয় সবল বল"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q18",
+      "clientId": "sylhet-2022-physics2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "iii"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q19",
+      "clientId": "sylhet-2022-physics2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "11"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "22"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "33"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "44"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q20",
+      "clientId": "sylhet-2022-physics2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$JK{g}^{-1}$"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$JK{g}^{-1}mo{l}^{-1}$"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$JK{g}^{-1}{K}^{-1}$"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$J{K}^{-1}$"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q21",
+      "clientId": "sylhet-2022-physics2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$L=\\frac{nh}{2\\pi}$"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$L=\\frac{2\\pi}{nh}$"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$L=\\frac{2n\\pi}{h}$"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$L=\\frac{2h}{\\pi}$"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q22",
+      "clientId": "sylhet-2022-physics2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "অভিসারী ও গোলীয়"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "অপসারী ও গোলীয়"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "সমান্তরাল ও সমতল"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "সমান্তরাল ও বেলনাকৃতি"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q23",
+      "clientId": "sylhet-2022-physics2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{7}{2}R$"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{5}{2}R$"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{3}{2}R$"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "R"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q24",
+      "clientId": "sylhet-2022-physics2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "নিবৃত্তি বিভব"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "কার্যঅপেক্ষক"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "প্লাঙ্কের ধ্রুবক"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "সূচন কম্পাঙ্ক"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "sylhet-2022-physics1st-q25",
+      "clientId": "sylhet-2022-physics2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "i ও iii"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"

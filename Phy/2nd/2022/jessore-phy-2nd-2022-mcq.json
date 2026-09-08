@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "jessore-2022-physics1st-q1",
+      "clientId": "jessore-2022-physics2nd-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "বিদ্যুৎ প্রবাহ কমাতে"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "রোধ কমাতে"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "বিভব কমাতে"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বিভব বাড়াতে"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q2",
+      "clientId": "jessore-2022-physics2nd-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ওপরের দিকে"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "নিচের দিকে"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ডান দিকে"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বাম দিকে"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q3",
+      "clientId": "jessore-2022-physics2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "A"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "B"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "C"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "D"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q4",
+      "clientId": "jessore-2022-physics2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$N{C}^{-1}{m}^{2}$"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$J{C}^{-1}$"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "V"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "V/m"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q5",
+      "clientId": "jessore-2022-physics2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q6",
+      "clientId": "jessore-2022-physics2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "320 µF"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "420 µF"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "511 µF"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "711 µF"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q7",
+      "clientId": "jessore-2022-physics2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "এক ঘর"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "দুই ঘর"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "তিন ঘর"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "চার ঘর"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q8",
+      "clientId": "jessore-2022-physics2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "12 ঘণ্টা"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "6 ঘণ্টা"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3 ঘণ্টা"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "2 ঘণ্টা"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q9",
+      "clientId": "jessore-2022-physics2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\beta=\\frac{\\alpha}{1+\\alpha}$"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\beta=\\frac{1+\\alpha}{1-\\alpha}$"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\alpha=\\frac{\\beta}{1+\\beta}$"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$\\alpha=\\frac{1+\\alpha}{\\beta}$"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q10",
+      "clientId": "jessore-2022-physics2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ইলেকট্রন-প্রভাবিত ডিভাইস"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "চাপ-প্রভাবিত ডিভাইস"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "গর্ত-প্রভাবিত ডিভাইস"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "তাপমাত্রা-প্রভাবিত ডিভাইস"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q11",
+      "clientId": "jessore-2022-physics2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "4"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q12",
+      "clientId": "jessore-2022-physics2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "35 V"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "45 V"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "55 V"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "65 V"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q13",
+      "clientId": "jessore-2022-physics2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/physics/2nd/chapter-2"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "3 গুণ"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "4 গুণ"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "9 গুণ"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "অসীম"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q14",
+      "clientId": "jessore-2022-physics2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$N{K}^{-1}$"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$J{K}^{-1}$"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$Jmo{l}^{-1}{K}^{-1}$"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${N}^{-1}{m}^{-2}{C}^{2}$"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q15",
+      "clientId": "jessore-2022-physics2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "চাপ স্থির কিন্তু আয়তন বৃদ্ধি পায়"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "চাপ স্থির কিন্তু আয়তন কমে যায়"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "আয়তন স্থির কিন্তু চাপ বৃদ্ধি পায়"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "চাপ, আয়তন এবং তাপমাত্রা বৃদ্ধি পায়"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q16",
+      "clientId": "jessore-2022-physics2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${P}^{\\gamma-1}{T}^{\\gamma}$ = ধ্রুবক"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${T}^{\\gamma+1}{P}^{\\gamma}$ = ধ্রুবক"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${T}^{\\gamma-1}{P}^{\\gamma}$ = ধ্রুবক"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "${P}^{1-\\gamma}{T}^{\\gamma}$ = ধ্রুবক"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q17",
+      "clientId": "jessore-2022-physics2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/physics/2nd/chapter-1"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1.11"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "1.33"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1.41"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "1.67"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q18",
+      "clientId": "jessore-2022-physics2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q19",
+      "clientId": "jessore-2022-physics2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "সমবর্তন"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "প্রতিফলন"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ব্যতিচার"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "প্রতিসরণ"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q20",
+      "clientId": "jessore-2022-physics2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "62"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "67"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "90"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "99"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q21",
+      "clientId": "jessore-2022-physics2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1 :।"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "9: 1"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4:1"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "2: 1"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q22",
+      "clientId": "jessore-2022-physics2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1.33"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "1.41"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1.5"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "1.73"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q23",
+      "clientId": "jessore-2022-physics2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "30 °"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "45 °"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "60 °"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "90 °"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q24",
+      "clientId": "jessore-2022-physics2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "i ও ii"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "jessore-2022-physics1st-q25",
+      "clientId": "jessore-2022-physics2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "খ"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "গ"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ঘ"

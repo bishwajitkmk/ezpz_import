@@ -1,12 +1,48 @@
 (async function () {
   const params = new URLSearchParams(location.search);
+
+  // Subject and paper are read from the page's own `sub` label, never
+  // hardcoded. The old `subjectPath: 'physics/1st'` constant was left at its
+  // default on every Chemistry, Math and Physics-2nd scrape, which filed all
+  // of that content under Physics 1st Paper and made it collide with the
+  // real Physics rows on (subject, paper, board, year, question number).
+  const SUBJECTS = [
+    [/chem/i, 'chemistry'],
+    [/bio/i, 'biology'],
+    [/math/i, 'math'],
+    [/phys/i, 'physics'],
+  ];
+
+  function subjectPathFrom(label) {
+    const override = params.get('subjectPath');
+    if (override) return override;
+    const found = SUBJECTS.find(([pattern]) => pattern.test(label));
+    const paper = (label.match(/1st|2nd/i) || [])[0];
+    if (!found || !paper) return null;
+    return `${found[1]}/${paper.toLowerCase()}`;
+  }
+
   const CONFIG = {
     board: params.get('boardName') || 'Unknown',
     year: Number(params.get('year')) || null,
     subjectLabel: params.get('sub') || 'Unknown',
-    subjectPath: 'physics/1st', // change per subject, e.g. 'math/1st', 'chemistry/2nd'
+    subjectPath: subjectPathFrom(params.get('sub') || ''),
+    // The paper is only ever Bengali or English; the scraper writes whichever
+    // language the page is currently showing. Run it once per language and
+    // the two passes merge on clientId.
+    locale: params.get('lang') === 'en' ? 'en' : 'bn',
+    // Fallback chapter for pages that do not print "Chapter N" anywhere.
+    chapterFallback: params.get('chapter') || null,
     page: Number(params.get('current')) || null,
   };
+
+  if (!CONFIG.subjectPath) {
+    console.error(
+      `Cannot tell the subject and paper from sub="${CONFIG.subjectLabel}". ` +
+      'Re-run with &subjectPath=chemistry/2nd (or the right subject/paper).'
+    );
+    return;
+  }
 
   async function sha256HexBytes(bytes) {
     const digest = await crypto.subtle.digest('SHA-256', bytes);
@@ -19,9 +55,10 @@
     return sha256HexBytes(new TextEncoder().encode(text));
   }
 
-  CONFIG.sourceDocumentSha256 = await sha256HexText(
-    `${CONFIG.board}-${CONFIG.year}-${CONFIG.subjectLabel}-cq`
-  );
+  // Hash the page the questions were read from, not a label string: every
+  // item of a paper used to share one digest that identified nothing.
+  CONFIG.sourceUrl = location.origin + location.pathname + location.search;
+  CONFIG.sourceDocumentSha256 = await sha256HexText(CONFIG.sourceUrl);
 
   const GREEK = {
     'α': '\\alpha', 'β': '\\beta', 'γ': '\\gamma', 'Γ': '\\Gamma', 'δ': '\\delta', 'Δ': '\\Delta',
@@ -356,45 +393,69 @@
     const stimulusText = stimulusEl ? texify(stimulusEl, stimulusAssets, 'stem') : '';
     await finalizeAssets(stimulusAssets);
 
+    // Fall back to the card text, the last chapter seen, then ?chapter=,
+    // rather than emitting curriculum.path null.
     const chapterEl = card.querySelector('p.poppins');
-    const chapterMatch = chapterEl ? chapterEl.textContent.match(/Chapter\s*(\d+)/i) : null;
-    const chapterNumber = chapterMatch ? chapterMatch[1] : lastChapterNumber;
-    if (chapterNumber) lastChapterNumber = chapterNumber;
+    const chapterMatch =
+      (chapterEl && chapterEl.textContent.match(/Chapter\s*(\d+)/i)) ||
+      card.textContent.match(/Chapter\s*(\d+)/i);
+    const chapterNumber = chapterMatch
+      ? chapterMatch[1]
+      : lastChapterNumber || CONFIG.chapterFallback;
+    const chapterIsExact = Boolean(chapterMatch);
+    if (chapterMatch) lastChapterNumber = chapterMatch[1];
+    if (!chapterNumber) {
+      console.warn(`No chapter found for question ${questionNumber} — pass &chapter=N.`);
+    }
 
     const partEls = findParts(card);
     if (partEls.length === 0) return null;
 
+    // A part is {ordinal, key, prompt per locale, solution per locale}. The
+    // old {key, questionText, answerText, assets} shape is not in the
+    // contract, so every CQ file written before this was rejected outright.
+    // Part figures belong to the item's assets[] with role part or solution;
+    // roles like "part-a-question" are not valid asset roles.
     const parts = [];
+    const partAssets = [];
+    let ordinal = 0;
     for (const partEl of partEls) {
+      ordinal += 1;
       const keyEl = partEl.querySelector('button span.rounded-full');
-      const key = keyEl ? keyEl.textContent.trim() : null;
+      const rawKey = keyEl ? keyEl.textContent.trim() : null;
+      const key = rawKey && /^[a-z]$/.test(rawKey) ? rawKey.toUpperCase() : rawKey;
 
-      const questionAssets = [];
+      const promptAssets = [];
       const questionEl = partEl.querySelector('button div.noto');
-      const questionText = questionEl ? texify(questionEl, questionAssets, `part-${key}-question`) : '';
-      await finalizeAssets(questionAssets);
+      const promptText = questionEl ? texify(questionEl, promptAssets, 'part') : '';
+      await finalizeAssets(promptAssets);
 
       await revealPart(partEl);
 
       const notoDivs = Array.from(partEl.querySelectorAll('div.noto'));
       const answerEls = notoDivs.slice(1);
-      const answerAssets = [];
-      const answerText = answerEls.length
-        ? answerEls.map((el) => texify(el, answerAssets, `part-${key}-answer`)).join('\n\n')
+      const solutionAssets = [];
+      const solutionText = answerEls.length
+        ? answerEls.map((el) => texify(el, solutionAssets, 'solution')).join('\n\n')
         : null;
-      await finalizeAssets(answerAssets);
+      await finalizeAssets(solutionAssets);
 
-      if (!answerText) {
+      if (!solutionText) {
         console.warn(`Part "${key}" of question ${questionNumber} has no revealed answer — click/selector may need adjusting.`);
       }
 
-      parts.push({
+      partAssets.push(...promptAssets, ...solutionAssets);
+
+      const part = {
+        ordinal,
         key,
-        questionText,
-        answerText,
-        assets: [...questionAssets, ...answerAssets],
-      });
+        prompt: { [CONFIG.locale]: promptText },
+      };
+      // The guide leaves the solution key out when the paper gives none.
+      if (solutionText) part.solution = { [CONFIG.locale]: solutionText };
+      parts.push(part);
     }
+    const answersFound = parts.every((part) => part.solution);
 
     const subjectSlug = CONFIG.subjectPath.replace('/', '');
     const clientId = `${CONFIG.board.toLowerCase()}-${CONFIG.year}-${subjectSlug}-cq${questionNumber}`;
@@ -408,19 +469,22 @@
       questionNumber,
       formatCode: 'cq',
       translations: {
-        bn: {
-          stimulusText,
+        // The stem of a CQ is questionText like any other format. stimulusText
+        // is not a key the contract knows.
+        [CONFIG.locale]: {
+          questionText: stimulusText,
+          solutionText: null,
         },
       },
       parts,
-      assets: stimulusAssets,
+      assets: [...stimulusAssets, ...partAssets],
       provenance: {
         sourceDocumentSha256: CONFIG.sourceDocumentSha256,
         page: CONFIG.page,
         bbox: null,
-        extractorModel: 'human',
+        extractorModel: 'ezpz-cq-scraper',
         promptVersion: 'import-json-guide-2026-09',
-        confidence: 1,
+        confidence: answersFound && chapterIsExact ? 1 : 0.5,
       },
       sources: [
         {
@@ -442,6 +506,22 @@
 
   window.__scrapedCQItems = window.__scrapedCQItems || [];
 
+  // A second pass in the other language fills in the missing locale on the
+  // stem and on every part, instead of replacing the first pass.
+  function mergeItem(existing, incoming) {
+    const merged = { ...incoming };
+    merged.translations = { ...existing.translations, ...incoming.translations };
+    merged.parts = incoming.parts.map((part) => {
+      const previous = existing.parts.find((p) => p.key === part.key);
+      if (!previous) return part;
+      const solution = { ...(previous.solution || {}), ...(part.solution || {}) };
+      const filled = { ...part, prompt: { ...previous.prompt, ...part.prompt } };
+      if (Object.keys(solution).length > 0) filled.solution = solution;
+      return filled;
+    });
+    return merged;
+  }
+
   async function scrapePage() {
     const cards = findCards();
     let added = 0;
@@ -456,15 +536,27 @@
         window.__scrapedCQItems.push(item);
         added++;
       } else {
-        window.__scrapedCQItems[idx] = item;
+        window.__scrapedCQItems[idx] = mergeItem(window.__scrapedCQItems[idx], item);
         updated++;
       }
     }
 
+    const languages = new Set();
+    window.__scrapedCQItems.forEach((item) => {
+      Object.keys(item.translations).forEach((locale) => languages.add(locale));
+    });
     console.log(
       `Added ${added}, updated ${updated}. Total: ${window.__scrapedCQItems.length}. ` +
-      `Images cached: ${window.__imageBytes ? window.__imageBytes.size : 0}`
+      `Images cached: ${window.__imageBytes ? window.__imageBytes.size : 0}. ` +
+      `Languages: ${[...languages].join(', ')}.`
     );
+    if (languages.size === 1) {
+      console.log(
+        `Only ${[...languages][0]} captured. If this paper also has the other ` +
+        'language, switch the page to it and re-run with &lang=' +
+        (CONFIG.locale === 'bn' ? 'en' : 'bn') + ' before downloading.'
+      );
+    }
     return window.__scrapedCQItems;
   }
 

@@ -2,35 +2,48 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "barisal-2017-physics1st-cq01",
+      "clientId": "barisal-2017-math1st-cq01",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/math/1st/chapter-1"
       },
       "questionNumber": "01",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}];B=[\\begin{matrix}6\\\\ 1\\end{matrix}]$ এবং $X=[\\begin{matrix}x\\\\ y\\end{matrix}]$"
+          "questionText": "$A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}];B=[\\begin{matrix}6\\\\ 1\\end{matrix}]$ এবং $X=[\\begin{matrix}x\\\\ y\\end{matrix}]$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$p$ এর মান কত হলে $[\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}]$ একটি ব্যতিক্রমী বর্গ ম্যাট্রিক্স হবে?",
-          "answerText": "ধরি, $A=[\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}]$\n$A$ ম্যাট্রিক্সটি ব্যতিক্রমী বর্গ ম্যাট্রিক্স হবে যদি $|A|=0$ হয়।\nঅর্থাৎ, $|\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}|=0$ বা, $5p-10-12=0$\nবা, $5p-22=0$ বা, $5p=22$\n$∴p=\\frac{22}{5}$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$p$ এর মান কত হলে $[\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}]$ একটি ব্যতিক্রমী বর্গ ম্যাট্রিক্স হবে?"
+          },
+          "solution": {
+            "bn": "ধরি, $A=[\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}]$\n$A$ ম্যাট্রিক্সটি ব্যতিক্রমী বর্গ ম্যাট্রিক্স হবে যদি $|A|=0$ হয়।\nঅর্থাৎ, $|\\begin{matrix}p-2 & 3\\\\ 4 & 5\\end{matrix}|=0$ বা, $5p-10-12=0$\nবা, $5p-22=0$ বা, $5p=22$\n$∴p=\\frac{22}{5}$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "উদ্দীপকের আলোকে, ${A}^{2}-5\\text{ }A+6I$ নির্ণয় কর, যেখানে $I=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$ ।",
-          "answerText": "দেওয়া আছে, $A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]$\n$∴{A}^{2}=A.A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}][\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]$\n$=[\\begin{matrix}16+6 & 8+10\\\\ 12+15 & 6+25\\end{matrix}]=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]$\n$∴{A}^{2}-5\\text{ }A+6I=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]-5[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]+6[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$\n$=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]-[\\begin{matrix}20 & 10\\\\ 15 & 25\\end{matrix}]+[\\begin{matrix}6 & 0\\\\ 0 & 6\\end{matrix}]$\n$=[\\begin{matrix}22-20+6 & 18-10+0\\\\ 27-15+0 & 31-25+6\\end{matrix}]$\n$=[\\begin{matrix}8 & 8\\\\ 12 & 12\\end{matrix}]\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে, ${A}^{2}-5\\text{ }A+6I$ নির্ণয় কর, যেখানে $I=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$ ।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]$\n$∴{A}^{2}=A.A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}][\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]$\n$=[\\begin{matrix}16+6 & 8+10\\\\ 12+15 & 6+25\\end{matrix}]=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]$\n$∴{A}^{2}-5\\text{ }A+6I=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]-5[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}]+6[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$\n$=[\\begin{matrix}22 & 18\\\\ 27 & 31\\end{matrix}]-[\\begin{matrix}20 & 10\\\\ 15 & 25\\end{matrix}]+[\\begin{matrix}6 & 0\\\\ 0 & 6\\end{matrix}]$\n$=[\\begin{matrix}22-20+6 & 18-10+0\\\\ 27-15+0 & 31-25+6\\end{matrix}]$\n$=[\\begin{matrix}8 & 8\\\\ 12 & 12\\end{matrix}]\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের আলোকে $AX=B$ হলে ক্রেমার পদ্ধতিতে x, y নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}],B=[\\begin{matrix}6\\\\ 1\\end{matrix}]$ এবং $X=[\\begin{matrix}xy\\end{matrix}]$\nপ্রশ্নমতে, $AX=B$\nবা, $[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}][\\begin{matrix}x\\\\ y\\end{matrix}]=[\\begin{matrix}6\\\\ 1\\end{matrix}]∴[\\begin{matrix}4x+2y\\\\ 3x+5y\\end{matrix}]=[\\begin{matrix}6\\\\ 1\\end{matrix}]$\nম্যাট্রিক্সের সমতা অনুসারে পাই,\n$4x+2y=6$\n$3x+5y=1$\nএখানে, $x$ ও $y$ এর সহগুচ্ছ নিয়ে গঠিত নির্ণায়ক\n$D=|\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}|=20-6=14$\n${D}_{x}=|\\begin{matrix}6 & 2\\\\ 1 & 5\\end{matrix}|=30-2=28$\n${D}_{y}=|\\begin{matrix}4 & 6\\\\ 3 & 1\\end{matrix}|=4-18=-14$\n$∴x=\\frac{{D}_{x}}{D}=\\frac{28}{14}=2$ এবং $y=\\frac{{D}_{y}}{D}=\\frac{-14}{14}=-1$\n$∴x=2$ এবং $y=-1\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে $AX=B$ হলে ক্রেমার পদ্ধতিতে x, y নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $A=[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}],B=[\\begin{matrix}6\\\\ 1\\end{matrix}]$ এবং $X=[\\begin{matrix}xy\\end{matrix}]$\nপ্রশ্নমতে, $AX=B$\nবা, $[\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}][\\begin{matrix}x\\\\ y\\end{matrix}]=[\\begin{matrix}6\\\\ 1\\end{matrix}]∴[\\begin{matrix}4x+2y\\\\ 3x+5y\\end{matrix}]=[\\begin{matrix}6\\\\ 1\\end{matrix}]$\nম্যাট্রিক্সের সমতা অনুসারে পাই,\n$4x+2y=6$\n$3x+5y=1$\nএখানে, $x$ ও $y$ এর সহগুচ্ছ নিয়ে গঠিত নির্ণায়ক\n$D=|\\begin{matrix}4 & 2\\\\ 3 & 5\\end{matrix}|=20-6=14$\n${D}_{x}=|\\begin{matrix}6 & 2\\\\ 1 & 5\\end{matrix}|=30-2=28$\n${D}_{y}=|\\begin{matrix}4 & 6\\\\ 3 & 1\\end{matrix}|=4-18=-14$\n$∴x=\\frac{{D}_{x}}{D}=\\frac{28}{14}=2$ এবং $y=\\frac{{D}_{y}}{D}=\\frac{-14}{14}=-1$\n$∴x=2$ এবং $y=-1\\text{ (Ans.) }$"
+          }
         }
       ],
       "assets": [],
@@ -59,35 +72,48 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq02",
+      "clientId": "barisal-2017-math1st-cq02",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/1st/chapter-8"
       },
       "questionNumber": "02",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: MUJIBNAGAR\nদৃশ্যকল্প-২: $f(x)=\\frac{2x+7}{3x-2};x∈\\tilde{N}-\\{\\frac{2}{3}\\}$"
+          "questionText": "দৃশ্যকল্প-১: MUJIBNAGAR\nদৃশ্যকল্প-২: $f(x)=\\frac{2x+7}{3x-2};x∈\\tilde{N}-\\{\\frac{2}{3}\\}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "${}^{n}{C}_{3}=\\frac{4}{5}\\times{}^{n}{C}_{2}$ হলে $n$ এর এর মান নির্ণয় কর।",
-          "answerText": "এখানে, ${}^{n}{C}_{3}=\\frac{4}{5}\\times{}^{n}{C}_{2}$\nবা, $\\frac{n!}{(n-3)!\\cdot3!}=\\frac{4}{5}\\times\\frac{n!}{(n-2)!\\cdot2!}$\nবা, $\\frac{n!}{(n-3)!\\cdot3\\cdot2!}=\\frac{4}{5}\\times\\frac{n!}{(n-2)(n-3)!\\cdot2!}$\nবা, $\\frac{1}{3}=\\frac{4}{5(n-2)}$\nবা, $5n-10=12$\nবা, $5n=12+10$\nবা, $5n=22$ বা, $n=\\frac{22}{5}$ যা গ্রহণযোগ্য নয় কারণে $n∈N$\n$∴$ n এর মান নির্ণয়যোগ্য নয়।",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "${}^{n}{C}_{3}=\\frac{4}{5}\\times{}^{n}{C}_{2}$ হলে $n$ এর এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "এখানে, ${}^{n}{C}_{3}=\\frac{4}{5}\\times{}^{n}{C}_{2}$\nবা, $\\frac{n!}{(n-3)!\\cdot3!}=\\frac{4}{5}\\times\\frac{n!}{(n-2)!\\cdot2!}$\nবা, $\\frac{n!}{(n-3)!\\cdot3\\cdot2!}=\\frac{4}{5}\\times\\frac{n!}{(n-2)(n-3)!\\cdot2!}$\nবা, $\\frac{1}{3}=\\frac{4}{5(n-2)}$\nবা, $5n-10=12$\nবা, $5n=12+10$\nবা, $5n=22$ বা, $n=\\frac{22}{5}$ যা গ্রহণযোগ্য নয় কারণে $n∈N$\n$∴$ n এর মান নির্ণয়যোগ্য নয়।"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ এর আলোকে শব্দটিকে কতভাবে সাজানো যায় যাতে স্বরবর্ণগুলো একত্রে না থাকে।",
-          "answerText": "MUJIBNAGAR শব্দটিতে মোট 10টি বর্ণ আছে যার মধ্যে ২টি A এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ মোট বিন্যাস সংখ্যা = $=\\frac{10!}{2!}=\\frac{3628800}{2}=1814400$\nআবার, শব্দটিতে 4টি স্বরবর্ণ আছে যার মধ্যে 2টি A এবং অবশিষ্ট স্বরবর্ণগুলো ভিন্ন ভিন্ন।\n4টি স্বরবর্ণকে একক বর্ণ হিসেবে বিবেচনা করে ১টি বর্ণ সাজানোর সংখ্যা = 7! = 5040\n4টি স্বরবর্ণকে নিজেদের মধ্যে সাজানোর সংখ্যা $=\\frac{4!}{2!}=\\frac{24}{2}=12$\nস্বরবর্ণগুলো একত্রে রেখে মোট বিন্যাস সংখ্যা 5040 × 12 = 60480\n$∴$ স্বরবর্ণগুলো একত্রে না রেখে মোট বিন্যাস সংখ্যা\n= 1814400-60480 = 1753920\n$∴$ স্বরবর্ণগুলো একত্রে না রেখে শব্দটিকে 1753920 ভাবে সাজানো যায়।",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ এর আলোকে শব্দটিকে কতভাবে সাজানো যায় যাতে স্বরবর্ণগুলো একত্রে না থাকে।"
+          },
+          "solution": {
+            "bn": "MUJIBNAGAR শব্দটিতে মোট 10টি বর্ণ আছে যার মধ্যে ২টি A এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ মোট বিন্যাস সংখ্যা = $=\\frac{10!}{2!}=\\frac{3628800}{2}=1814400$\nআবার, শব্দটিতে 4টি স্বরবর্ণ আছে যার মধ্যে 2টি A এবং অবশিষ্ট স্বরবর্ণগুলো ভিন্ন ভিন্ন।\n4টি স্বরবর্ণকে একক বর্ণ হিসেবে বিবেচনা করে ১টি বর্ণ সাজানোর সংখ্যা = 7! = 5040\n4টি স্বরবর্ণকে নিজেদের মধ্যে সাজানোর সংখ্যা $=\\frac{4!}{2!}=\\frac{24}{2}=12$\nস্বরবর্ণগুলো একত্রে রেখে মোট বিন্যাস সংখ্যা 5040 × 12 = 60480\n$∴$ স্বরবর্ণগুলো একত্রে না রেখে মোট বিন্যাস সংখ্যা\n= 1814400-60480 = 1753920\n$∴$ স্বরবর্ণগুলো একত্রে না রেখে শব্দটিকে 1753920 ভাবে সাজানো যায়।"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ হতে দেখা যে, ${f}^{-1}(x)=f(x)$ .",
-          "answerText": "এখানে, $f(x)=\\frac{2x+7}{3x-2}:x∈R-\\{\\frac{2}{3}\\}$\nধরি, $y=f(x)=\\frac{2x+7}{3x-2}$\nএখন, $y=f(x)$\nবা, ${f}^{1}(y)=x$\nআবার, $y=\\frac{2x+7}{3x-2}$\nবা, $3xy-2y=2x+7$\nবা, $3xy-2x=2y+7$\nবা, $x(3y-2)=2y+7$\nবা, $x=\\frac{2y+7}{3y-2}$\nবা, ${f}^{-1}(y)=\\frac{2y+7}{3y-2}$\nবা, ${f}^{-1}(x)=\\frac{2x+7}{3x-2}$\n$∴ {f}^{-1}(x)=f(x)$ . (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ হতে দেখা যে, ${f}^{-1}(x)=f(x)$ ."
+          },
+          "solution": {
+            "bn": "এখানে, $f(x)=\\frac{2x+7}{3x-2}:x∈R-\\{\\frac{2}{3}\\}$\nধরি, $y=f(x)=\\frac{2x+7}{3x-2}$\nএখন, $y=f(x)$\nবা, ${f}^{1}(y)=x$\nআবার, $y=\\frac{2x+7}{3x-2}$\nবা, $3xy-2y=2x+7$\nবা, $3xy-2x=2y+7$\nবা, $x(3y-2)=2y+7$\nবা, $x=\\frac{2y+7}{3y-2}$\nবা, ${f}^{-1}(y)=\\frac{2y+7}{3y-2}$\nবা, ${f}^{-1}(x)=\\frac{2x+7}{3x-2}$\n$∴ {f}^{-1}(x)=f(x)$ . (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -116,35 +142,48 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq03",
+      "clientId": "barisal-2017-math1st-cq03",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/math/1st/chapter-3"
       },
       "questionNumber": "03",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: $x-2y+1=0$\nদৃশ্যকল্প-২: $\\vec{P}=\\hat{i}-2\\hat{j}+\\hat{k};\\vec{Q}=2\\hat{i}+\\hat{j}-3\\hat{k}$ ."
+          "questionText": "দৃশ্যকল্প-১: $x-2y+1=0$\nদৃশ্যকল্প-২: $\\vec{P}=\\hat{i}-2\\hat{j}+\\hat{k};\\vec{Q}=2\\hat{i}+\\hat{j}-3\\hat{k}$ .",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$(1,2)$ এবং $(3,6)$ বিন্দুদ্বয়ের সংযোজক রেখাকে যে বিন্দু $2:3$ অনুপাতে অন্তুর্বিভক্ত করে তার স্থানাঙ্ক নির্ণয় কর।",
-          "answerText": "মনে করি, $(1,2)$ এবং $(3,6)$ বিন্দুদ্বয়ের সংযোজক রেখাকে $2:3$ অনুপাতে অন্তর্বিভক্তকারী বিন্দুর স্থানাজ্ক ( $x,y)$\n$∴x=\\frac{2.3+3.1}{2+3}=\\frac{6+3}{5}=\\frac{9}{5}$\n$y=\\frac{2.6+3.2}{2+3}=\\frac{12+6}{5}=\\frac{18}{5}$\n$∴$ নির্ণেয় স্থানাঙ্ক $(\\frac{9}{5},\\frac{18}{5})$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$(1,2)$ এবং $(3,6)$ বিন্দুদ্বয়ের সংযোজক রেখাকে যে বিন্দু $2:3$ অনুপাতে অন্তুর্বিভক্ত করে তার স্থানাঙ্ক নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "মনে করি, $(1,2)$ এবং $(3,6)$ বিন্দুদ্বয়ের সংযোজক রেখাকে $2:3$ অনুপাতে অন্তর্বিভক্তকারী বিন্দুর স্থানাজ্ক ( $x,y)$\n$∴x=\\frac{2.3+3.1}{2+3}=\\frac{6+3}{5}=\\frac{9}{5}$\n$y=\\frac{2.6+3.2}{2+3}=\\frac{12+6}{5}=\\frac{18}{5}$\n$∴$ নির্ণেয় স্থানাঙ্ক $(\\frac{9}{5},\\frac{18}{5})$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ দ্বারা প্রকাশিত সরলরেখার সহিত ${45}^{\\circ}$ কোণ উৎপন্ন করে এবং $(1,2)$ বিন্দু দিয়ে যায় এরূপ দুটি সরলরেখার সমীকরণ নির্ণয় কর।",
-          "answerText": "প্রদত্ত সরলরেখার সমীকরণ, $x-2y+1=0$\n$∴$ রেখাটির ঢাল, ${m}_{1}=-\\frac{1}{-2}=\\frac{1}{2}$\nআবার, $(1,2)$ বিন্দুগামী রেখার ঢাল ${m}_{2}$ হলে রেখাটির সমীকরণ, $y-2={m}_{2}(x-1)$\nশর্তানুসারে, tan ${45}^{\\circ}=\\pm\\frac{{m}_{2}-{m}_{1}}{1+{m}_{1}{m}_{2}}$\nবা, $1=\\pm\\frac{{m}_{2}-\\frac{1}{2}}{1+\\frac{1}{2}\\cdot{m}_{2}}$\nবা, $1+\\frac{{m}_{2}}{2}=\\pm({m}_{2}-\\frac{1}{2})$\nবা, $2+{m}_{2}=\\pm(2{\\text{ }m}_{2}-1)$\n' + ' চিহ্ন নিয়ে পাই,\n$2+{m}_{2}=2{\\text{ }m}_{2}-1$\nবা, ${m}_{2}=3$\n‘-' চিহ্ন নিয়ে পাই, $2+{m}_{2}=-2{\\text{ }m}_{2}+1$\nবা, $3{m}_{2}=-1$\n$∴{m}_{2}=-\\frac{1}{3}$\n${m}_{2}$ এর মান (i) এ বসিয়ে পাই,\n$y-2=3(x-1)$\nবা, $y-2=3x-3$\n$∴3x-y=1$\nএবং $y-2=-\\frac{1}{3}(x-1)$\nবা, $3y-6=-x+1$\n$∴x+3y=7$\n$∴3x-y=1$ এবং $x+3y=7$ নির্ণেয় সরলরেখার সমীকরণ। (Ans.)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ দ্বারা প্রকাশিত সরলরেখার সহিত ${45}^{\\circ}$ কোণ উৎপন্ন করে এবং $(1,2)$ বিন্দু দিয়ে যায় এরূপ দুটি সরলরেখার সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত সরলরেখার সমীকরণ, $x-2y+1=0$\n$∴$ রেখাটির ঢাল, ${m}_{1}=-\\frac{1}{-2}=\\frac{1}{2}$\nআবার, $(1,2)$ বিন্দুগামী রেখার ঢাল ${m}_{2}$ হলে রেখাটির সমীকরণ, $y-2={m}_{2}(x-1)$\nশর্তানুসারে, tan ${45}^{\\circ}=\\pm\\frac{{m}_{2}-{m}_{1}}{1+{m}_{1}{m}_{2}}$\nবা, $1=\\pm\\frac{{m}_{2}-\\frac{1}{2}}{1+\\frac{1}{2}\\cdot{m}_{2}}$\nবা, $1+\\frac{{m}_{2}}{2}=\\pm({m}_{2}-\\frac{1}{2})$\nবা, $2+{m}_{2}=\\pm(2{\\text{ }m}_{2}-1)$\n' + ' চিহ্ন নিয়ে পাই,\n$2+{m}_{2}=2{\\text{ }m}_{2}-1$\nবা, ${m}_{2}=3$\n‘-' চিহ্ন নিয়ে পাই, $2+{m}_{2}=-2{\\text{ }m}_{2}+1$\nবা, $3{m}_{2}=-1$\n$∴{m}_{2}=-\\frac{1}{3}$\n${m}_{2}$ এর মান (i) এ বসিয়ে পাই,\n$y-2=3(x-1)$\nবা, $y-2=3x-3$\n$∴3x-y=1$\nএবং $y-2=-\\frac{1}{3}(x-1)$\nবা, $3y-6=-x+1$\n$∴x+3y=7$\n$∴3x-y=1$ এবং $x+3y=7$ নির্ণেয় সরলরেখার সমীকরণ। (Ans.)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ এর সাহয্যে $(\\vec{P}+\\vec{Q})$ বরাবর $\\vec{Q}$ এর উপাংশ নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $P=\\hat{i}-2\\hat{j}+\\hat{k}$\nএবং $Q=2\\hat{i}+\\hat{j}-3\\hat{k}$\n$∴P+Q=(\\hat{i}-2\\hat{j}+\\hat{k})+(2\\hat{i}+\\hat{j}-3\\hat{k})=3\\hat{i}-\\hat{j}-2\\hat{k}$\n$∴(P+Q)$ বরাবর $Q$ এর উপাংশ $=\\frac{\\{(P+Q)\\cdotQ\\}(P+Q)}{|P+Q{|}^{2}}$\nএখন, $(P+Q)\\cdotQ=(3\\hat{i}-\\hat{j}-2\\hat{k})\\cdot(2\\hat{i}+\\hat{j}-3\\hat{k})$\n$=6-1+6=11$\n$|P+Q{|}^{2}={3}^{2}+(-1{)}^{2}+(-2{)}^{2}=9+1+4=14$\n$∴$ নির্ণেয় উপাংশ $=\\frac{11}{14}(3\\hat{i}-\\hat{j}-2\\hat{k})$ (Ans.)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ এর সাহয্যে $(\\vec{P}+\\vec{Q})$ বরাবর $\\vec{Q}$ এর উপাংশ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $P=\\hat{i}-2\\hat{j}+\\hat{k}$\nএবং $Q=2\\hat{i}+\\hat{j}-3\\hat{k}$\n$∴P+Q=(\\hat{i}-2\\hat{j}+\\hat{k})+(2\\hat{i}+\\hat{j}-3\\hat{k})=3\\hat{i}-\\hat{j}-2\\hat{k}$\n$∴(P+Q)$ বরাবর $Q$ এর উপাংশ $=\\frac{\\{(P+Q)\\cdotQ\\}(P+Q)}{|P+Q{|}^{2}}$\nএখন, $(P+Q)\\cdotQ=(3\\hat{i}-\\hat{j}-2\\hat{k})\\cdot(2\\hat{i}+\\hat{j}-3\\hat{k})$\n$=6-1+6=11$\n$|P+Q{|}^{2}={3}^{2}+(-1{)}^{2}+(-2{)}^{2}=9+1+4=14$\n$∴$ নির্ণেয় উপাংশ $=\\frac{11}{14}(3\\hat{i}-\\hat{j}-2\\hat{k})$ (Ans.)"
+          }
         }
       ],
       "assets": [],
@@ -173,35 +212,48 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq04",
+      "clientId": "barisal-2017-math1st-cq04",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/1st/chapter-4"
       },
       "questionNumber": "04",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: ${x}^{2}+{y}^{2}+3x-5y+6=0;x+2y+1=0$\nদৃশ্যকল্প-২: $4x-3y-7=0$"
+          "questionText": "দৃশ্যকল্প-১: ${x}^{2}+{y}^{2}+3x-5y+6=0;x+2y+1=0$\nদৃশ্যকল্প-২: $4x-3y-7=0$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$3{x}^{2}+3{y}^{2}-12x+15y-6=0$ বৃত্তের কেন্দ্র ও ব্যাসার্ধ নির্ণয় কর।",
-          "answerText": "প্রদত্ত বৃত্তের সমীকরণ,\n$3{x}^{2}+3{y}^{2}-12x+15y-6=0$\n$∴{x}^{2}+{y}^{2}-4x+5y-2=0…(i)$\n(i) নং কে ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ এর সাথে তুলনা করে পাই, $g=-2,f=\\frac{5}{2},c=-2$\n$∴$ বৃত্তের কেন্দ্র $(-g,-f)≡(2,-\\frac{5}{2})$\nএবং ব্যাসার্ধ $=\\sqrt{{g}^{2}+{f}^{2}-c}$\n$=\\sqrt{(-2{)}^{2}+{(\\frac{5}{2})}^{2}+2}=\\sqrt{4+\\frac{25}{4}+2}$\n$=\\sqrt{\\frac{24+25}{4}}=\\sqrt{\\frac{49}{4}}=\\frac{7}{2}$\n$∴$ নির্ণেয় বৃত্তের কেন্দ্র $(2,-\\frac{5}{2})$ এবং ব্যাসার্ধ $\\frac{7}{2}$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$3{x}^{2}+3{y}^{2}-12x+15y-6=0$ বৃত্তের কেন্দ্র ও ব্যাসার্ধ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত বৃত্তের সমীকরণ,\n$3{x}^{2}+3{y}^{2}-12x+15y-6=0$\n$∴{x}^{2}+{y}^{2}-4x+5y-2=0…(i)$\n(i) নং কে ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ এর সাথে তুলনা করে পাই, $g=-2,f=\\frac{5}{2},c=-2$\n$∴$ বৃত্তের কেন্দ্র $(-g,-f)≡(2,-\\frac{5}{2})$\nএবং ব্যাসার্ধ $=\\sqrt{{g}^{2}+{f}^{2}-c}$\n$=\\sqrt{(-2{)}^{2}+{(\\frac{5}{2})}^{2}+2}=\\sqrt{4+\\frac{25}{4}+2}$\n$=\\sqrt{\\frac{24+25}{4}}=\\sqrt{\\frac{49}{4}}=\\frac{7}{2}$\n$∴$ নির্ণেয় বৃত্তের কেন্দ্র $(2,-\\frac{5}{2})$ এবং ব্যাসার্ধ $\\frac{7}{2}$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "একটি বৃত্তের সমীকরণ নির্ণয় কর যার কেন্দ্র দৃশ্যকল্প-১ দ্বারা প্রকাশিত রেখার উপর অবস্থিত এবং যা মূলবিন্দু ও দৃশ্যকল্প-১ দ্বারা প্রকাশিত বৃত্তের কেন্দ্র দিয়ে যায়।",
-          "answerText": "প্রদত্ত রেখার সমীকরণ, $x+2y+1=0………$ (i)\nধরি, বৃত্তটির সমীকরণ\n${x}^{2}+{y}^{2}+2gx+2fy+c=0$ ...... (ii)\nএখানে, বৃত্তের কেন্দ্র $(-g,-f)$ যা (i) রেখার উপর অবস্থিত।\n$∴-g-2f+1=0$ ......... (iii) \nআবার, ${x}^{2}+{y}^{2}+3x-5y+6=0$ কে ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ এর সাথে তুলনা করে পাই, $g=\\frac{3}{2},f=-\\frac{5}{2}$ এবং $c=6$\n$∴$ কেন্দ্র $(-g,-f)≡(-\\frac{3}{2},\\frac{5}{2})$\nএখন, (ii) বৃত্তটি মূলবিন্দু $(0,0)$ এবং $(-\\frac{3}{2},\\frac{5}{2})$ বিন্দুগামী।\n$∴c=0$\nএবং ${(-\\frac{3}{2})}^{2}+{(\\frac{5}{2})}^{2}+2\\text{ }g(-\\frac{3}{2})+2f(\\frac{5}{2})+c=0$\nবা, $\\frac{9}{4}+\\frac{25}{4}-3g+5f+0=0$  [(iv) থেকে]\nবা, $3g-5f=\\frac{34}{4}=\\frac{17}{2}∴6g-10f=17$ ..... (v)\n(iii) কে 6 দ্বারা গুণ করে (v) এর সাথে যোগ করে পাই,\n$-12f+6-10f=17$ বf, $-22f=11∴f=-\\frac{1}{2}$\nf এর মান (iii) এ বসিয়ে পাই,\n$-g-2\\cdot(-\\frac{1}{2})+1=0$\nবা $,-g+1+1=0∴g=2$\n$g,f$ ও c এর মান (ii) এ বসিয়ে পাই, ${x}^{2}+{y}^{2}+4x-y=0$\n$∴$ নির্ণেয় বৃত্তের সমীকরণ ${x}^{2}+{y}^{2}+4x-y=0$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "একটি বৃত্তের সমীকরণ নির্ণয় কর যার কেন্দ্র দৃশ্যকল্প-১ দ্বারা প্রকাশিত রেখার উপর অবস্থিত এবং যা মূলবিন্দু ও দৃশ্যকল্প-১ দ্বারা প্রকাশিত বৃত্তের কেন্দ্র দিয়ে যায়।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত রেখার সমীকরণ, $x+2y+1=0………$ (i)\nধরি, বৃত্তটির সমীকরণ\n${x}^{2}+{y}^{2}+2gx+2fy+c=0$ ...... (ii)\nএখানে, বৃত্তের কেন্দ্র $(-g,-f)$ যা (i) রেখার উপর অবস্থিত।\n$∴-g-2f+1=0$ ......... (iii) \nআবার, ${x}^{2}+{y}^{2}+3x-5y+6=0$ কে ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ এর সাথে তুলনা করে পাই, $g=\\frac{3}{2},f=-\\frac{5}{2}$ এবং $c=6$\n$∴$ কেন্দ্র $(-g,-f)≡(-\\frac{3}{2},\\frac{5}{2})$\nএখন, (ii) বৃত্তটি মূলবিন্দু $(0,0)$ এবং $(-\\frac{3}{2},\\frac{5}{2})$ বিন্দুগামী।\n$∴c=0$\nএবং ${(-\\frac{3}{2})}^{2}+{(\\frac{5}{2})}^{2}+2\\text{ }g(-\\frac{3}{2})+2f(\\frac{5}{2})+c=0$\nবা, $\\frac{9}{4}+\\frac{25}{4}-3g+5f+0=0$  [(iv) থেকে]\nবা, $3g-5f=\\frac{34}{4}=\\frac{17}{2}∴6g-10f=17$ ..... (v)\n(iii) কে 6 দ্বারা গুণ করে (v) এর সাথে যোগ করে পাই,\n$-12f+6-10f=17$ বf, $-22f=11∴f=-\\frac{1}{2}$\nf এর মান (iii) এ বসিয়ে পাই,\n$-g-2\\cdot(-\\frac{1}{2})+1=0$\nবা $,-g+1+1=0∴g=2$\n$g,f$ ও c এর মান (ii) এ বসিয়ে পাই, ${x}^{2}+{y}^{2}+4x-y=0$\n$∴$ নির্ণেয় বৃত্তের সমীকরণ ${x}^{2}+{y}^{2}+4x-y=0$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ দ্বারা বর্ণিত রেখাটির সমান্তরাল রেখাগুলোর সমীকরণ নির্ণয় কর যাদের দূরত্ব (1, 2) বিন্দু হতে $5\\frac{1}{2}$ একক।",
-          "answerText": "প্রদত্ত রেখার সমীকরণ, $4x-3y-7=0$ ....... (i)\n(i) এর সমান্তরাল রেখার সমীকরণ\n$4x-3y+k=0$ ...... (ii)\nএখন, $(1,2)$ বিন্দু হতে (ii) এর দূরত্ব $5\\frac{1}{2}$ বা $\\frac{11}{2}$ একক\n$∴\\frac{|4-6+k|}{\\sqrt{{4}^{2}+(-3{)}^{2}}}=\\frac{11}{2}$\nবা, $\\frac{|k-2|}{5}=\\frac{11}{2}$\nবা, $|k-2|=\\frac{55}{2}$\nবা, $k-2=\\pm\\frac{55}{2}$\nবা, $k=2+\\frac{55}{2}$ ['+' চিহ্ন নিয়ে]\n$∴k=\\frac{59}{2}$\nআবার, $k=2-\\frac{55}{2}$ ['-' চিহ্ন নিয়ে]\n$∴k=\\frac{-51}{2}$\n$k$ এর মান (ii) এ বসিয়ে পাই,\n$4x-3y+\\frac{59}{2}=0∴8x-6y+59=0$\nএবং $4x-3y-\\frac{51}{2}=0∴8x-6y-51=0$\n$∴$ নির্ণেয় সরলরেখাদ্বয়ের সমীকরণ,\n$8x-6y+59=0$ এবং $8x-6y-51=0\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ দ্বারা বর্ণিত রেখাটির সমান্তরাল রেখাগুলোর সমীকরণ নির্ণয় কর যাদের দূরত্ব (1, 2) বিন্দু হতে $5\\frac{1}{2}$ একক।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত রেখার সমীকরণ, $4x-3y-7=0$ ....... (i)\n(i) এর সমান্তরাল রেখার সমীকরণ\n$4x-3y+k=0$ ...... (ii)\nএখন, $(1,2)$ বিন্দু হতে (ii) এর দূরত্ব $5\\frac{1}{2}$ বা $\\frac{11}{2}$ একক\n$∴\\frac{|4-6+k|}{\\sqrt{{4}^{2}+(-3{)}^{2}}}=\\frac{11}{2}$\nবা, $\\frac{|k-2|}{5}=\\frac{11}{2}$\nবা, $|k-2|=\\frac{55}{2}$\nবা, $k-2=\\pm\\frac{55}{2}$\nবা, $k=2+\\frac{55}{2}$ ['+' চিহ্ন নিয়ে]\n$∴k=\\frac{59}{2}$\nআবার, $k=2-\\frac{55}{2}$ ['-' চিহ্ন নিয়ে]\n$∴k=\\frac{-51}{2}$\n$k$ এর মান (ii) এ বসিয়ে পাই,\n$4x-3y+\\frac{59}{2}=0∴8x-6y+59=0$\nএবং $4x-3y-\\frac{51}{2}=0∴8x-6y-51=0$\n$∴$ নির্ণেয় সরলরেখাদ্বয়ের সমীকরণ,\n$8x-6y+59=0$ এবং $8x-6y-51=0\\text{ (Ans.) }$"
+          }
         }
       ],
       "assets": [],
@@ -230,48 +282,60 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq05",
+      "clientId": "barisal-2017-math1st-cq05",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/1st/chapter-6"
       },
       "questionNumber": "05",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "[IMG_0]\nদৃশ্যকল্প-২: $\\sinC+\\sinD=p,\\cosC+\\cosD=q$"
+          "questionText": "[IMG_0]\nদৃশ্যকল্প-২: $\\sinC+\\sinD=p,\\cosC+\\cosD=q$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\tan\\theta=\\frac{b}{a}$ হলে $\\frac{a\\cos\\theta+b\\sin\\theta}{a\\cos\\theta-b\\sin\\theta}$ এর মান নির্ণয় কর ।",
-          "answerText": "এখানে, $\\tan\\theta=\\frac{b}{a}$\nবা, $\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{b}{a}$\n$∴ \\sin\\theta=\\frac{b\\cos\\theta}{a}$\nপ্রদত্ত রাশি $=\\frac{a\\cos\\theta+b\\sin\\theta}{a\\cos\\theta-b\\sin\\theta}$\n$=\\frac{a\\cos\\theta+b\\cdot\\frac{b\\cos\\theta}{a}}{a\\cos\\theta-b\\frac{b\\cos\\theta}{a}}=\\frac{\\frac{{a}^{2}\\cos\\theta+{b}^{2}\\cos\\theta}{a}}{\\frac{{a}^{2}\\cos\\theta-{b}^{2}\\cos\\theta}{a}}$\n$=\\frac{({a}^{2}+{b}^{2})\\cos\\theta}{({a}^{2}-{b}^{2})\\cos\\theta}=\\frac{{a}^{2}+{b}^{2}}{{a}^{2}-{b}^{2}}$\nনির্ণেয় মান $\\frac{{a}^{2}+{b}^{2}}{{a}^{2}-{b}^{2}}$ .",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\tan\\theta=\\frac{b}{a}$ হলে $\\frac{a\\cos\\theta+b\\sin\\theta}{a\\cos\\theta-b\\sin\\theta}$ এর মান নির্ণয় কর ।"
+          },
+          "solution": {
+            "bn": "এখানে, $\\tan\\theta=\\frac{b}{a}$\nবা, $\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{b}{a}$\n$∴ \\sin\\theta=\\frac{b\\cos\\theta}{a}$\nপ্রদত্ত রাশি $=\\frac{a\\cos\\theta+b\\sin\\theta}{a\\cos\\theta-b\\sin\\theta}$\n$=\\frac{a\\cos\\theta+b\\cdot\\frac{b\\cos\\theta}{a}}{a\\cos\\theta-b\\frac{b\\cos\\theta}{a}}=\\frac{\\frac{{a}^{2}\\cos\\theta+{b}^{2}\\cos\\theta}{a}}{\\frac{{a}^{2}\\cos\\theta-{b}^{2}\\cos\\theta}{a}}$\n$=\\frac{({a}^{2}+{b}^{2})\\cos\\theta}{({a}^{2}-{b}^{2})\\cos\\theta}=\\frac{{a}^{2}+{b}^{2}}{{a}^{2}-{b}^{2}}$\nনির্ণেয় মান $\\frac{{a}^{2}+{b}^{2}}{{a}^{2}-{b}^{2}}$ ."
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ এর আলোকে ছায়াঘেরা অংশের ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "[IMG_0]\nএখানে, C কেন্দ্রবিশিষ্ট বৃত্তের ব্যাসাধ, $r=AC=BC=4$ একক\n$AB=4\\sqrt{2}$ একক\nএখন, ${AC}^{2}+{BC}^{2}={4}^{2}+{4}^{2}=16+16=32=(4\\sqrt{2}{)}^{2}={AB}^{2}$\nযেহেতু ${AC}^{2}+{BC}^{2}={AB}^{2}$\nসেহেতু $ABC$ একটি সমকোণী ত্রিভুজ\nএবং $∠ACB={90}^{\\circ}$\n$∴$ C কেন্দ্রবিশিষ্ট বৃত্তের কেন্দ্রে উৎপন্ন কোव, $\\theta=∠ACB={90}^{\\circ}$\n$=90\\times\\frac{\\pi}{180}$ রেডিয়ান\n$=\\frac{\\pi}{2}$ রেডিয়ান\nABC  ত্রিভুজের ক্ষেত্রফল $=\\frac{1}{2}\\timesAC\\timesBC$\n$=\\frac{1}{2}\\times4\\times4$ বর্গ একক = 8 বর্গ একক\nABC বৃত্তকলার ক্ষেত্রফল $=\\frac{1}{2}{r}^{2}\\theta$\n$=\\frac{1}{2}\\times{4}^{2}\\times\\frac{\\pi}{2}$ বর্গ একক\n$=\\frac{1}{2}\\times16\\times\\frac{\\pi}{2}$ বর্গ একক\n= 12.5664 বর্গ একক (প্রায়)\nছায়াঘেরা অংশের ক্ষেত্রফল =(12.5664-8) বর্গ একক\n= 4.566 বর্গ একক (প্রায়)\nনির্ণেয় ক্ষেত্রফল 4.566 বর্গ একক (প্রায়)",
-          "assets": [
-            {
-              "sha256": "5720970f91fbc182428658882458bb2ad0f27a65ff7a81aa9826a3eb335da4f1",
-              "role": "part-b-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ এর আলোকে ছায়াঘেরা অংশের ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "[IMG_0]\nএখানে, C কেন্দ্রবিশিষ্ট বৃত্তের ব্যাসাধ, $r=AC=BC=4$ একক\n$AB=4\\sqrt{2}$ একক\nএখন, ${AC}^{2}+{BC}^{2}={4}^{2}+{4}^{2}=16+16=32=(4\\sqrt{2}{)}^{2}={AB}^{2}$\nযেহেতু ${AC}^{2}+{BC}^{2}={AB}^{2}$\nসেহেতু $ABC$ একটি সমকোণী ত্রিভুজ\nএবং $∠ACB={90}^{\\circ}$\n$∴$ C কেন্দ্রবিশিষ্ট বৃত্তের কেন্দ্রে উৎপন্ন কোव, $\\theta=∠ACB={90}^{\\circ}$\n$=90\\times\\frac{\\pi}{180}$ রেডিয়ান\n$=\\frac{\\pi}{2}$ রেডিয়ান\nABC  ত্রিভুজের ক্ষেত্রফল $=\\frac{1}{2}\\timesAC\\timesBC$\n$=\\frac{1}{2}\\times4\\times4$ বর্গ একক = 8 বর্গ একক\nABC বৃত্তকলার ক্ষেত্রফল $=\\frac{1}{2}{r}^{2}\\theta$\n$=\\frac{1}{2}\\times{4}^{2}\\times\\frac{\\pi}{2}$ বর্গ একক\n$=\\frac{1}{2}\\times16\\times\\frac{\\pi}{2}$ বর্গ একক\n= 12.5664 বর্গ একক (প্রায়)\nছায়াঘেরা অংশের ক্ষেত্রফল =(12.5664-8) বর্গ একক\n= 4.566 বর্গ একক (প্রায়)\nনির্ণেয় ক্ষেত্রফল 4.566 বর্গ একক (প্রায়)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ এর আলোকে প্রমাণ কর যে, $\\sin\\frac{C-D}{2}=\\pm\\frac{1}{2}\\sqrt{4-{p}^{2}-{q}^{2}}$ .",
-          "answerText": "এখানে, $\\sinC+\\sinD=P$\nবা, $2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2}=P$\nবা, $4{\\sin}^{2}\\frac{C+D}{2}{\\cos}^{2}\\frac{C-D}{2}={P}^{2}$ ..... (i) [বর্গ করে]\nএবং $\\cosC+\\cosD=q$\nবা, $2\\cos\\frac{C+D}{2}\\cos\\frac{C-D}{2}={q}^{2}$\nবা, $4{\\cos}^{2}\\frac{C+D}{2}\\cos\\frac{C-D}{2}={q}^{2}$ ...... (ii) [বর্গ করে]\n(i) নং ও (ii) নং যোগ করে পাই,\n$4{\\cos}^{2}\\frac{C-D}{2}({\\sin}^{2}\\frac{C+D}{2}+{\\cos}^{2}\\frac{C+D}{2})={p}^{2}+{q}^{2}$\nবা, $4{\\cos}^{2}\\frac{C-D}{2}\\cdot1={p}^{2}+{q}^{2}$\nবা, $4(1-{\\sin}^{2}\\frac{C-D}{2})={p}^{2}+{q}^{2}$\nবা, $4-4{\\sin}^{2}\\frac{C-D}{2}={p}^{2}+{q}^{2}$\nবা, $4{\\sin}^{2}\\frac{C-D}{2}=4-{p}^{2}-{q}^{2}$\nবা, ${\\sin}^{2}\\frac{C-D}{2}=\\frac{4-{p}^{2}-{q}^{2}}{4}$\nবা, $\\sin\\frac{C-D}{2}=\\pm\\sqrt{\\frac{4-{p}^{2}-{q}^{2}}{4}}$\n$∴ \\sin\\frac{C-D}{2}=\\pm\\frac{1}{2}\\sqrt{4-{p}^{2}-{q}^{2}}$ . (প্রমাণিত)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ এর আলোকে প্রমাণ কর যে, $\\sin\\frac{C-D}{2}=\\pm\\frac{1}{2}\\sqrt{4-{p}^{2}-{q}^{2}}$ ."
+          },
+          "solution": {
+            "bn": "এখানে, $\\sinC+\\sinD=P$\nবা, $2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2}=P$\nবা, $4{\\sin}^{2}\\frac{C+D}{2}{\\cos}^{2}\\frac{C-D}{2}={P}^{2}$ ..... (i) [বর্গ করে]\nএবং $\\cosC+\\cosD=q$\nবা, $2\\cos\\frac{C+D}{2}\\cos\\frac{C-D}{2}={q}^{2}$\nবা, $4{\\cos}^{2}\\frac{C+D}{2}\\cos\\frac{C-D}{2}={q}^{2}$ ...... (ii) [বর্গ করে]\n(i) নং ও (ii) নং যোগ করে পাই,\n$4{\\cos}^{2}\\frac{C-D}{2}({\\sin}^{2}\\frac{C+D}{2}+{\\cos}^{2}\\frac{C+D}{2})={p}^{2}+{q}^{2}$\nবা, $4{\\cos}^{2}\\frac{C-D}{2}\\cdot1={p}^{2}+{q}^{2}$\nবা, $4(1-{\\sin}^{2}\\frac{C-D}{2})={p}^{2}+{q}^{2}$\nবা, $4-4{\\sin}^{2}\\frac{C-D}{2}={p}^{2}+{q}^{2}$\nবা, $4{\\sin}^{2}\\frac{C-D}{2}=4-{p}^{2}-{q}^{2}$\nবা, ${\\sin}^{2}\\frac{C-D}{2}=\\frac{4-{p}^{2}-{q}^{2}}{4}$\nবা, $\\sin\\frac{C-D}{2}=\\pm\\sqrt{\\frac{4-{p}^{2}-{q}^{2}}{4}}$\n$∴ \\sin\\frac{C-D}{2}=\\pm\\frac{1}{2}\\sqrt{4-{p}^{2}-{q}^{2}}$ . (প্রমাণিত)"
+          }
         }
       ],
       "assets": [
         {
           "sha256": "ffcab46d07b6ae717b2e3f562923610b7828f09c7cf43eac60d0f9f42d8e15e7",
           "role": "stem",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "5720970f91fbc182428658882458bb2ad0f27a65ff7a81aa9826a3eb335da4f1",
+          "role": "solution",
           "page": 2,
           "bbox": null
         }
@@ -301,35 +365,48 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq06",
+      "clientId": "barisal-2017-math1st-cq06",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/math/1st/chapter-9"
       },
       "questionNumber": "06",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: $ABC$ ত্রিভুজে $a=\\sqrt{3}b$ এবং $A=2B$\nদৃশ্যকল্প-২: lny = bz."
+          "questionText": "দৃশ্যকল্প-১: $ABC$ ত্রিভুজে $a=\\sqrt{3}b$ এবং $A=2B$\nদৃশ্যকল্প-২: lny = bz.",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\underset{x\\to0}{lim}(cosecx-\\cotx)$ এর মান নির্ণয় কর।",
-          "answerText": "$\\begin{matrix} & \\underset{x\\to0}{lim}(cosecx-\\cotx)=\\underset{x\\to0}{lim}(\\frac{1}{\\sinx}-\\frac{\\cosx}{\\sinx})\\\\ & =\\underset{x\\to0}{lim}(\\frac{1-\\cosx}{\\sinx})=\\underset{x\\to0}{lim}\\frac{2{\\sin}^{2}\\frac{x}{2}}{2\\sin\\frac{x}{2}\\cos\\frac{x}{2}}\\\\ & =\\underset{x\\to0}{lim}\\frac{\\sin\\frac{x}{2}}{\\cos\\frac{x}{2}}=\\underset{x\\to0}{lim}\\tan\\frac{x}{2}\\\\ & =\\tan\\frac{0}{2}=\\tan0=0\\text{ (Ans.) }\\end{matrix}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\underset{x\\to0}{lim}(cosecx-\\cotx)$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix} & \\underset{x\\to0}{lim}(cosecx-\\cotx)=\\underset{x\\to0}{lim}(\\frac{1}{\\sinx}-\\frac{\\cosx}{\\sinx})\\\\ & =\\underset{x\\to0}{lim}(\\frac{1-\\cosx}{\\sinx})=\\underset{x\\to0}{lim}\\frac{2{\\sin}^{2}\\frac{x}{2}}{2\\sin\\frac{x}{2}\\cos\\frac{x}{2}}\\\\ & =\\underset{x\\to0}{lim}\\frac{\\sin\\frac{x}{2}}{\\cos\\frac{x}{2}}=\\underset{x\\to0}{lim}\\tan\\frac{x}{2}\\\\ & =\\tan\\frac{0}{2}=\\tan0=0\\text{ (Ans.) }\\end{matrix}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ এর আলোকে ABC ত্রিভুজের কোণগুলো নির্ণয় কর।",
-          "answerText": "আমরা জানি, যেকোনো ত্রিভুজে,\n$\\frac{a}{\\sinA}=\\frac{b}{\\sinB}$\nবা, $\\frac{\\sqrt{3}b}{\\sin2B}=\\frac{b}{\\sinB} [<a=\\sqrt{3}b$ এবং A=2 B]\nবা, $\\frac{\\sqrt{3}}{2\\sinB\\cosB}=\\frac{1}{\\sinB}$\nবা, $2\\sinB\\cosB=\\sqrt{3}\\sinB$\nবা, $2\\cosB=\\sqrt{3} [<\\sinB\\neq0$ কারণ, ত্রিভুজের কোনো কোণ শূন্য হতে পারে না]\nবা, $\\cosB=\\frac{\\sqrt{3}}{2}$\nবা, $\\cosB=\\cos{30}^{\\circ}$\n$∴B={30}^{\\circ} ∴A=2\\times{30}^{\\circ}={60}^{\\circ}$\n$∴C={180}^{\\circ}-({30}^{\\circ}+{60}^{\\circ})={180}^{\\circ}-{90}^{\\circ}={90}^{\\circ}$\n$∴ABC$ ত্রিভুজের কোণগুলো $A={60}^{\\circ},B={30}^{\\circ}$ এবং $C={90}^{\\circ}$ .",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ এর আলোকে ABC ত্রিভুজের কোণগুলো নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "আমরা জানি, যেকোনো ত্রিভুজে,\n$\\frac{a}{\\sinA}=\\frac{b}{\\sinB}$\nবা, $\\frac{\\sqrt{3}b}{\\sin2B}=\\frac{b}{\\sinB} [<a=\\sqrt{3}b$ এবং A=2 B]\nবা, $\\frac{\\sqrt{3}}{2\\sinB\\cosB}=\\frac{1}{\\sinB}$\nবা, $2\\sinB\\cosB=\\sqrt{3}\\sinB$\nবা, $2\\cosB=\\sqrt{3} [<\\sinB\\neq0$ কারণ, ত্রিভুজের কোনো কোণ শূন্য হতে পারে না]\nবা, $\\cosB=\\frac{\\sqrt{3}}{2}$\nবা, $\\cosB=\\cos{30}^{\\circ}$\n$∴B={30}^{\\circ} ∴A=2\\times{30}^{\\circ}={60}^{\\circ}$\n$∴C={180}^{\\circ}-({30}^{\\circ}+{60}^{\\circ})={180}^{\\circ}-{90}^{\\circ}={90}^{\\circ}$\n$∴ABC$ ত্রিভুজের কোণগুলো $A={60}^{\\circ},B={30}^{\\circ}$ এবং $C={90}^{\\circ}$ ."
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ এর আলোকে $cosz=x$ হলে প্রমাণ কর যে, $(1-{x}^{2}){y}_{2}-x{y}_{1}={b}^{2}y$ .",
-          "answerText": "দেওয়া আছে, lny = bz\nবা, lny $=b{\\cos}^{-1}x[<\\cosz=x∴z={\\cos}^{-1}x]$\nউভয়পক্ষকে $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{1}{y}{y}_{1}=-b\\frac{1}{\\sqrt{1-{x}^{2}}}$\nবা, ${y}_{1}\\sqrt{1-{x}^{2}}=-by$\nবা, ${y}_{1}^{2}(1-{x}^{2})={b}^{2}{y}^{2}$ [উভয়পক্ষকে বর্গ করে]\nআবার, x এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$2{y}_{1}{y}_{2}(1-{x}^{2})+{y}_{1}^{2}(-2x)=2{b}^{2}y{y}_{1}$\nবা, ${y}_{2}(1-{x}^{2})-x{y}_{1}={b}^{2}y$\n$∴(1-{x}^{2}){y}_{2}-x{y}_{1}={b}^{2}y$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ এর আলোকে $cosz=x$ হলে প্রমাণ কর যে, $(1-{x}^{2}){y}_{2}-x{y}_{1}={b}^{2}y$ ."
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, lny = bz\nবা, lny $=b{\\cos}^{-1}x[<\\cosz=x∴z={\\cos}^{-1}x]$\nউভয়পক্ষকে $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{1}{y}{y}_{1}=-b\\frac{1}{\\sqrt{1-{x}^{2}}}$\nবা, ${y}_{1}\\sqrt{1-{x}^{2}}=-by$\nবা, ${y}_{1}^{2}(1-{x}^{2})={b}^{2}{y}^{2}$ [উভয়পক্ষকে বর্গ করে]\nআবার, x এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$2{y}_{1}{y}_{2}(1-{x}^{2})+{y}_{1}^{2}(-2x)=2{b}^{2}y{y}_{1}$\nবা, ${y}_{2}(1-{x}^{2})-x{y}_{1}={b}^{2}y$\n$∴(1-{x}^{2}){y}_{2}-x{y}_{1}={b}^{2}y$ (প্রমাণিত)"
+          }
         }
       ],
       "assets": [],
@@ -358,35 +435,48 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq07",
+      "clientId": "barisal-2017-math1st-cq07",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "07",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$f(x)={x}^{3}-9{x}^{2}+24x-12,\\phi(x)=\\frac{1}{\\sqrt{12-16{x}^{2}}}$\nএবং $\\psi(x)={\\tan}^{-1}(\\frac{x}{5})$"
+          "questionText": "$f(x)={x}^{3}-9{x}^{2}+24x-12,\\phi(x)=\\frac{1}{\\sqrt{12-16{x}^{2}}}$\nএবং $\\psi(x)={\\tan}^{-1}(\\frac{x}{5})$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$x$ এর সাপেক্ষে $x$ এর অন্তরজ নির্ণয় কর।",
-          "answerText": "ধরি, $y={x}^{x}$\nউভয়পক্ষে $\\ln$ নিয়ে পাই, $\\lny=x\\lnx$\nউভয়পক্ষকে $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{1}{y}\\frac{dy}{dx}=x\\cdot\\frac{1}{x}+\\lnx$\nবা, $\\frac{dy}{dx}=y(1+\\lnx)$\n$∴\\frac{d}{dx}({x}^{x})={x}^{x}(1+\\lnx)(\\text{ Ans.) }$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$x$ এর সাপেক্ষে $x$ এর অন্তরজ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "ধরি, $y={x}^{x}$\nউভয়পক্ষে $\\ln$ নিয়ে পাই, $\\lny=x\\lnx$\nউভয়পক্ষকে $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{1}{y}\\frac{dy}{dx}=x\\cdot\\frac{1}{x}+\\lnx$\nবা, $\\frac{dy}{dx}=y(1+\\lnx)$\n$∴\\frac{d}{dx}({x}^{x})={x}^{x}(1+\\lnx)(\\text{ Ans.) }$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "উদ্দীপকের আলোকে $f(x)$ এর লঘিষ্ঠ ও গরিষ্ঠ মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $f(x)={x}^{3}-9{x}^{2}+24x-12$\n$∴{f}^{′}(x)=3{x}^{2}-18x+24$\n$∴{f}^{′′}(x)=6x-18$\nএখন, লঘিষ্ঠ ও গরিষ্ঠ মানের জন্য ${f}^{′}(x)=0$\n$3{x}^{2}-18x+24=0$\nবা, ${x}^{2}-6x+8=0$\nবা, ${x}^{2}-4x-2x+8=0$\nবা, $x(x-4)-2(x-4)=0$\nবা, $(x-2)(x-4)=0$\n$∴x=2,4$\n$x=2$ হলে ${f}^{′′}(x)=6.2-18$\n$=12-18$\n$=-6<0$\n$∴x=2$ এর জন্য ফাংশनটির গরিষ্ঠমান বিদ্যমান এবং গরিষ্ঠমান $f(2)={2}^{3}-{9.2}^{2}+24.2-12$\n$=8-36+48-12$\n= 8\nআবার, $x=4$ হলে ${f}^{′′}(x)=6.4-18=24-18=6>0$\n$∴x=4$ এর জন্য ফাংশনটির লঘিষ্ঠমান বিদ্যামান এবং লঘিষ্ঠমান\n$f(4)={4}^{3}-{9.4}^{2}+24.4-12$\n$=64-144+96-12=4$\n$∴$ নির্ণেয় লঘিষ্ঠমান 4 এবং গরিষ্ঠমান 8. (Ans.)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে $f(x)$ এর লঘিষ্ঠ ও গরিষ্ঠ মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $f(x)={x}^{3}-9{x}^{2}+24x-12$\n$∴{f}^{′}(x)=3{x}^{2}-18x+24$\n$∴{f}^{′′}(x)=6x-18$\nএখন, লঘিষ্ঠ ও গরিষ্ঠ মানের জন্য ${f}^{′}(x)=0$\n$3{x}^{2}-18x+24=0$\nবা, ${x}^{2}-6x+8=0$\nবা, ${x}^{2}-4x-2x+8=0$\nবা, $x(x-4)-2(x-4)=0$\nবা, $(x-2)(x-4)=0$\n$∴x=2,4$\n$x=2$ হলে ${f}^{′′}(x)=6.2-18$\n$=12-18$\n$=-6<0$\n$∴x=2$ এর জন্য ফাংশनটির গরিষ্ঠমান বিদ্যমান এবং গরিষ্ঠমান $f(2)={2}^{3}-{9.2}^{2}+24.2-12$\n$=8-36+48-12$\n= 8\nআবার, $x=4$ হলে ${f}^{′′}(x)=6.4-18=24-18=6>0$\n$∴x=4$ এর জন্য ফাংশনটির লঘিষ্ঠমান বিদ্যামান এবং লঘিষ্ঠমান\n$f(4)={4}^{3}-{9.4}^{2}+24.4-12$\n$=64-144+96-12=4$\n$∴$ নির্ণেয় লঘিষ্ঠমান 4 এবং গরিষ্ঠমান 8. (Ans.)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের আলোকে নির্ণয় কর : \n(i) $\\int\\phi(x)dx$ ; (ii) $\\int\\psi(x)dx$",
-          "answerText": "(i)\n$\\intϕ(x)dx=\\int\\frac{1}{\\sqrt{12-16{x}^{2}}}dx$\n$=\\int\\frac{1}{\\sqrt{16(\\frac{12}{16}-{x}^{2})}}dx$\n$=\\int\\frac{dx}{4\\times\\sqrt{\\frac{3}{4}-{x}^{2}}}=\\int\\frac{dx}{4\\sqrt{{(\\frac{\\sqrt{3}}{2})}^{2}-{x}^{2}}}$\n$=\\frac{1}{4}{\\sin}^{-1}(\\frac{x}{\\sqrt{3}})+c=\\frac{1}{4}{\\sin}^{-1}(\\frac{2x}{\\sqrt{3}})+c\\text{ (Ans.) }$\n(ii) \n$\\int\\Psi(x)dx=\\int{\\tan}^{-1}(\\frac{x}{5})dx$\n$={\\tan}^{-1}(\\frac{x}{5})\\intdx-\\int[\\frac{d}{dx}\\{{\\tan}^{-1}(\\frac{x}{5})\\}\\timesdx]dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\int\\frac{1}{1+\\frac{{x}^{2}}{25}}\\cdot\\frac{1}{5}\\cdotxdx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\int\\frac{5x}{25+{x}^{2}}dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\frac{5}{2}\\int\\frac{2x}{{5}^{2}+{x}^{2}}dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\frac{5}{2}\\ln|{5}^{2}+{x}^{2}|+c\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে নির্ণয় কর : \n(i) $\\int\\phi(x)dx$ ; (ii) $\\int\\psi(x)dx$"
+          },
+          "solution": {
+            "bn": "(i)\n$\\intϕ(x)dx=\\int\\frac{1}{\\sqrt{12-16{x}^{2}}}dx$\n$=\\int\\frac{1}{\\sqrt{16(\\frac{12}{16}-{x}^{2})}}dx$\n$=\\int\\frac{dx}{4\\times\\sqrt{\\frac{3}{4}-{x}^{2}}}=\\int\\frac{dx}{4\\sqrt{{(\\frac{\\sqrt{3}}{2})}^{2}-{x}^{2}}}$\n$=\\frac{1}{4}{\\sin}^{-1}(\\frac{x}{\\sqrt{3}})+c=\\frac{1}{4}{\\sin}^{-1}(\\frac{2x}{\\sqrt{3}})+c\\text{ (Ans.) }$\n(ii) \n$\\int\\Psi(x)dx=\\int{\\tan}^{-1}(\\frac{x}{5})dx$\n$={\\tan}^{-1}(\\frac{x}{5})\\intdx-\\int[\\frac{d}{dx}\\{{\\tan}^{-1}(\\frac{x}{5})\\}\\timesdx]dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\int\\frac{1}{1+\\frac{{x}^{2}}{25}}\\cdot\\frac{1}{5}\\cdotxdx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\int\\frac{5x}{25+{x}^{2}}dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\frac{5}{2}\\int\\frac{2x}{{5}^{2}+{x}^{2}}dx$\n= $x{\\tan}^{-1}\\frac{x}{5}-\\frac{5}{2}\\ln|{5}^{2}+{x}^{2}|+c\\text{ (Ans.) }$"
+          }
         }
       ],
       "assets": [],
@@ -415,52 +505,64 @@
       ]
     },
     {
-      "clientId": "barisal-2017-physics1st-cq08",
+      "clientId": "barisal-2017-math1st-cq08",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "08",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": ""
+          "questionText": "",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\int\\frac{dx}{1+{e}^{x}}$ নির্ণয় কর।",
-          "answerText": "$\\begin{matrix} & \\int\\frac{dx}{1+{e}^{x}}=\\int\\frac{{e}^{-x}dx}{{e}^{-x}+1} \\text{ ধরি, }{e}^{-x}+1=z\\\\ & =\\int\\frac{-dz}{z}\\\\ & ∴-{e}^{-x}dx=dz\\\\ & =-\\lnZ+c\\\\ & =-\\ln({e}^{-x}+1)+c\\text{ (Ans.) }\\\\ & \\end{matrix}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\int\\frac{dx}{1+{e}^{x}}$ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix} & \\int\\frac{dx}{1+{e}^{x}}=\\int\\frac{{e}^{-x}dx}{{e}^{-x}+1} \\text{ ধরি, }{e}^{-x}+1=z\\\\ & =\\int\\frac{-dz}{z}\\\\ & ∴-{e}^{-x}dx=dz\\\\ & =-\\lnZ+c\\\\ & =-\\ln({e}^{-x}+1)+c\\text{ (Ans.) }\\\\ & \\end{matrix}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ হতে নির্ণয় কর : (i) ${\\int}_{0}^{\\pi/2}\\sqrt{1+g(\\theta)}d\\theta$ ;\n${\\int}_{0}^{\\pi/2}f(\\theta)\\sqrt[3]{g(\\theta)}d\\theta$",
-          "answerText": "(i) $\\begin{matrix} & {\\int}_{0}^{\\pi/2}\\sqrt{1+g(\\theta)}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{1+\\sin\\theta}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{{\\sin}^{2}\\frac{\\theta}{2}+{\\cos}^{2}\\frac{\\theta}{2}+2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}}\\text{ }d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{{(\\sin\\frac{\\theta}{2}+\\cos\\frac{\\theta}{2})}^{2}}\\text{ }d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}(\\sin\\frac{\\theta}{2}+\\cos\\frac{\\theta}{2})d\\theta\\\\ & ={-\\frac{\\cos\\frac{\\theta}{2}}{\\frac{1}{2}}+\\frac{\\sin\\frac{\\theta}{2}}{\\frac{1}{2}}]}_{0}^{\\frac{\\pi}{2}}\\\\ & =-2\\cos\\frac{\\pi}{4}+2\\sin\\frac{\\pi}{4}+2\\cos0-2\\sin0\\\\ & =-2\\cdot\\frac{1}{\\sqrt{2}}+2\\cdot\\frac{1}{\\sqrt{2}}+2-0\\\\ & =2(\\text{ Ans. })\\end{matrix}$\nধরি, $z=\\sin\\theta$\n$∴dz=\\cos\\thetad\\theta$\n[IMG_0]\n$\\begin{matrix} & \\text{ (ii) }{\\int}_{0}^{\\pi/2}f(\\theta)\\sqrt[3]{g(\\theta)}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}{\\cos}^{3}\\theta\\sqrt[3]{\\sin\\theta}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}(1-{\\sin}^{2}\\theta)\\sqrt[3]{\\sin\\theta}\\cdot\\cos\\thetad\\theta\\\\ & ={\\int}_{0}^{1}(1-{z}^{2}){z}^{\\frac{1}{3}}dz\\\\ & ={\\int}_{0}^{1}({z}^{\\frac{1}{3}}-{z}^{\\frac{7}{3}})dz\\end{matrix}$\n$\\begin{matrix} & ={[\\frac{{z}^{\\frac{1}{3}+1}}{\\frac{1}{3}+1}-\\frac{{z}^{\\frac{7}{3}}+1}{\\frac{7}{3}+1}]}_{0}^{1}\\\\ & ={[\\frac{3}{4}\\cdot{z}^{\\frac{4}{3}}-\\frac{3}{10}{z}^{\\frac{10}{3}}]}_{0}^{1}\\\\ & =\\frac{3}{4}-\\frac{3}{10}-0+0\\\\ & =\\frac{15-6}{20}=\\frac{9}{20}\\text{ (Ans.) }\\end{matrix}$",
-          "assets": [
-            {
-              "sha256": "4335bfb6824e9f7692c3781289dc5960505e182e6ae30b031d3682ba3e7b3be5",
-              "role": "part-b-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ হতে নির্ণয় কর : (i) ${\\int}_{0}^{\\pi/2}\\sqrt{1+g(\\theta)}d\\theta$ ;\n${\\int}_{0}^{\\pi/2}f(\\theta)\\sqrt[3]{g(\\theta)}d\\theta$"
+          },
+          "solution": {
+            "bn": "(i) $\\begin{matrix} & {\\int}_{0}^{\\pi/2}\\sqrt{1+g(\\theta)}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{1+\\sin\\theta}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{{\\sin}^{2}\\frac{\\theta}{2}+{\\cos}^{2}\\frac{\\theta}{2}+2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}}\\text{ }d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}\\sqrt{{(\\sin\\frac{\\theta}{2}+\\cos\\frac{\\theta}{2})}^{2}}\\text{ }d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}(\\sin\\frac{\\theta}{2}+\\cos\\frac{\\theta}{2})d\\theta\\\\ & ={-\\frac{\\cos\\frac{\\theta}{2}}{\\frac{1}{2}}+\\frac{\\sin\\frac{\\theta}{2}}{\\frac{1}{2}}]}_{0}^{\\frac{\\pi}{2}}\\\\ & =-2\\cos\\frac{\\pi}{4}+2\\sin\\frac{\\pi}{4}+2\\cos0-2\\sin0\\\\ & =-2\\cdot\\frac{1}{\\sqrt{2}}+2\\cdot\\frac{1}{\\sqrt{2}}+2-0\\\\ & =2(\\text{ Ans. })\\end{matrix}$\nধরি, $z=\\sin\\theta$\n$∴dz=\\cos\\thetad\\theta$\n[IMG_0]\n$\\begin{matrix} & \\text{ (ii) }{\\int}_{0}^{\\pi/2}f(\\theta)\\sqrt[3]{g(\\theta)}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}{\\cos}^{3}\\theta\\sqrt[3]{\\sin\\theta}d\\theta\\\\ & ={\\int}_{0}^{\\pi/2}(1-{\\sin}^{2}\\theta)\\sqrt[3]{\\sin\\theta}\\cdot\\cos\\thetad\\theta\\\\ & ={\\int}_{0}^{1}(1-{z}^{2}){z}^{\\frac{1}{3}}dz\\\\ & ={\\int}_{0}^{1}({z}^{\\frac{1}{3}}-{z}^{\\frac{7}{3}})dz\\end{matrix}$\n$\\begin{matrix} & ={[\\frac{{z}^{\\frac{1}{3}+1}}{\\frac{1}{3}+1}-\\frac{{z}^{\\frac{7}{3}}+1}{\\frac{7}{3}+1}]}_{0}^{1}\\\\ & ={[\\frac{3}{4}\\cdot{z}^{\\frac{4}{3}}-\\frac{3}{10}{z}^{\\frac{10}{3}}]}_{0}^{1}\\\\ & =\\frac{3}{4}-\\frac{3}{10}-0+0\\\\ & =\\frac{15-6}{20}=\\frac{9}{20}\\text{ (Ans.) }\\end{matrix}$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ এর আলোকে বৃত্তটি দ্বারা আবদ্ধক্ষেত্রের ক্ষেত্রফল সমাকলন পদ্ধতিতে নির্ণয় কর।",
-          "answerText": "[IMG_0]\nনির্ণেয় ক্ষেত্রফল $=4\\times(y=\\sqrt{36-{x}^{2}},x$ অক্ষ এবং কোটি $x=0$ ও $x=6$ দ্বারা আবদ্ধ ক্ষুত্রের ক্ষেত্রফল)\nধরি, $x=6\\sin\\theta$\n$∴dx=6\\cos\\thetad\\theta$\nএবং $\\theta={\\sin}^{-1}\\frac{x}{6}$\n$\\begin{matrix} & =4{\\int}_{0}^{6}ydx\\\\ & =4{\\int}_{0}^{6}\\sqrt{36-{x}^{2}}dx\\\\ & =4{\\int}_{0}^{\\pi/2}\\sqrt{36-36{\\sin}^{2}\\theta}\\cdot6\\cos\\thetad\\theta\\\\ & =144{\\int}_{0}^{\\pi/2}\\sqrt{{\\cos}^{2}\\theta}\\cos\\thetad\\theta\\\\ & =144{\\int}_{0}^{\\pi/2}{\\cos}^{2}\\thetad\\theta\\\\ & =72{\\int}_{0}^{\\pi/2}2{\\cos}^{2}\\thetad\\theta\\\\ & =72{\\int}_{0}^{\\pi/2}(1+\\cos2\\theta)d\\theta\\\\ & =72{[\\theta+\\frac{1}{2}\\sin2\\theta]}_{0}^{\\frac{\\pi}{2}}\\\\ & =72[\\frac{\\pi}{2}+0-0]\\end{matrix}$\n$=36\\pi$ বগ একক। (Ans.)",
-          "assets": [
-            {
-              "sha256": "3f5e4cb8fe99b2601a4647332aa0462ab040342813e817cc40adc475286f80b5",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ এর আলোকে বৃত্তটি দ্বারা আবদ্ধক্ষেত্রের ক্ষেত্রফল সমাকলন পদ্ধতিতে নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "[IMG_0]\nনির্ণেয় ক্ষেত্রফল $=4\\times(y=\\sqrt{36-{x}^{2}},x$ অক্ষ এবং কোটি $x=0$ ও $x=6$ দ্বারা আবদ্ধ ক্ষুত্রের ক্ষেত্রফল)\nধরি, $x=6\\sin\\theta$\n$∴dx=6\\cos\\thetad\\theta$\nএবং $\\theta={\\sin}^{-1}\\frac{x}{6}$\n$\\begin{matrix} & =4{\\int}_{0}^{6}ydx\\\\ & =4{\\int}_{0}^{6}\\sqrt{36-{x}^{2}}dx\\\\ & =4{\\int}_{0}^{\\pi/2}\\sqrt{36-36{\\sin}^{2}\\theta}\\cdot6\\cos\\thetad\\theta\\\\ & =144{\\int}_{0}^{\\pi/2}\\sqrt{{\\cos}^{2}\\theta}\\cos\\thetad\\theta\\\\ & =144{\\int}_{0}^{\\pi/2}{\\cos}^{2}\\thetad\\theta\\\\ & =72{\\int}_{0}^{\\pi/2}2{\\cos}^{2}\\thetad\\theta\\\\ & =72{\\int}_{0}^{\\pi/2}(1+\\cos2\\theta)d\\theta\\\\ & =72{[\\theta+\\frac{1}{2}\\sin2\\theta]}_{0}^{\\frac{\\pi}{2}}\\\\ & =72[\\frac{\\pi}{2}+0-0]\\end{matrix}$\n$=36\\pi$ বগ একক। (Ans.)"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "4335bfb6824e9f7692c3781289dc5960505e182e6ae30b031d3682ba3e7b3be5",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "3f5e4cb8fe99b2601a4647332aa0462ab040342813e817cc40adc475286f80b5",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "c659311d7f9863b4ff9bc6e3cad2dde5601974f0ea8c5f1ac83e24bacfb0478c",
         "page": 2,

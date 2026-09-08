@@ -2,7 +2,7 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "combined-2018-physics1st-q1",
+      "clientId": "combined-2018-physics2nd-q1",
       "curriculum": {
         "path": null
       },
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\lambda$"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "R"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\gamma$"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "K"
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q2",
+      "clientId": "combined-2018-physics2nd-q2",
       "curriculum": {
         "path": null
       },
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${10}^{10}$"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "${10}^{11}$"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${10}^{12}$"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${10}^{13}$"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q3",
+      "clientId": "combined-2018-physics2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$8.33\\times{10}^{-6}F$"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$83.3\\times{10}^{-6}F$"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$833.3\\times{10}^{-6}F$"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$8333.3\\times{10}^{-6}F$"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q4",
+      "clientId": "combined-2018-physics2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$7.2:1$"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$1:7.2$"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$1:0.138$"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$0.138:1$"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q5",
+      "clientId": "combined-2018-physics2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "ক্যালরি/গ্রাম"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "জুল/ক্যালরি"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ক্যালরি\\জুল"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "জুল-ক্যালরি"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q6",
+      "clientId": "combined-2018-physics2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "পোস্ট অফিসে বিল সংগ্রহে"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "কোষের তড়িচ্চালক বল নির্ণয়ে"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "পরিবাহীর অজানা রোধ নির্ণয়ে"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "বর্তনীর প্রবাহমাত্রা নির্ণয়ে"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q7",
+      "clientId": "combined-2018-physics2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1 ওহম"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2 ওহম"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3 ওহম"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "4 ওহম"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q8",
+      "clientId": "combined-2018-physics2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ii"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q9",
+      "clientId": "combined-2018-physics2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/physics/2nd/chapter-4"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "2"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "3"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q10",
+      "clientId": "combined-2018-physics2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/physics/2nd/chapter-4"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "2"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "3"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q11",
+      "clientId": "combined-2018-physics2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$5\\sqrt{2}A$"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{5}{\\sqrt{2}}A$"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\sqrt{5}}{2}A$"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\sqrt{2}}{5}A$"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q12",
+      "clientId": "combined-2018-physics2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "4 $\\pi$"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "3 $\\pi$"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "2 $\\pi$"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$\\pi$"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q13",
+      "clientId": "combined-2018-physics2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/physics/2nd/chapter-3"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও iii"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "ii ও iii"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii ও iii"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q14",
+      "clientId": "combined-2018-physics2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/physics/2nd/chapter-9"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "${T}_{C}>{T}_{B}>{T}_{A}$"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${T}_{B}>{T}_{A}>{T}_{C}$"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${T}_{C}>{T}_{A}>{T}_{B}$"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${T}_{A}>{T}_{B}>{T}_{C}$"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q15",
+      "clientId": "combined-2018-physics2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "OR"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "X-OR"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "NOR"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "NAND"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q16",
+      "clientId": "combined-2018-physics2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/physics/2nd/chapter-7"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\lambda}{2}$"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\lambda$"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{3\\lambda}{2}$"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$2\\lambda$"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q17",
+      "clientId": "combined-2018-physics2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$3\\times{10}^{8}m{s}^{-1}$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$2.99\\times{10}^{8}m{s}^{-1}$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$2.92\\times{10}^{8}m{s}^{-1}$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$2.90\\times{10}^{8}m{s}^{-1}$"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q18",
+      "clientId": "combined-2018-physics2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/physics/2nd/chapter-4"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "31.4"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "3.14"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "0.314"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "0.0314"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q19",
+      "clientId": "combined-2018-physics2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "র‍্যালেজিন্স"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "প্ল্যাঙ্ক"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "স্টিফেন"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "ভীন"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q20",
+      "clientId": "combined-2018-physics2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "1863 MeV"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "1863 eV"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "931.5 MeV"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "931.5 eV"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q21",
+      "clientId": "combined-2018-physics2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "সমানুপাতিক"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "ব্যস্তানুপাতিক"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "সমান"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "দ্বিগুণ"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q22",
+      "clientId": "combined-2018-physics2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "${\\nu}_{r}>{\\nu}_{0}>{\\nu}_{y}$"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "${\\nu}_{y}>{\\nu}_{0}>{\\nu}_{r}$"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${\\nu}_{0}>{\\nu}_{y}>{\\nu}_{r}$"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${\\nu}_{0}>{\\nu}_{r}>{\\nu}_{y}$"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q23",
+      "clientId": "combined-2018-physics2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/physics/2nd/chapter-8"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i ও ii"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii ও iii"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii ও iii"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q24",
+      "clientId": "combined-2018-physics2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "3"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "8"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "10"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "16"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "combined-2018-physics1st-q25",
+      "clientId": "combined-2018-physics2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/physics/2nd/chapter-10"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "শোষক"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "বিচ্ছুরক"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "প্রতিফলক"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "প্রতিসরক"

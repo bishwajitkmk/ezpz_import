@@ -2,35 +2,48 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "comilla-2017-physics1st-cq01",
+      "clientId": "comilla-2017-math1st-cq01",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/math/1st/chapter-1"
       },
       "questionNumber": "01",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$\\partial.\\DeltaA=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}],B=[\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}],C=[\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}]$\n$D=[\\begin{matrix}1 & 1 & -1\\\\ 0 & -2 & 2\\\\ 1 & 2 & 3\\end{matrix}]$"
+          "questionText": "$\\partial.\\DeltaA=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}],B=[\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}],C=[\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}]$\n$D=[\\begin{matrix}1 & 1 & -1\\\\ 0 & -2 & 2\\\\ 1 & 2 & 3\\end{matrix}]$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$x$ এর যেসব মানের জন্য $[\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}]$ ম্যাট্রিক্স ব্যতিক্রমী হবে তা নির্ণয় কর।",
-          "answerText": "$[\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}]$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, $|\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}|=0$\nবা, $3{x}^{2}-10x=0$ বা, $x(3x-10)=0$\n$∴x=0,\\frac{10}{3}$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$x$ এর যেসব মানের জন্য $[\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}]$ ম্যাট্রিক্স ব্যতিক্রমী হবে তা নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$[\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}]$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, $|\\begin{matrix}{x}^{2} & 2x\\\\ 5 & 3\\end{matrix}|=0$\nবা, $3{x}^{2}-10x=0$ বা, $x(3x-10)=0$\n$∴x=0,\\frac{10}{3}$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "$AB-{C}^{2}+2{I}_{2}$ নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $A=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}],B=[\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}]$\n$AB=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}][\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}]$\n$=[\\begin{matrix}-1-6-15 & 2+14-0\\\\ 2-3+0 & -4+7+0\\end{matrix}]=[\\begin{matrix}-22 & 16\\\\ -1 & 3\\end{matrix}]$\n${C}^{2}=C\\cdotC=[\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}][\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}]=[\\begin{matrix}25+1 & 5-3\\\\ 5-3 & 1+9\\end{matrix}]=[\\begin{matrix}26 & 2\\\\ 2 & 10\\end{matrix}]$\n$∴$ প্রদত্ত রাশি $=AB-{C}^{2}+2{I}_{2}$\n$=[\\begin{matrix}-22 & 16\\\\ -1 & 3\\end{matrix}]-[\\begin{matrix}26 & 2\\\\ 2 & 10\\end{matrix}]+[\\begin{matrix}2 & 0\\\\ 0 & 2\\end{matrix}]$\n$=[\\begin{matrix}-22-26+2 & 16-2+0\\\\ -1-2+0 & 3-10+2\\end{matrix}]=[\\begin{matrix}-46 & 14\\\\ -3 & -5\\end{matrix}]$\n(Ans.)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "$AB-{C}^{2}+2{I}_{2}$ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $A=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}],B=[\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}]$\n$AB=[\\begin{matrix}1 & 2 & -3\\\\ -2 & 1 & 0\\end{matrix}][\\begin{matrix}-1 & 2\\\\ -3 & 7\\\\ 5 & 0\\end{matrix}]$\n$=[\\begin{matrix}-1-6-15 & 2+14-0\\\\ 2-3+0 & -4+7+0\\end{matrix}]=[\\begin{matrix}-22 & 16\\\\ -1 & 3\\end{matrix}]$\n${C}^{2}=C\\cdotC=[\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}][\\begin{matrix}5 & 1\\\\ 1 & -3\\end{matrix}]=[\\begin{matrix}25+1 & 5-3\\\\ 5-3 & 1+9\\end{matrix}]=[\\begin{matrix}26 & 2\\\\ 2 & 10\\end{matrix}]$\n$∴$ প্রদত্ত রাশি $=AB-{C}^{2}+2{I}_{2}$\n$=[\\begin{matrix}-22 & 16\\\\ -1 & 3\\end{matrix}]-[\\begin{matrix}26 & 2\\\\ 2 & 10\\end{matrix}]+[\\begin{matrix}2 & 0\\\\ 0 & 2\\end{matrix}]$\n$=[\\begin{matrix}-22-26+2 & 16-2+0\\\\ -1-2+0 & 3-10+2\\end{matrix}]=[\\begin{matrix}-46 & 14\\\\ -3 & -5\\end{matrix}]$\n(Ans.)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "${D}^{-1}$ নির্ণয় কর।",
-          "answerText": "$|D|=|\\begin{matrix}1 & 1 & -1\\\\ 0 & -2 & 2\\\\ 1 & 2 & 3\\end{matrix}|=1(-6-4)-1(0-2)+(-1)(0+2)$\n$=-10+2-2=-10\\neq0$\n$∴{D}^{-1}$ নির্ণয়যোগ্য।\n$∴adjD={[\\begin{matrix}|\\begin{matrix}-2 & 2\\\\ 2 & 3\\end{matrix}| & -|\\begin{matrix}0 & 2\\\\ 1 & 3\\end{matrix}| & |\\begin{matrix}0 & -2\\\\ 1 & 2\\end{matrix}|\\\\ -|\\begin{matrix}1 & -1\\\\ 2 & 3\\end{matrix}| & |\\begin{matrix}1 & -1\\\\ 1 & 3\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & 2\\end{matrix}|\\\\ |\\begin{matrix}1 & -1\\\\ -2 & 2\\end{matrix}| & -|\\begin{matrix}1 & -1\\\\ 0 & 2\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 0 & -2\\end{matrix}|\\end{matrix}]}^{t}$\n$={[\\begin{matrix}-10 & 2 & 2\\\\ -5 & 4 & -1\\\\ 0 & -2 & -2\\end{matrix}]}^{t}=[\\begin{matrix}-10 & -5 & 0\\\\ 2 & 4 & -2\\\\ 2 & -1 & -2\\end{matrix}]$\n$∴{D}^{-1}=\\frac{1}{|D|}$ adj $D=\\frac{1}{-10}[\\begin{matrix}-10 & -5 & 0\\\\ 2 & 4 & -2\\\\ 2 & -1 & -2\\end{matrix}]$\n$=\\frac{1}{10}[\\begin{matrix}10 & 5 & 0\\\\ -2 & -4 & 2\\\\ -2 & 1 & 2\\end{matrix}]$ (Ans.)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "${D}^{-1}$ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$|D|=|\\begin{matrix}1 & 1 & -1\\\\ 0 & -2 & 2\\\\ 1 & 2 & 3\\end{matrix}|=1(-6-4)-1(0-2)+(-1)(0+2)$\n$=-10+2-2=-10\\neq0$\n$∴{D}^{-1}$ নির্ণয়যোগ্য।\n$∴adjD={[\\begin{matrix}|\\begin{matrix}-2 & 2\\\\ 2 & 3\\end{matrix}| & -|\\begin{matrix}0 & 2\\\\ 1 & 3\\end{matrix}| & |\\begin{matrix}0 & -2\\\\ 1 & 2\\end{matrix}|\\\\ -|\\begin{matrix}1 & -1\\\\ 2 & 3\\end{matrix}| & |\\begin{matrix}1 & -1\\\\ 1 & 3\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & 2\\end{matrix}|\\\\ |\\begin{matrix}1 & -1\\\\ -2 & 2\\end{matrix}| & -|\\begin{matrix}1 & -1\\\\ 0 & 2\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 0 & -2\\end{matrix}|\\end{matrix}]}^{t}$\n$={[\\begin{matrix}-10 & 2 & 2\\\\ -5 & 4 & -1\\\\ 0 & -2 & -2\\end{matrix}]}^{t}=[\\begin{matrix}-10 & -5 & 0\\\\ 2 & 4 & -2\\\\ 2 & -1 & -2\\end{matrix}]$\n$∴{D}^{-1}=\\frac{1}{|D|}$ adj $D=\\frac{1}{-10}[\\begin{matrix}-10 & -5 & 0\\\\ 2 & 4 & -2\\\\ 2 & -1 & -2\\end{matrix}]$\n$=\\frac{1}{10}[\\begin{matrix}10 & 5 & 0\\\\ -2 & -4 & 2\\\\ -2 & 1 & 2\\end{matrix}]$ (Ans.)"
+          }
         }
       ],
       "assets": [],
@@ -59,35 +72,48 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq02",
+      "clientId": "comilla-2017-math1st-cq02",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/math/1st/chapter-3"
       },
       "questionNumber": "02",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "5x-4y-1 = 03-8x + 7y + 1 = 0 রেখাদ্বয়ের ছেদবিন্দু স্টেশনমাস্টারের কক্ষে অবস্থিত।\n4x + 3y - 5 = 0 রেখা বরাবর রেলপথের একটি লাইন অবস্থিত।"
+          "questionText": "5x-4y-1 = 03-8x + 7y + 1 = 0 রেখাদ্বয়ের ছেদবিন্দু স্টেশনমাস্টারের কক্ষে অবস্থিত।\n4x + 3y - 5 = 0 রেখা বরাবর রেলপথের একটি লাইন অবস্থিত।",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "(-1, 2) এবং (3, -5) বিন্দুগামী সরলরেখার সমীকরণ নির্ণয় কর।",
-          "answerText": "$(-1,2)$ এবং $(3,-5)$ বিন্দুগামী সরলরেখার সমীকরণ,\n$\\frac{x+1}{-1-3}=\\frac{y-2}{2+5}$\nবা, $\\frac{x+1}{-4}=\\frac{y-2}{7}$\nবা, $7x+7=-4y+8$\n$∴ 7x+4y=1$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "(-1, 2) এবং (3, -5) বিন্দুগামী সরলরেখার সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$(-1,2)$ এবং $(3,-5)$ বিন্দুগামী সরলরেখার সমীকরণ,\n$\\frac{x+1}{-1-3}=\\frac{y-2}{2+5}$\nবা, $\\frac{x+1}{-4}=\\frac{y-2}{7}$\nবা, $7x+7=-4y+8$\n$∴ 7x+4y=1$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "স্টেশনমাস্টারের কক্ষ বিন্দু হতে রেললাইনের উপর অঙ্কিত লম্বের সমীকরণ নির্ণয় কর।",
-          "answerText": "$5x-4y-1=0$ ....... (i)\n$-8x+7y+1=0$ ...... (ii)\n$4x+3y-5=0$ ...... (iii)\n(i) নং কে 7 দ্বারা ও (ii) নং কে 4 দ্বারা গুণ করে যোগ করে পাই,\n$35x-28y-7-32x+28y+4=0$\nবা, $3x-3=0 ∴x=1$\n$x$ এর মান (ii) নং এ বসিয়ে, $-8.1+7y+1=0$\n$∴y=1$\n$∴$ (i) ও (ii) নং রেখার ছেদবিন্দু $(1,1)$\n(iii) নং রেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n$3x-4y+k=0......(iv)$\n(iv) নং (1,1) বিন্দুগামী,\n$3.1-4.1+k=0∴k=1$\n$k$ এর মান (iv) নং এ বসিয়ে পাই,\n$3x-4y+1=0\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "স্টেশনমাস্টারের কক্ষ বিন্দু হতে রেললাইনের উপর অঙ্কিত লম্বের সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$5x-4y-1=0$ ....... (i)\n$-8x+7y+1=0$ ...... (ii)\n$4x+3y-5=0$ ...... (iii)\n(i) নং কে 7 দ্বারা ও (ii) নং কে 4 দ্বারা গুণ করে যোগ করে পাই,\n$35x-28y-7-32x+28y+4=0$\nবা, $3x-3=0 ∴x=1$\n$x$ এর মান (ii) নং এ বসিয়ে, $-8.1+7y+1=0$\n$∴y=1$\n$∴$ (i) ও (ii) নং রেখার ছেদবিন্দু $(1,1)$\n(iii) নং রেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n$3x-4y+k=0......(iv)$\n(iv) নং (1,1) বিন্দুগামী,\n$3.1-4.1+k=0∴k=1$\n$k$ এর মান (iv) নং এ বসিয়ে পাই,\n$3x-4y+1=0\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "রেললাইনের সাথে 3x 4y + 6 = 0 রেখা দ্বারা উৎপন্ন সূক্ষ্মকোণের সমদ্বিখন্ডকের সমীকরণ নির্ণয় কর।",
-          "answerText": "$4x+3y-5=0\\text{................ (i)}$\n$3x-4y+6=0\\text{.......... (ii) }$\nএখানে, ${a}_{1}{a}_{2}+{b}_{1}{\\text{ }b}_{2}=4\\times3+3(-4)=0$\n$∴$ (i) ও (ii) নং সরলরেখা পরস্পর লম্ব।\nসুতরাং রেখাদ্বয়ের অন্তর্ভুক্ত প্রতিটি কোণই এক সমকোণ এবং রেখাদ্বয়ের অন্তর্ভুক্ত কোনো সূক্মকোণ থাকবে না।\n$∴$ রেললাইনের সাথে $3x-4y+6=0$ রেখা দ্বারা উৎপন্ন সূক্মকোণের সমদ্বিখন্ডক নির্ণয় করা সম্ভব নয়।",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "রেললাইনের সাথে 3x 4y + 6 = 0 রেখা দ্বারা উৎপন্ন সূক্ষ্মকোণের সমদ্বিখন্ডকের সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$4x+3y-5=0\\text{................ (i)}$\n$3x-4y+6=0\\text{.......... (ii) }$\nএখানে, ${a}_{1}{a}_{2}+{b}_{1}{\\text{ }b}_{2}=4\\times3+3(-4)=0$\n$∴$ (i) ও (ii) নং সরলরেখা পরস্পর লম্ব।\nসুতরাং রেখাদ্বয়ের অন্তর্ভুক্ত প্রতিটি কোণই এক সমকোণ এবং রেখাদ্বয়ের অন্তর্ভুক্ত কোনো সূক্মকোণ থাকবে না।\n$∴$ রেললাইনের সাথে $3x-4y+6=0$ রেখা দ্বারা উৎপন্ন সূক্মকোণের সমদ্বিখন্ডক নির্ণয় করা সম্ভব নয়।"
+          }
         }
       ],
       "assets": [],
@@ -116,35 +142,48 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq03",
+      "clientId": "comilla-2017-math1st-cq03",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/1st/chapter-4"
       },
       "questionNumber": "03",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "একটি রিক্সার সামনের চাকা x2 + y2 -2x - 1 = 0 2 - সমীকরণ দ্বারা সূচিত।"
+          "questionText": "একটি রিক্সার সামনের চাকা x2 + y2 -2x - 1 = 0 2 - সমীকরণ দ্বারা সূচিত।",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "মূলবিন্দুগামী যে রেখা 2x + 5y + 6 = 0 রেখার উপর লম্ব তার সমীকরণ নির্ণয় কর।",
-          "answerText": "প্রদত্ত রেখা, 2x + 5y + 6 = 0\nরেখাটির উপর লম্ব রেখার সমীকরণ,\n5x-2y + k = 0 ....... (i) \n(i) রেখাটি মূলবিন্দুগামী হওয়ায়, 0-0+k=0 \nবা, k=0\n(i) নং এ k এর মান বসিয়ে পাই, 5x-2y+0=0\nবা, 5x-2y = 0\nনির্ণেয় সমীকরণ 5x - 2y = 0.",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "মূলবিন্দুগামী যে রেখা 2x + 5y + 6 = 0 রেখার উপর লম্ব তার সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত রেখা, 2x + 5y + 6 = 0\nরেখাটির উপর লম্ব রেখার সমীকরণ,\n5x-2y + k = 0 ....... (i) \n(i) রেখাটি মূলবিন্দুগামী হওয়ায়, 0-0+k=0 \nবা, k=0\n(i) নং এ k এর মান বসিয়ে পাই, 5x-2y+0=0\nবা, 5x-2y = 0\nনির্ণেয় সমীকরণ 5x - 2y = 0."
+          }
         },
         {
-          "key": "b",
-          "questionText": "প্রমাণ কর যে, রিক্সাটির চাকার একটি স্পর্শক x+y+1=0",
-          "answerText": "এখানে, রিক্সার সামনের চাকার সমীকরণ,\n${x}^{2}+{y}^{2}-2x-1=0$\nবা, ${x}^{2}-2x+1+{y}^{2}-2=0$\nবা, $(x-1{)}^{2}+{y}^{2}=2$\nবা, $(x-1{)}^{2}+{y}^{2}=(\\sqrt{2}{)}^{2}$ ; যা একটি বৃত্ত নির্দেশ করে।\nবৃত্তের কেন্দ্র $(1,0)$ এবং ব্যাসার্ধ $\\sqrt{2}$ একক।\n$(1,0)$ বিন্দু হতে $x+y+1=0$ রেখোর উপর লম্বের দৈর্ঘ্য\n$=\\frac{1.1+0.1+1}{\\sqrt{{1}^{2}+{1}^{2}}}$\n$=\\frac{1+1}{\\sqrt{1+1}}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}=$ বৃত্তের ব্যাসার্ধ\n$∴$ রিক্সাটির চাকার একটি ম্পর্শক $x+y+1=0$ . (প্রমাণিত)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "প্রমাণ কর যে, রিক্সাটির চাকার একটি স্পর্শক x+y+1=0"
+          },
+          "solution": {
+            "bn": "এখানে, রিক্সার সামনের চাকার সমীকরণ,\n${x}^{2}+{y}^{2}-2x-1=0$\nবা, ${x}^{2}-2x+1+{y}^{2}-2=0$\nবা, $(x-1{)}^{2}+{y}^{2}=2$\nবা, $(x-1{)}^{2}+{y}^{2}=(\\sqrt{2}{)}^{2}$ ; যা একটি বৃত্ত নির্দেশ করে।\nবৃত্তের কেন্দ্র $(1,0)$ এবং ব্যাসার্ধ $\\sqrt{2}$ একক।\n$(1,0)$ বিন্দু হতে $x+y+1=0$ রেখোর উপর লম্বের দৈর্ঘ্য\n$=\\frac{1.1+0.1+1}{\\sqrt{{1}^{2}+{1}^{2}}}$\n$=\\frac{1+1}{\\sqrt{1+1}}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}=$ বৃত্তের ব্যাসার্ধ\n$∴$ রিক্সাটির চাকার একটি ম্পর্শক $x+y+1=0$ . (প্রমাণিত)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "x-অক্ষের উপর কেন্দ্রবিশিষ্ট এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা চাকাটির কেন্দ্র ও (3,0) বিন্দুগামী হবে।",
-          "answerText": "খ-হতে প্রাপ্ত, চাকাটির কেন্দ্র $(1,0)$\nধরি, বৃত্তের সমীকরণ, ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ ......... (ii) \nবৃত্তের কেন্দ্র x-অক্ষের উপর অবস্থিত\n$∴f=0$\nবৃত্তটি $(1,0)$ ও $(3,0)$ বিন্দুগামী\n$∴ 1+0+2\\text{ }g+0+c=0$\nবা, $2\\text{ }g+c+1=0$ ........ (iii)\nএবং $9+0+6\\text{ }g+0+c=0$\nবf, $6\\text{ }g+c+9=0$ . ........ (iv)\n(iv) নং হতে (iii) নং বিয়োগ কররে পাই, $4\\text{ }g+8=0$\nবা, $4g=-8$\nবা, $g=\\frac{-8}{4}=-2$\n(ii) নং এ $g,f,c$ এর মান বসিয়ে পাই,\n${x}^{2}+{y}^{2}+2\\cdot(-2)x+2.0.y+3=0$\nবা, ${x}^{2}+{y}^{2}-4x+3=0$\nনির্ণেয় বৃত্তের সমীকরণ ${x}^{2}+{y}^{2}-4x+3=0$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "x-অক্ষের উপর কেন্দ্রবিশিষ্ট এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা চাকাটির কেন্দ্র ও (3,0) বিন্দুগামী হবে।"
+          },
+          "solution": {
+            "bn": "খ-হতে প্রাপ্ত, চাকাটির কেন্দ্র $(1,0)$\nধরি, বৃত্তের সমীকরণ, ${x}^{2}+{y}^{2}+2gx+2fy+c=0$ ......... (ii) \nবৃত্তের কেন্দ্র x-অক্ষের উপর অবস্থিত\n$∴f=0$\nবৃত্তটি $(1,0)$ ও $(3,0)$ বিন্দুগামী\n$∴ 1+0+2\\text{ }g+0+c=0$\nবা, $2\\text{ }g+c+1=0$ ........ (iii)\nএবং $9+0+6\\text{ }g+0+c=0$\nবf, $6\\text{ }g+c+9=0$ . ........ (iv)\n(iv) নং হতে (iii) নং বিয়োগ কররে পাই, $4\\text{ }g+8=0$\nবা, $4g=-8$\nবা, $g=\\frac{-8}{4}=-2$\n(ii) নং এ $g,f,c$ এর মান বসিয়ে পাই,\n${x}^{2}+{y}^{2}+2\\cdot(-2)x+2.0.y+3=0$\nবা, ${x}^{2}+{y}^{2}-4x+3=0$\nনির্ণেয় বৃত্তের সমীকরণ ${x}^{2}+{y}^{2}-4x+3=0$"
+          }
         }
       ],
       "assets": [],
@@ -173,51 +212,64 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq04",
+      "clientId": "comilla-2017-math1st-cq04",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/math/1st/chapter-5"
       },
       "questionNumber": "04",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "প্রসিদ্ধ পদার্থবিজ্ঞানী Issac Newton ১৭৪২ সালে England এ জন্মগ্রহণ করেন।"
+          "questionText": "প্রসিদ্ধ পদার্থবিজ্ঞানী Issac Newton ১৭৪২ সালে England এ জন্মগ্রহণ করেন।",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "1, 2, 3, 4, 5, 6, 7, 8, 9 অঙ্কগুলো হতে ও দ্বারা বিভাজ্য নয় এরূপ অঙ্কগুলোর মধ্য হতে 4টি করে অঙ্ক কতভাবে বাছাই করা যায়?",
-          "answerText": "1, 2, 3, 4, 5, 6, 7, 8, 9 অঙ্কগুলো হতে ও দ্বারা বিভাজ্য নয় এরূপ অঙ্কগুলো হচ্ছে 1, 2, 4, 5, 7, ৪ অর্থাৎ ৩টি।\n1, 2, 4, 5, 7, 8 অঙ্কগুলো হতে এটি করে অঙ্ক বাছাই করার উপায় $={}^{6}{C}_{4}=15$\n$∴$ 15 ভাবে বাছাই করা যাবে।",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "1, 2, 3, 4, 5, 6, 7, 8, 9 অঙ্কগুলো হতে ও দ্বারা বিভাজ্য নয় এরূপ অঙ্কগুলোর মধ্য হতে 4টি করে অঙ্ক কতভাবে বাছাই করা যায়?"
+          },
+          "solution": {
+            "bn": "1, 2, 3, 4, 5, 6, 7, 8, 9 অঙ্কগুলো হতে ও দ্বারা বিভাজ্য নয় এরূপ অঙ্কগুলো হচ্ছে 1, 2, 4, 5, 7, ৪ অর্থাৎ ৩টি।\n1, 2, 4, 5, 7, 8 অঙ্কগুলো হতে এটি করে অঙ্ক বাছাই করার উপায় $={}^{6}{C}_{4}=15$\n$∴$ 15 ভাবে বাছাই করা যাবে।"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, দৃশ্যকল্পের বিজ্ঞানীর নামের শেষ অংশের বিন্যাস সংখ্যা নামের প্রথম অংশের বিন্যাস সংখার 12 গুণ।",
-          "answerText": "প্রদত্ত বিজ্ঞানীর নাম Issac Newton.\nনামের প্রথম অংশ Isaac শব্দটিতে মোট 5টি বর্ণ আছে যার মধ্যে s আছে ২টি এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ Issac শব্দটির বর্ণগুলোর বিন্যাস সংখ্যা = $=\\frac{5!}{2!}=\\frac{120}{2}=60$\nনামের শেষ অংশ Newton শব্দটিতে মোট 6টি বর্ণ আছে যার মধ্যে n আছে ২টি এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ Nowton শব্দটির বর্ণগুলোর বিন্যাস সংখ্যা $=\\frac{6!}{2!}=\\frac{720}{2}=360$\n[IMG_0]\n[IMG_1]\n$∴$ Newton এর বর্ণগুলোর বিন্যাস সংখ্যা = 6 × Issac এর বর্ণগুলোর সংখ্যা সুতরাং বিজ্ঞানীর নামের শেষ অংশের বিন্যাস সংখ্যা নামের প্রথম অংশের বিন্যাস সংখ্যার 6 গুণ। (দেখানো হলো)\n[বি. দ্র. প্রশ্নপত্রে বিন্যাস সংখ্যার 12 গুণ এর পরিবর্তে 6 গুণ হবে।",
-          "assets": [
-            {
-              "sha256": "14ab9e5c9b036163f49619962d0b9727940c2c2b1a3409edc680730972c82c4e",
-              "role": "part-b-answer",
-              "page": 2,
-              "bbox": null
-            },
-            {
-              "sha256": "5a887b2f9673a86fc2a68a57fa113cc7588447ff98d5e64889c2c87b18568247",
-              "role": "part-b-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, দৃশ্যকল্পের বিজ্ঞানীর নামের শেষ অংশের বিন্যাস সংখ্যা নামের প্রথম অংশের বিন্যাস সংখার 12 গুণ।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত বিজ্ঞানীর নাম Issac Newton.\nনামের প্রথম অংশ Isaac শব্দটিতে মোট 5টি বর্ণ আছে যার মধ্যে s আছে ২টি এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ Issac শব্দটির বর্ণগুলোর বিন্যাস সংখ্যা = $=\\frac{5!}{2!}=\\frac{120}{2}=60$\nনামের শেষ অংশ Newton শব্দটিতে মোট 6টি বর্ণ আছে যার মধ্যে n আছে ২টি এবং অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\n$∴$ Nowton শব্দটির বর্ণগুলোর বিন্যাস সংখ্যা $=\\frac{6!}{2!}=\\frac{720}{2}=360$\n[IMG_0]\n[IMG_1]\n$∴$ Newton এর বর্ণগুলোর বিন্যাস সংখ্যা = 6 × Issac এর বর্ণগুলোর সংখ্যা সুতরাং বিজ্ঞানীর নামের শেষ অংশের বিন্যাস সংখ্যা নামের প্রথম অংশের বিন্যাস সংখ্যার 6 গুণ। (দেখানো হলো)\n[বি. দ্র. প্রশ্নপত্রে বিন্যাস সংখ্যার 12 গুণ এর পরিবর্তে 6 গুণ হবে।"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্পে বিজ্ঞানীর জন্মভূমির নামের বর্ণগুলি থেকে পাঁচটি বর্ণ নিয়ে কতগুলি বিন্যাস গঠন করা যায়?",
-          "answerText": "বিজ্ঞানী Issac Newton এর জন্মভূমি England\nEngland শব্দটিতে মোট 7টি বর্ণ আছে যার মধ্যে n আছে 2টি অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\nশব্দটির বর্ণগুলো থেকে ১টি বর্ণ নিয়ে নিম্নোক্তভাবে বিন্যাস গঠন করা যায়:\n(i) সবগুলো বর্ণ ভিন্ন ভিন্ন।\nএক্ষেত্রে বিন্যাস সংখ্যা $={}^{6}{C}_{5}\\times5!=6\\times120=720$\n(ii) 2টি বর্ণ এক জাতীয় এবং অপর ওটি বর্ণ ভিন্ন ভিন্ন।\n5 এক্ষেত্রে বিন্যাস সংখ্যা $={}^{2}{C}_{2}\\times{}^{5}{C}_{3}\\times\\frac{5!}{2!}=600$\n$∴$ মোট বিন্যাস সংখ্যা = 720 + 600 = 1320 \n$∴$ 1320টি বিন্যাস গঠন করা যায়।",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্পে বিজ্ঞানীর জন্মভূমির নামের বর্ণগুলি থেকে পাঁচটি বর্ণ নিয়ে কতগুলি বিন্যাস গঠন করা যায়?"
+          },
+          "solution": {
+            "bn": "বিজ্ঞানী Issac Newton এর জন্মভূমি England\nEngland শব্দটিতে মোট 7টি বর্ণ আছে যার মধ্যে n আছে 2টি অবশিষ্ট বর্ণগুলো ভিন্ন ভিন্ন।\nশব্দটির বর্ণগুলো থেকে ১টি বর্ণ নিয়ে নিম্নোক্তভাবে বিন্যাস গঠন করা যায়:\n(i) সবগুলো বর্ণ ভিন্ন ভিন্ন।\nএক্ষেত্রে বিন্যাস সংখ্যা $={}^{6}{C}_{5}\\times5!=6\\times120=720$\n(ii) 2টি বর্ণ এক জাতীয় এবং অপর ওটি বর্ণ ভিন্ন ভিন্ন।\n5 এক্ষেত্রে বিন্যাস সংখ্যা $={}^{2}{C}_{2}\\times{}^{5}{C}_{3}\\times\\frac{5!}{2!}=600$\n$∴$ মোট বিন্যাস সংখ্যা = 720 + 600 = 1320 \n$∴$ 1320টি বিন্যাস গঠন করা যায়।"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "14ab9e5c9b036163f49619962d0b9727940c2c2b1a3409edc680730972c82c4e",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "5a887b2f9673a86fc2a68a57fa113cc7588447ff98d5e64889c2c87b18568247",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "be56457c8a1c44f328840b4730b4ec482593db1367d09245beb01debe8b99127",
         "page": 2,
@@ -243,35 +295,48 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq05",
+      "clientId": "comilla-2017-math1st-cq05",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/1st/chapter-7"
       },
       "questionNumber": "05",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$A=\\frac{2\\pi}{15},\\alpha+\\beta+\\gamma=\\pi$ এবং $\\cos\\alpha=\\cos\\beta\\cos\\gamma$"
+          "questionText": "$A=\\frac{2\\pi}{15},\\alpha+\\beta+\\gamma=\\pi$ এবং $\\cos\\alpha=\\cos\\beta\\cos\\gamma$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "প্রমাণ কর যে, $\\cos2p=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}$",
-          "answerText": "বামপক্ষ $=\\cos2p={\\cos}^{2}p-{\\sin}^{2}p$\n$={\\cos}^{2}p(1-\\frac{{\\sin}^{2}p}{{\\cos}^{2}p})=\\frac{1}{{\\sec}^{2}p}(1-{\\tan}^{2}p)$\n$=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}=$ ডানপক্ষ \n$∴\\cos2p=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "প্রমাণ কর যে, $\\cos2p=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}$"
+          },
+          "solution": {
+            "bn": "বামপক্ষ $=\\cos2p={\\cos}^{2}p-{\\sin}^{2}p$\n$={\\cos}^{2}p(1-\\frac{{\\sin}^{2}p}{{\\cos}^{2}p})=\\frac{1}{{\\sec}^{2}p}(1-{\\tan}^{2}p)$\n$=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}=$ ডানপক্ষ \n$∴\\cos2p=\\frac{1-{\\tan}^{2}p}{1+{\\tan}^{2}p}$ (প্রমাণিত)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "উদ্দীপকের আলোকে, প্রমাণ কর যে, $16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A=1$",
-          "answerText": "দেওয়া আছে, $A=\\frac{2\\pi}{15}$\nবামপক্ষ $=16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{8}{\\sinA}(2\\sinA\\cosA)\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{4}{\\sinA}(2\\sin2\\text{ }A\\cos2\\text{ }A)\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{2}{\\sinA}(2\\sin4\\text{ }A\\cos4\\text{ }A)\\cos7\\text{ }A$\n$=\\frac{1}{\\sinA}(2\\sin8\\text{ }A\\cos7\\text{ }A)=\\frac{1}{\\sinA}(\\sin15\\text{ }A+\\sinA)$\n$=\\frac{1}{\\sinA}(\\sin2\\pi+\\sinA) [∵2\\pi=15\\text{ }A]$\n$=\\frac{1}{\\sinA}(0+\\sinA)=1=$ ডানপক্ষ \n$∴16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A=1$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে, প্রমাণ কর যে, $16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A=1$"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $A=\\frac{2\\pi}{15}$\nবামপক্ষ $=16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{8}{\\sinA}(2\\sinA\\cosA)\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{4}{\\sinA}(2\\sin2\\text{ }A\\cos2\\text{ }A)\\cos4\\text{ }A\\cos7\\text{ }A$\n$=\\frac{2}{\\sinA}(2\\sin4\\text{ }A\\cos4\\text{ }A)\\cos7\\text{ }A$\n$=\\frac{1}{\\sinA}(2\\sin8\\text{ }A\\cos7\\text{ }A)=\\frac{1}{\\sinA}(\\sin15\\text{ }A+\\sinA)$\n$=\\frac{1}{\\sinA}(\\sin2\\pi+\\sinA) [∵2\\pi=15\\text{ }A]$\n$=\\frac{1}{\\sinA}(0+\\sinA)=1=$ ডানপক্ষ \n$∴16\\cosA\\cos2\\text{ }A\\cos4\\text{ }A\\cos7\\text{ }A=1$ (প্রমাণিত)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপক থেকে দেখাও যে, $\\tan\\alpha=\\tan\\beta+\\tan\\gamma$",
-          "answerText": "দেওয়া আছে, $\\alpha+\\beta+\\gamma=\\pi$ বা, $\\beta+\\gamma=\\pi-\\alpha$\nএবং $\\cos\\alpha=\\cos\\beta\\cos\\gamma$\nডানপক্ষ $=\\tan\\beta+\\tan\\gamma=\\frac{\\sin\\beta}{\\cos\\beta}+\\frac{\\sin\\gamma}{\\cos\\gamma}$\n$=\\frac{\\sin\\beta\\cos\\gamma+\\cos\\beta\\sin\\gamma}{\\cos\\beta\\cos\\gamma}=\\frac{\\sin(\\beta+\\gamma)}{\\cos\\alpha}$\n$=\\frac{\\sin(\\pi-\\alpha)}{\\cos\\alpha}=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\tan\\alpha=$ বামপক্ষ \n$∴\\tan\\alpha=\\tan\\beta+\\tan\\gamma$ (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপক থেকে দেখাও যে, $\\tan\\alpha=\\tan\\beta+\\tan\\gamma$"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\alpha+\\beta+\\gamma=\\pi$ বা, $\\beta+\\gamma=\\pi-\\alpha$\nএবং $\\cos\\alpha=\\cos\\beta\\cos\\gamma$\nডানপক্ষ $=\\tan\\beta+\\tan\\gamma=\\frac{\\sin\\beta}{\\cos\\beta}+\\frac{\\sin\\gamma}{\\cos\\gamma}$\n$=\\frac{\\sin\\beta\\cos\\gamma+\\cos\\beta\\sin\\gamma}{\\cos\\beta\\cos\\gamma}=\\frac{\\sin(\\beta+\\gamma)}{\\cos\\alpha}$\n$=\\frac{\\sin(\\pi-\\alpha)}{\\cos\\alpha}=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\tan\\alpha=$ বামপক্ষ \n$∴\\tan\\alpha=\\tan\\beta+\\tan\\gamma$ (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -300,35 +365,48 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq06",
+      "clientId": "comilla-2017-math1st-cq06",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/1st/chapter-7"
       },
       "questionNumber": "06",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: $\\sinx+\\siny=a$ এবং $\\cosx+\\cosy=b$ দুইটি ত্রিকোণমিতিক সমীকরণ।\nদৃশ্যকল্প-২ : $△ABC$ এর $A+B+C=\\pi$"
+          "questionText": "দৃশ্যকল্প-১: $\\sinx+\\siny=a$ এবং $\\cosx+\\cosy=b$ দুইটি ত্রিকোণমিতিক সমীকরণ।\nদৃশ্যকল্প-২ : $△ABC$ এর $A+B+C=\\pi$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "যদি $△PQR$ এর তিনটি বাহুর দৈর্ঘ্য যথাক্রমে $p,q,r$ এবং ${p}^{2}+{q}^{2}-{r}^{2}=\\sqrt{2}pq$ হয়, তবে $R$ কোণের মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, ${p}^{2}+{q}^{2}-{r}^{2}=\\sqrt{2}pq$\nবা, $\\frac{{p}^{2}+{q}^{2}-{r}^{2}}{2pq}=\\frac{\\sqrt{2}pq}{2pq}$\nবা, $\\cosR=\\frac{1}{\\sqrt{2}}$\nবা, $\\cosR=\\cos{45}^{\\circ}$\n$∴R={45}^{\\circ}$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "যদি $△PQR$ এর তিনটি বাহুর দৈর্ঘ্য যথাক্রমে $p,q,r$ এবং ${p}^{2}+{q}^{2}-{r}^{2}=\\sqrt{2}pq$ হয়, তবে $R$ কোণের মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, ${p}^{2}+{q}^{2}-{r}^{2}=\\sqrt{2}pq$\nবা, $\\frac{{p}^{2}+{q}^{2}-{r}^{2}}{2pq}=\\frac{\\sqrt{2}pq}{2pq}$\nবা, $\\cosR=\\frac{1}{\\sqrt{2}}$\nবা, $\\cosR=\\cos{45}^{\\circ}$\n$∴R={45}^{\\circ}$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প : ১ এর আলোকে $\\cos(x+y)$ এর মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $\\sinx+\\siny=a$\nবা, $2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}=a$ ..... (i)\nএবং $\\cosx+\\cosy=b$\nবা, $2\\cos\\frac{x+y}{2}\\cos\\frac{x-y}{2}=b$ ...... (ii)\n(i) $\\div$ (ii) করে পাই, $\\tan\\frac{x+y}{2}=\\frac{a}{b}$\nবা, ${\\tan}^{2}\\frac{x+y}{2}=\\frac{{a}^{2}}{{b}^{2}}$ বা, ${\\sec}^{2}\\frac{x+y}{2}-1=\\frac{{a}^{2}}{{b}^{2}}$\nবা, ${\\sec}^{2}\\frac{x+y}{2}=1+\\frac{{a}^{2}}{{b}^{2}}$ বা, ${\\sec}^{2}\\frac{x+y}{2}=\\frac{{a}^{2}+{b}^{2}}{{b}^{2}}$\nবা, ${\\cos}^{2}\\frac{x+y}{2}=\\frac{{b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $2{\\cos}^{2}\\frac{x+y}{2}=\\frac{2{\\text{ }b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $1+\\cos(x+y)=\\frac{2{b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $\\cos(x+y)=\\frac{2{\\text{ }b}^{2}}{{a}^{2}+{b}^{2}}-1=\\frac{2{\\text{ }b}^{2}-{a}^{2}-{b}^{2}}{{a}^{2}+{b}^{2}}$\n$∴\\cos(x+y)=\\frac{{b}^{2}-{a}^{2}}{{\\text{ }b}^{2}+{a}^{2}}$ (Ans.)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প : ১ এর আলোকে $\\cos(x+y)$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\sinx+\\siny=a$\nবা, $2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}=a$ ..... (i)\nএবং $\\cosx+\\cosy=b$\nবা, $2\\cos\\frac{x+y}{2}\\cos\\frac{x-y}{2}=b$ ...... (ii)\n(i) $\\div$ (ii) করে পাই, $\\tan\\frac{x+y}{2}=\\frac{a}{b}$\nবা, ${\\tan}^{2}\\frac{x+y}{2}=\\frac{{a}^{2}}{{b}^{2}}$ বা, ${\\sec}^{2}\\frac{x+y}{2}-1=\\frac{{a}^{2}}{{b}^{2}}$\nবা, ${\\sec}^{2}\\frac{x+y}{2}=1+\\frac{{a}^{2}}{{b}^{2}}$ বা, ${\\sec}^{2}\\frac{x+y}{2}=\\frac{{a}^{2}+{b}^{2}}{{b}^{2}}$\nবা, ${\\cos}^{2}\\frac{x+y}{2}=\\frac{{b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $2{\\cos}^{2}\\frac{x+y}{2}=\\frac{2{\\text{ }b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $1+\\cos(x+y)=\\frac{2{b}^{2}}{{a}^{2}+{b}^{2}}$\nবা, $\\cos(x+y)=\\frac{2{\\text{ }b}^{2}}{{a}^{2}+{b}^{2}}-1=\\frac{2{\\text{ }b}^{2}-{a}^{2}-{b}^{2}}{{a}^{2}+{b}^{2}}$\n$∴\\cos(x+y)=\\frac{{b}^{2}-{a}^{2}}{{\\text{ }b}^{2}+{a}^{2}}$ (Ans.)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প : ২ হতে প্রমাণ কর যে, \n${\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C=2\\sinA\\cosB\\sinC$",
-          "answerText": "এখানে, $△ABC\\Omega,A+B+C=\\pi$\nবামপক্ষ $={\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C$\n$=(\\sinA+\\sinB)(\\sinA-\\sinB)+{\\sin}^{2}C$\n$=(2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2})\\cdot(2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2})+{\\sin}^{2}C$\n$=(2\\sin\\frac{A+B}{2}\\cos\\frac{A+B}{2})\\cdot(2\\sin\\frac{A-B}{2}\\cos\\frac{A-B}{2})+{\\sin}^{2}C$\n$=\\sin(A+B)\\sin(A-B)+{\\sin}^{2}C$\n$=\\sin(\\pi-C)\\sin(A-B)+{\\sin}^{2}C[∵A+B+C=\\pi]$\n$=\\sinC\\sin(A-B)+{\\sin}^{2}C$\n$=\\sinC\\{\\sin(A-B)+\\sinC\\}$\n$=\\sinC[\\sin(A-B)+\\sin\\{\\pi-(A+B)\\}][∵A+B+C=\\pi]$\n$=\\sinC\\{\\sin(A-B)+\\sin(A+B)\\}$\n$=\\sinC\\cdot2\\sinA\\cosB$\n$=2\\sinA\\cosB\\sinC=$ ডানপক্ষ\n$∴{\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C=2\\sinA\\cosB\\sinC$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প : ২ হতে প্রমাণ কর যে, \n${\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C=2\\sinA\\cosB\\sinC$"
+          },
+          "solution": {
+            "bn": "এখানে, $△ABC\\Omega,A+B+C=\\pi$\nবামপক্ষ $={\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C$\n$=(\\sinA+\\sinB)(\\sinA-\\sinB)+{\\sin}^{2}C$\n$=(2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2})\\cdot(2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2})+{\\sin}^{2}C$\n$=(2\\sin\\frac{A+B}{2}\\cos\\frac{A+B}{2})\\cdot(2\\sin\\frac{A-B}{2}\\cos\\frac{A-B}{2})+{\\sin}^{2}C$\n$=\\sin(A+B)\\sin(A-B)+{\\sin}^{2}C$\n$=\\sin(\\pi-C)\\sin(A-B)+{\\sin}^{2}C[∵A+B+C=\\pi]$\n$=\\sinC\\sin(A-B)+{\\sin}^{2}C$\n$=\\sinC\\{\\sin(A-B)+\\sinC\\}$\n$=\\sinC[\\sin(A-B)+\\sin\\{\\pi-(A+B)\\}][∵A+B+C=\\pi]$\n$=\\sinC\\{\\sin(A-B)+\\sin(A+B)\\}$\n$=\\sinC\\cdot2\\sinA\\cosB$\n$=2\\sinA\\cosB\\sinC=$ ডানপক্ষ\n$∴{\\sin}^{2}\\text{ }A-{\\sin}^{2}\\text{ }B+{\\sin}^{2}C=2\\sinA\\cosB\\sinC$ (প্রমাণিত)"
+          }
         }
       ],
       "assets": [],
@@ -357,35 +435,48 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq07",
+      "clientId": "comilla-2017-math1st-cq07",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/math/1st/chapter-9"
       },
       "questionNumber": "07",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$y=4x(6-x{)}^{2}$ এবং $f(x)={e}^{{\\tan}^{-1}x}$"
+          "questionText": "$y=4x(6-x{)}^{2}$ এবং $f(x)={e}^{{\\tan}^{-1}x}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\underset{x\\to0}{lim}\\frac{1-\\cos2x}{x}$ এর মান নির্ণয় কর।",
-          "answerText": "$\\underset{x\\to0}{lim}\\frac{1-\\cos2x}{x}=\\underset{x\\to0}{lim}\\frac{2{\\sin}^{2}x}{x}$\n$=2\\underset{x\\to0}{lim}x\\cdot\\underset{x\\to0}{lim}{(\\frac{\\sinx}{x})}^{2}$\n$=2.0{.1}^{2}=0\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\underset{x\\to0}{lim}\\frac{1-\\cos2x}{x}$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\underset{x\\to0}{lim}\\frac{1-\\cos2x}{x}=\\underset{x\\to0}{lim}\\frac{2{\\sin}^{2}x}{x}$\n$=2\\underset{x\\to0}{lim}x\\cdot\\underset{x\\to0}{lim}{(\\frac{\\sinx}{x})}^{2}$\n$=2.0{.1}^{2}=0\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "$y$ -এর গরিষ্ঠ মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $y=4x(6-x{)}^{2}=4x(36-12x+{x}^{2})$\n$=144x-48{x}^{2}+4{x}^{3}$\n$∴\\frac{dy}{dx}=144-96x+12{x}^{2}$\n$∴\\frac{{d}^{2}y}{d{x}^{2}}=-96+24x$\nলঘুমান ও গুরুমান এর জন্য, $\\frac{dy}{dx}=0$\nবা, $144-96x+12{x}^{2}=0$\nবা, ${x}^{2}-8x+12=0$\nবা, ${x}^{2}-6x-2x+12=0$\nবা, $(x-6)(x-2)=0$\n$∴x=6,2$\nx = 2 হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=-96+24\\times2=-48<0$\n$x=2$ এর জন্য প্রদত্ত ফাংশনটির গরিষ্ঠ মান বিদ্যমান।\n$∴$ গরিষ্ঠ মান $=4\\times2\\times(6-2{)}^{2}$\n$=8\\times16=128\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "$y$ -এর গরিষ্ঠ মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $y=4x(6-x{)}^{2}=4x(36-12x+{x}^{2})$\n$=144x-48{x}^{2}+4{x}^{3}$\n$∴\\frac{dy}{dx}=144-96x+12{x}^{2}$\n$∴\\frac{{d}^{2}y}{d{x}^{2}}=-96+24x$\nলঘুমান ও গুরুমান এর জন্য, $\\frac{dy}{dx}=0$\nবা, $144-96x+12{x}^{2}=0$\nবা, ${x}^{2}-8x+12=0$\nবা, ${x}^{2}-6x-2x+12=0$\nবা, $(x-6)(x-2)=0$\n$∴x=6,2$\nx = 2 হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=-96+24\\times2=-48<0$\n$x=2$ এর জন্য প্রদত্ত ফাংশনটির গরিষ্ঠ মান বিদ্যমান।\n$∴$ গরিষ্ঠ মান $=4\\times2\\times(6-2{)}^{2}$\n$=8\\times16=128\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "প্রমাণ কর যে, $(1+{x}^{2}){f}^{′′}(x)+(2x-1){f}^{′}(x)=0$",
-          "answerText": "ধরি, $y=f(x)={e}^{{\\tan}^{-1}x}$\nবা, $\\lny=\\ln{e}^{{\\tan}^{-1}x}$ [উভয়পক্ষে $\\ln$ নিয়ে]\nবা, $\\lny={\\tan}^{-1}x [∵\\lne=1]$\nবা, $\\frac{d}{dx}(\\lny)=\\frac{d}{dx}({\\tan}^{-1}x)$\nবা, $\\frac{1}{y}\\cdot{y}_{1}=\\frac{1}{1+{x}^{2}}$\nবা, ${y}_{1}(1+{x}^{2})=y$\nবা, $\\frac{d}{dx}\\{{y}_{1}(1+{x}^{2})\\}=\\frac{d}{dx}(y)$\nবা, $(1+{x}^{2}){y}_{2}+2x{y}_{1}={y}_{1}$\nবা, $(1+{x}^{2}){y}_{2}+(2x-1){y}_{1}=0$\n$∴(1+{x}^{2}){f}^{′′}(x)+(2x-1){f}^{′}(x)=0$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "প্রমাণ কর যে, $(1+{x}^{2}){f}^{′′}(x)+(2x-1){f}^{′}(x)=0$"
+          },
+          "solution": {
+            "bn": "ধরি, $y=f(x)={e}^{{\\tan}^{-1}x}$\nবা, $\\lny=\\ln{e}^{{\\tan}^{-1}x}$ [উভয়পক্ষে $\\ln$ নিয়ে]\nবা, $\\lny={\\tan}^{-1}x [∵\\lne=1]$\nবা, $\\frac{d}{dx}(\\lny)=\\frac{d}{dx}({\\tan}^{-1}x)$\nবা, $\\frac{1}{y}\\cdot{y}_{1}=\\frac{1}{1+{x}^{2}}$\nবা, ${y}_{1}(1+{x}^{2})=y$\nবা, $\\frac{d}{dx}\\{{y}_{1}(1+{x}^{2})\\}=\\frac{d}{dx}(y)$\nবা, $(1+{x}^{2}){y}_{2}+2x{y}_{1}={y}_{1}$\nবা, $(1+{x}^{2}){y}_{2}+(2x-1){y}_{1}=0$\n$∴(1+{x}^{2}){f}^{′′}(x)+(2x-1){f}^{′}(x)=0$ (প্রমাণিত)"
+          }
         }
       ],
       "assets": [],
@@ -414,52 +505,64 @@
       ]
     },
     {
-      "clientId": "comilla-2017-physics1st-cq08",
+      "clientId": "comilla-2017-math1st-cq08",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "08",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$u={e}^{x}\\text{ এবং }4{x}^{2}+9{y}^{2}=36$"
+          "questionText": "$u={e}^{x}\\text{ এবং }4{x}^{2}+9{y}^{2}=36$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "দেখাও যে, $\\int\\lnxdx=x\\lnx-x+C$",
-          "answerText": "$\\begin{matrix}\\int\\lnx & dx=\\lnx\\intdx-\\int\\{\\frac{d}{dx}(\\lnx)\\intdx\\}dx\\\\ = & x\\lnx-\\int\\frac{1}{x}\\cdotxdx=x\\lnx-\\intdx\\\\ =x\\lnx-x+c\\text{ (দেখানো হলো })\\end{matrix}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "দেখাও যে, $\\int\\lnxdx=x\\lnx-x+C$"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix}\\int\\lnx & dx=\\lnx\\intdx-\\int\\{\\frac{d}{dx}(\\lnx)\\intdx\\}dx\\\\ = & x\\lnx-\\int\\frac{1}{x}\\cdotxdx=x\\lnx-\\intdx\\\\ =x\\lnx-x+c\\text{ (দেখানো হলো })\\end{matrix}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "${\\int}_{0}^{\\ln2}\\frac{u}{1+u}dx$ এর মান নির্ণয় কর।",
-          "answerText": "ধরি, $z=1+{e}^{x}$\n$∴dz={e}^{x}dx$\n[IMG_0]\nদেওয়া আছে, u = ex\n$∴{\\int}_{0}^{\\ln2}\\frac{u}{1+u}dx$\n$={\\int}_{0}^{\\ln2}\\frac{{e}^{x}}{1+{e}^{x}}dx$\n$={\\int}_{2}^{3}\\frac{1}{z}dz=[\\lnz{]}_{2}^{3}$\n$=\\ln3-\\ln2=\\ln\\frac{3}{2}$ (Ans)",
-          "assets": [
-            {
-              "sha256": "8a18028b7bebf60b5e1e9ded9d5541ef7c185a4ac836371ec8d210d23ad55249",
-              "role": "part-b-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "${\\int}_{0}^{\\ln2}\\frac{u}{1+u}dx$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "ধরি, $z=1+{e}^{x}$\n$∴dz={e}^{x}dx$\n[IMG_0]\nদেওয়া আছে, u = ex\n$∴{\\int}_{0}^{\\ln2}\\frac{u}{1+u}dx$\n$={\\int}_{0}^{\\ln2}\\frac{{e}^{x}}{1+{e}^{x}}dx$\n$={\\int}_{2}^{3}\\frac{1}{z}dz=[\\lnz{]}_{2}^{3}$\n$=\\ln3-\\ln2=\\ln\\frac{3}{2}$ (Ans)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "যোগজীকরণের সাহায্যে প্রদত্ত উপবৃত্তের ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "[IMG_0]\nপ্রদত্ত উপবৃত্তের সমীকরণ,\n$4{x}^{2}+9{y}^{2}=36$ বা, $9{y}^{2}=36-4{x}^{2}$\nবা, ${y}^{2}=\\frac{4}{9}(9-{x}^{2})∴y=\\frac{2}{3}\\sqrt{9-{x}^{2}}$\nউপবৃত্তটি দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রেল\n$=4{\\int}_{0}^{3}ydx=4{\\int}_{0}^{3}\\frac{2}{3}\\sqrt{9-{x}^{2}}dx$\n$=\\frac{8}{3}{\\int}_{0}^{3}\\sqrt{9-{x}^{2}}dx$\n$x=3\\sin\\theta$ হলে, $dx=3\\cos\\thetad\\theta$\nসীমা: $x=0$ হলে, $\\theta=0$\nএবং $x=3$ হলে, $\\theta=\\frac{\\pi}{2}$\n$∴$ উপবৃত্তটির ক্ষের্রফল $=\\frac{8}{3}{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9-9{\\sin}^{2}\\theta}\\cdot3\\cos\\thetad\\theta$\n$=\\frac{8}{3}{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9(1-{\\sin}^{2}\\theta)}\\cdot3\\cos\\thetad\\theta$\n$=8{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9{\\cos}^{2}\\theta}\\cdot\\cos\\thetad\\theta$\n$=8{\\int}_{0}^{\\frac{\\pi}{2}}3\\cos\\theta\\times\\cos\\thetad\\theta$\n$=12{\\int}_{0}^{\\frac{\\pi}{2}}2{\\cos}^{2}\\thetad\\theta$\n$=12{\\int}_{0}^{\\frac{\\pi}{2}}(1+\\cos2\\theta)d\\theta$\n$=12{[\\theta+\\frac{1}{2}\\sin2\\theta]}_{0}^{\\frac{\\pi}{2}}$\n$=12(\\frac{\\pi}{2}+\\frac{1}{2}\\sin\\pi)$\n$=6\\pi$ বর্গ একক। (Ans.)",
-          "assets": [
-            {
-              "sha256": "b736d8f6b9c65f2af06278da41ae15711f216e6ff8a8bb37588c6019dc729304",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "যোগজীকরণের সাহায্যে প্রদত্ত উপবৃত্তের ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "[IMG_0]\nপ্রদত্ত উপবৃত্তের সমীকরণ,\n$4{x}^{2}+9{y}^{2}=36$ বা, $9{y}^{2}=36-4{x}^{2}$\nবা, ${y}^{2}=\\frac{4}{9}(9-{x}^{2})∴y=\\frac{2}{3}\\sqrt{9-{x}^{2}}$\nউপবৃত্তটি দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রেল\n$=4{\\int}_{0}^{3}ydx=4{\\int}_{0}^{3}\\frac{2}{3}\\sqrt{9-{x}^{2}}dx$\n$=\\frac{8}{3}{\\int}_{0}^{3}\\sqrt{9-{x}^{2}}dx$\n$x=3\\sin\\theta$ হলে, $dx=3\\cos\\thetad\\theta$\nসীমা: $x=0$ হলে, $\\theta=0$\nএবং $x=3$ হলে, $\\theta=\\frac{\\pi}{2}$\n$∴$ উপবৃত্তটির ক্ষের্রফল $=\\frac{8}{3}{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9-9{\\sin}^{2}\\theta}\\cdot3\\cos\\thetad\\theta$\n$=\\frac{8}{3}{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9(1-{\\sin}^{2}\\theta)}\\cdot3\\cos\\thetad\\theta$\n$=8{\\int}_{0}^{\\frac{\\pi}{2}}\\sqrt{9{\\cos}^{2}\\theta}\\cdot\\cos\\thetad\\theta$\n$=8{\\int}_{0}^{\\frac{\\pi}{2}}3\\cos\\theta\\times\\cos\\thetad\\theta$\n$=12{\\int}_{0}^{\\frac{\\pi}{2}}2{\\cos}^{2}\\thetad\\theta$\n$=12{\\int}_{0}^{\\frac{\\pi}{2}}(1+\\cos2\\theta)d\\theta$\n$=12{[\\theta+\\frac{1}{2}\\sin2\\theta]}_{0}^{\\frac{\\pi}{2}}$\n$=12(\\frac{\\pi}{2}+\\frac{1}{2}\\sin\\pi)$\n$=6\\pi$ বর্গ একক। (Ans.)"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "8a18028b7bebf60b5e1e9ded9d5541ef7c185a4ac836371ec8d210d23ad55249",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "b736d8f6b9c65f2af06278da41ae15711f216e6ff8a8bb37588c6019dc729304",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "be56457c8a1c44f328840b4730b4ec482593db1367d09245beb01debe8b99127",
         "page": 2,

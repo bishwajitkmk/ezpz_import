@@ -2,35 +2,48 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "jessore-2017-physics1st-cq01",
+      "clientId": "jessore-2017-math1st-cq01",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/math/1st/chapter-1"
       },
       "questionNumber": "01",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$\\begin{matrix} & x+y+z=1……\\text{ (i) }\\\\ & lx+my+nz=k……(ii)\\\\ & {l}^{2}x+{m}^{2}y+{n}^{2}z={k}^{2}………(iii)\\end{matrix}$"
+          "questionText": "$\\begin{matrix} & x+y+z=1……\\text{ (i) }\\\\ & lx+my+nz=k……(ii)\\\\ & {l}^{2}x+{m}^{2}y+{n}^{2}z={k}^{2}………(iii)\\end{matrix}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$2[\\begin{matrix}1 & -2\\\\ 2 & -1\\end{matrix}]+F={I}_{2}$ হলে, $F$ ম্যাট্রিক্সটি নির্ণয় কর; যেখানে ${I}_{2}$ একটি অভেদ ম্যাট্রিক্স।",
-          "answerText": "দেওয়া আছে, $2[\\begin{matrix}1 & -2\\\\ 2 & -1\\end{matrix}]+F={I}_{2}$\nবা, $[\\begin{matrix}2 & -4\\\\ 4 & -2\\end{matrix}]+F=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$\nবা, $F=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]-[\\begin{matrix}2 & -4\\\\ 4 & -2\\end{matrix}]∴F=[\\begin{matrix}-1 & 4\\\\ -4 & 3\\end{matrix}]$ (Ans.) $",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$2[\\begin{matrix}1 & -2\\\\ 2 & -1\\end{matrix}]+F={I}_{2}$ হলে, $F$ ম্যাট্রিক্সটি নির্ণয় কর; যেখানে ${I}_{2}$ একটি অভেদ ম্যাট্রিক্স।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $2[\\begin{matrix}1 & -2\\\\ 2 & -1\\end{matrix}]+F={I}_{2}$\nবা, $[\\begin{matrix}2 & -4\\\\ 4 & -2\\end{matrix}]+F=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]$\nবা, $F=[\\begin{matrix}1 & 0\\\\ 0 & 1\\end{matrix}]-[\\begin{matrix}2 & -4\\\\ 4 & -2\\end{matrix}]∴F=[\\begin{matrix}-1 & 4\\\\ -4 & 3\\end{matrix}]$ (Ans.) $"
+          }
         },
         {
-          "key": "b",
-          "questionText": "সমীকরণগুলোকে AX = B আকারে প্রকাশ করে দেখাও যে, $det(A)=(l-m)(m-n)(n-l)$ .",
-          "answerText": "$x+y+z=1$\n$lx+my+nz=k$\n${l}^{2}x+{m}^{2}y+{n}^{2}z={k}^{2}$\nম্যাট্রিক্স আকারে প্রকাশ করে পাই,\n$[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}][\\begin{matrix}x\\\\ y\\\\ z\\end{matrix}]=[\\begin{matrix}1\\\\ k\\\\ {k}^{2}\\end{matrix}]∴AX=B$\nযেখানে, $A=[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}]\\text{, }$\n$X=[\\begin{matrix}x\\\\ y\\\\ z\\end{matrix}]$ এবং $B=[\\begin{matrix}1\\\\ k\\\\ {k}^{2}\\end{matrix}]$\n$∴det(A)=|\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}1-1 & 1-1 & 1\\\\ l-m & m-n & n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2} & {n}^{2}\\end{matrix}| \\begin{matrix}[{C}_{1}{}^{′}={C}_{1}-{C}_{2};\\\\ {C}_{2}{}^{′}={C}_{1}-{C}_{3}]\\end{matrix}$\n$=|\\begin{matrix}0 & 0 & 1\\\\ l-m & m-n & n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2} & {n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}l-m & m-n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}l-m & m-n\\\\ (l+m)(l-m) & (m-n)(m+n)\\end{matrix}|$\n$=(l-m)(m-n)|\\begin{matrix}1 & 1\\\\ l+m & m+n\\end{matrix}|$\n$=(l-m)(m-n)(m+n-l-m)$\n$∴detA)=(l-m)(m-n)(n-l)$ দেখানো হনো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "সমীকরণগুলোকে AX = B আকারে প্রকাশ করে দেখাও যে, $det(A)=(l-m)(m-n)(n-l)$ ."
+          },
+          "solution": {
+            "bn": "$x+y+z=1$\n$lx+my+nz=k$\n${l}^{2}x+{m}^{2}y+{n}^{2}z={k}^{2}$\nম্যাট্রিক্স আকারে প্রকাশ করে পাই,\n$[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}][\\begin{matrix}x\\\\ y\\\\ z\\end{matrix}]=[\\begin{matrix}1\\\\ k\\\\ {k}^{2}\\end{matrix}]∴AX=B$\nযেখানে, $A=[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}]\\text{, }$\n$X=[\\begin{matrix}x\\\\ y\\\\ z\\end{matrix}]$ এবং $B=[\\begin{matrix}1\\\\ k\\\\ {k}^{2}\\end{matrix}]$\n$∴det(A)=|\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}1-1 & 1-1 & 1\\\\ l-m & m-n & n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2} & {n}^{2}\\end{matrix}| \\begin{matrix}[{C}_{1}{}^{′}={C}_{1}-{C}_{2};\\\\ {C}_{2}{}^{′}={C}_{1}-{C}_{3}]\\end{matrix}$\n$=|\\begin{matrix}0 & 0 & 1\\\\ l-m & m-n & n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2} & {n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}l-m & m-n\\\\ {l}^{2}-{m}^{2} & {\\text{ }m}^{2}-{n}^{2}\\end{matrix}|$\n$=|\\begin{matrix}l-m & m-n\\\\ (l+m)(l-m) & (m-n)(m+n)\\end{matrix}|$\n$=(l-m)(m-n)|\\begin{matrix}1 & 1\\\\ l+m & m+n\\end{matrix}|$\n$=(l-m)(m-n)(m+n-l-m)$\n$∴detA)=(l-m)(m-n)(n-l)$ দেখানো হনো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "$x,y,z$ এর সহগ নিয়ে গঠিত $A$ একটি ম্যাট্রিক্স। $A$ এর বিপরীত ম্যাট্রিক্স নির্ণয় কর;\nযেখানে $l=1,\\text{ }m=2,n=-1$ .",
-          "answerText": "(i), (ii) ও (iii) নং সমীকরণ হতে x, y ও z এর সহগ নিয়ে গঠিত\nম্যাট্রিক্স, $A=[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}]$\n$=[\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ {1}^{2} & {2}^{2} & (-1{)}^{2}\\end{matrix}][∵l=1,\\text{ }m=2,n=-1]$\n$=[\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ 1 & 4 & 1\\end{matrix}]$\n$∴|A|=|\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ 1 & 4 & 1\\end{matrix}|$\n$=1(2+4)-1(1+1)+1(4-2)$\n$=6-2+2=6\\neq0$\n$∴{A}^{-1}$ নির্ণয়যোগ্য।\n$∴adjA={[\\begin{matrix}|\\begin{matrix}2 & -1\\\\ 4 & 1\\end{matrix}| & -|\\begin{matrix}1 & -1\\\\ 1 & 1\\end{matrix}| & |\\begin{matrix}1 & 2\\\\ 1 & 4\\end{matrix}|\\\\ -|\\begin{matrix}1 & 1\\\\ 4 & 1\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 1 & 1\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & 4\\end{matrix}|\\\\ |\\begin{matrix}1 & 1\\\\ 2 & -1\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & -1\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 1 & 2\\end{matrix}|\\end{matrix}]}^{t}$\n$={[\\begin{matrix}6 & -2 & 2\\\\ 3 & 0 & -3\\\\ -3 & 2 & 1\\end{matrix}]}^{t}=[\\begin{matrix}6 & 3 & -3\\\\ -2 & 0 & 2\\\\ 2 & -3 & 1\\end{matrix}]$\n$∴{A}^{-1}=\\frac{1}{|\\text{ }A|}$ adj $A=\\frac{1}{6}[\\begin{matrix}6 & 3 & -3\\\\ -2 & 0 & 2\\\\ 2 & -3 & 1\\end{matrix}]$ (Ans.)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "$x,y,z$ এর সহগ নিয়ে গঠিত $A$ একটি ম্যাট্রিক্স। $A$ এর বিপরীত ম্যাট্রিক্স নির্ণয় কর;\nযেখানে $l=1,\\text{ }m=2,n=-1$ ."
+          },
+          "solution": {
+            "bn": "(i), (ii) ও (iii) নং সমীকরণ হতে x, y ও z এর সহগ নিয়ে গঠিত\nম্যাট্রিক্স, $A=[\\begin{matrix}1 & 1 & 1\\\\ l & \\text{ }m & n\\\\ {l}^{2} & {\\text{ }m}^{2} & {n}^{2}\\end{matrix}]$\n$=[\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ {1}^{2} & {2}^{2} & (-1{)}^{2}\\end{matrix}][∵l=1,\\text{ }m=2,n=-1]$\n$=[\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ 1 & 4 & 1\\end{matrix}]$\n$∴|A|=|\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & -1\\\\ 1 & 4 & 1\\end{matrix}|$\n$=1(2+4)-1(1+1)+1(4-2)$\n$=6-2+2=6\\neq0$\n$∴{A}^{-1}$ নির্ণয়যোগ্য।\n$∴adjA={[\\begin{matrix}|\\begin{matrix}2 & -1\\\\ 4 & 1\\end{matrix}| & -|\\begin{matrix}1 & -1\\\\ 1 & 1\\end{matrix}| & |\\begin{matrix}1 & 2\\\\ 1 & 4\\end{matrix}|\\\\ -|\\begin{matrix}1 & 1\\\\ 4 & 1\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 1 & 1\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & 4\\end{matrix}|\\\\ |\\begin{matrix}1 & 1\\\\ 2 & -1\\end{matrix}| & -|\\begin{matrix}1 & 1\\\\ 1 & -1\\end{matrix}| & |\\begin{matrix}1 & 1\\\\ 1 & 2\\end{matrix}|\\end{matrix}]}^{t}$\n$={[\\begin{matrix}6 & -2 & 2\\\\ 3 & 0 & -3\\\\ -3 & 2 & 1\\end{matrix}]}^{t}=[\\begin{matrix}6 & 3 & -3\\\\ -2 & 0 & 2\\\\ 2 & -3 & 1\\end{matrix}]$\n$∴{A}^{-1}=\\frac{1}{|\\text{ }A|}$ adj $A=\\frac{1}{6}[\\begin{matrix}6 & 3 & -3\\\\ -2 & 0 & 2\\\\ 2 & -3 & 1\\end{matrix}]$ (Ans.)"
+          }
         }
       ],
       "assets": [],
@@ -59,35 +72,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq02",
+      "clientId": "jessore-2017-math1st-cq02",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-5"
+        "path": "hsc/math/1st/chapter-5"
       },
       "questionNumber": "02",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "SYLHET থেকে BANDARBAN এ 10 জন শিক্ষার্থীর একটি দল শিক্ষাসফরে আসল। তাদেরকে দুটি গাড়ীতে ভ্রমণ করতে হবে, যার একটিতে 7 জনের বেশি ও অন্যটিতে 4 জনের বেশি শিক্ষার্থী ধরে না।"
+          "questionText": "SYLHET থেকে BANDARBAN এ 10 জন শিক্ষার্থীর একটি দল শিক্ষাসফরে আসল। তাদেরকে দুটি গাড়ীতে ভ্রমণ করতে হবে, যার একটিতে 7 জনের বেশি ও অন্যটিতে 4 জনের বেশি শিক্ষার্থী ধরে না।",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "f(x) = 2x - 5 এবং g(x) = x² + 6 নির্ণয় কর। হলে, (gof) (2) নির্ণয় কর।",
-          "answerText": "এখানে, $f(x)=2x-5$ এবং $g(x)={x}^{2}+6$\ngof $(x)=g(f(x)=g(2x-5)$\n$=(2x-5{)}^{2}+6$\n$=4{x}^{2}-20x+25+6$\n$=4{x}^{2}-20x+31$\n$∴ gof(2)={4.2}^{2}-20.2+31$\n$=16-40+31$\n$=47-40$\n$=7$\nনির্ণেয় মান 7.",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "f(x) = 2x - 5 এবং g(x) = x² + 6 নির্ণয় কর। হলে, (gof) (2) নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "এখানে, $f(x)=2x-5$ এবং $g(x)={x}^{2}+6$\ngof $(x)=g(f(x)=g(2x-5)$\n$=(2x-5{)}^{2}+6$\n$=4{x}^{2}-20x+25+6$\n$=4{x}^{2}-20x+31$\n$∴ gof(2)={4.2}^{2}-20.2+31$\n$=16-40+31$\n$=47-40$\n$=7$\nনির্ণেয় মান 7."
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, ১ম স্থানটির বর্ণগুলির বিন্যাস সংখ্যা ২য় স্থানটির বর্ণগুলির বিন্যাস সংখ্যার 21 গুণ।",
-          "answerText": "১ম স্থান SYLHET এ মোট 6টি বর্ণ আছে যার মধ্যে সবগুলো বর্ণ ভিন্ন ভিন্ন।\n$∴$ SYLHET এর বর্ণগুলির বিন্যাস সংখ্যা = 6! = 720 \nBANDARBAN এ মোট ৭টি বর্ণ আছে যার মধ্যে B আছে 2টি, A আছে 3টি, N আছে ২টি এবং অবশিষ্ট বর্ণগুলি ভিন্ন ভিন্ন।\n$∴$ BANDARBAN এর বর্ণগুলির বিন্যাস সংখ্যা\n$=\\frac{9!}{2!3!2!}=\\frac{362880}{2.6.2}$\n$=15120=21\\times720$\n= 21 × SYLHET এর বর্ণগুলির বিন্যাস সংখ্যা\n$∴$ ২য় স্থানটির বর্ণগুলির বিন্যাস সংখ্যা ১ম স্থানটির বিন্যাস সংখ্যার 21 গুণ। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, ১ম স্থানটির বর্ণগুলির বিন্যাস সংখ্যা ২য় স্থানটির বর্ণগুলির বিন্যাস সংখ্যার 21 গুণ।"
+          },
+          "solution": {
+            "bn": "১ম স্থান SYLHET এ মোট 6টি বর্ণ আছে যার মধ্যে সবগুলো বর্ণ ভিন্ন ভিন্ন।\n$∴$ SYLHET এর বর্ণগুলির বিন্যাস সংখ্যা = 6! = 720 \nBANDARBAN এ মোট ৭টি বর্ণ আছে যার মধ্যে B আছে 2টি, A আছে 3টি, N আছে ২টি এবং অবশিষ্ট বর্ণগুলি ভিন্ন ভিন্ন।\n$∴$ BANDARBAN এর বর্ণগুলির বিন্যাস সংখ্যা\n$=\\frac{9!}{2!3!2!}=\\frac{362880}{2.6.2}$\n$=15120=21\\times720$\n= 21 × SYLHET এর বর্ণগুলির বিন্যাস সংখ্যা\n$∴$ ২য় স্থানটির বর্ণগুলির বিন্যাস সংখ্যা ১ম স্থানটির বিন্যাস সংখ্যার 21 গুণ। (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দলটি কত প্রকারে ভ্রমণ করতে পারবে?",
-          "answerText": "দুইটি গাড়ীতে 10 জন শিক্ষার্থী নিম্নোক্তভাবে ভ্রমণ করতে পারবে:\n(i) প্রথম গাড়ীতে 7 জন এবং দ্বিতীয় গাড়িতে ও জন।\nএক্ষেত্রে ভ্রমণ করতে পারবে = ${}^{10}{C}_{7}\\times{}^{3}{C}_{3}$ প্রকারে\n= 120 × 1 প্রকারে\n= 120 প্রকারে\n(ii) প্রথম গাড়ীতে 6 জন এবং দ্বিতীয় গাড়ীতে 4 জন।\nএক্ষেত্রে ভ্রমণ করতে পারবে = ${}^{10}{C}_{6}\\times{}^{4}{C}_{4}$ প্রকারে\n= 210 × 1 = 210 প্রকারে \n$∴$ দলটি ভ্রমণ করতে পারবে মোট = (120+210) প্রকারে = 330 প্রকারে \n$∴$ দলটি 330 প্রকারে ভ্রমণ করতে পারবে।",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দলটি কত প্রকারে ভ্রমণ করতে পারবে?"
+          },
+          "solution": {
+            "bn": "দুইটি গাড়ীতে 10 জন শিক্ষার্থী নিম্নোক্তভাবে ভ্রমণ করতে পারবে:\n(i) প্রথম গাড়ীতে 7 জন এবং দ্বিতীয় গাড়িতে ও জন।\nএক্ষেত্রে ভ্রমণ করতে পারবে = ${}^{10}{C}_{7}\\times{}^{3}{C}_{3}$ প্রকারে\n= 120 × 1 প্রকারে\n= 120 প্রকারে\n(ii) প্রথম গাড়ীতে 6 জন এবং দ্বিতীয় গাড়ীতে 4 জন।\nএক্ষেত্রে ভ্রমণ করতে পারবে = ${}^{10}{C}_{6}\\times{}^{4}{C}_{4}$ প্রকারে\n= 210 × 1 = 210 প্রকারে \n$∴$ দলটি ভ্রমণ করতে পারবে মোট = (120+210) প্রকারে = 330 প্রকারে \n$∴$ দলটি 330 প্রকারে ভ্রমণ করতে পারবে।"
+          }
         }
       ],
       "assets": [],
@@ -116,35 +142,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq03",
+      "clientId": "jessore-2017-math1st-cq03",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/math/1st/chapter-3"
       },
       "questionNumber": "03",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "[IMG_0]\nচিত্রে: G, $△ABC$ এর ভরকেন্দ্র;\n$D,BC$ এর মধ্যবিন্দু, $EB⊥BC$ ।"
+          "questionText": "[IMG_0]\nচিত্রে: G, $△ABC$ এর ভরকেন্দ্র;\n$D,BC$ এর মধ্যবিন্দু, $EB⊥BC$ ।",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$△ABC$ এর ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "$\\DeltaABC$ এর ক্ষেফ্রল $=\\frac{1}{2}|\\begin{matrix}6 & 3 & 2 & 6\\\\ 3 & 5 & 1 & 3\\end{matrix}|$\n$=\\frac{1}{2}(30+3+6-9-10-6)$\n$=\\frac{1}{2}\\times14=7$ বর্গ একক (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$△ABC$ এর ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\DeltaABC$ এর ক্ষেফ্রল $=\\frac{1}{2}|\\begin{matrix}6 & 3 & 2 & 6\\\\ 3 & 5 & 1 & 3\\end{matrix}|$\n$=\\frac{1}{2}(30+3+6-9-10-6)$\n$=\\frac{1}{2}\\times14=7$ বর্গ একক (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, $G$ বিন্দুটি $AD$ রেখাকে $2:1$ অনুপাতে অন্তর্বিভক্ত করে।",
-          "answerText": "D বিন্দুর স্থানাঙ্ক $(\\frac{2+6}{2},\\frac{1+3}{2})≡(4,2)$\n$△ABC$ এর ভরকেন্দ্র,\n$G(\\frac{3+2+6}{3},\\frac{5+1+3}{3})≡(\\frac{11}{3},3)$\nধরি, $G$ বিন্দুটি $AD$ রেখাকে ${m}_{1}\\circ{m}_{2}$ অনুপাতে অন্তর্বিভক্ত করে।\nশর্তমতে, $\\frac{11}{3}=\\frac{{m}_{1}\\times4+{m}_{2}\\times3}{{\\text{ }m}_{1}+{m}_{2}}$\nবা, $11{\\text{ }m}_{1}+11{\\text{ }m}_{2}=12{\\text{ }m}_{1}+9{\\text{ }m}_{2}$\nবা, $\\frac{{m}_{1}}{{\\text{ }m}_{2}}=2∴{m}_{1}:{m}_{2}=2:1$\nসুতরাং $G$ বিন্দুটি $AD$ রেখাকে $2:1$ অনুপাতে অন্তর্বিভক্ত করে। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, $G$ বিন্দুটি $AD$ রেখাকে $2:1$ অনুপাতে অন্তর্বিভক্ত করে।"
+          },
+          "solution": {
+            "bn": "D বিন্দুর স্থানাঙ্ক $(\\frac{2+6}{2},\\frac{1+3}{2})≡(4,2)$\n$△ABC$ এর ভরকেন্দ্র,\n$G(\\frac{3+2+6}{3},\\frac{5+1+3}{3})≡(\\frac{11}{3},3)$\nধরি, $G$ বিন্দুটি $AD$ রেখাকে ${m}_{1}\\circ{m}_{2}$ অনুপাতে অন্তর্বিভক্ত করে।\nশর্তমতে, $\\frac{11}{3}=\\frac{{m}_{1}\\times4+{m}_{2}\\times3}{{\\text{ }m}_{1}+{m}_{2}}$\nবা, $11{\\text{ }m}_{1}+11{\\text{ }m}_{2}=12{\\text{ }m}_{1}+9{\\text{ }m}_{2}$\nবা, $\\frac{{m}_{1}}{{\\text{ }m}_{2}}=2∴{m}_{1}:{m}_{2}=2:1$\nসুতরাং $G$ বিন্দুটি $AD$ রেখাকে $2:1$ অনুপাতে অন্তর্বিভক্ত করে। (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "$∠EBC$ কোণের সমদ্বিখণ্ডক রেখাদ্বয়ের সমীকরণ নির্ণয় কর।",
-          "answerText": "$BC$ রেখার সমীকরণ, $\\frac{x-2}{2-6}=\\frac{y-1}{1-3}$\nবা, $\\frac{x-2}{-4}=\\frac{y-1}{-2}$\nবা, $x-2=2y-2$\n$∴x-2y=0……(i)$\n(i) নং রেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n2x+y+k=0 ...... (ii)\n(ii) নং (2, 1) বিন্দুগামী।\n2 × 2+1+k = 0  ∴k = -5\nk এর মান (ii) নং এ বসিয়ে পাই, 2x + y - 5 = 0 ... (iii)\n$∠EBC$ কোণের সমদ্বিখণ্ডকটি হবে (3, 5) বিন্দুটি ধারণকারী কোণের সমদ্বিখণ্ডক।\nধরি, BC ও BE রেখার সমীকরণদ্বয় যথাক্রমে f(x, y) ও g(x, y)\n$\\frac{x-2y}{\\sqrt{{1}^{2}+(-2{)}^{2}}}=-\\frac{2x+y-5}{\\sqrt{{2}^{2}+{1}^{2}}}$\nবf, $x-2y=-(2x+y-5)$\nবf, $x-2y+2x+y-5=0$\n$∴3x-y-5=0$ (Ans.)\nবিশেষ দ্রষ্টব্য: চিত্র অনুযায়ী $∠EBC$ এর সমদ্বিখণ্ডক একটি হবে।",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "$∠EBC$ কোণের সমদ্বিখণ্ডক রেখাদ্বয়ের সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$BC$ রেখার সমীকরণ, $\\frac{x-2}{2-6}=\\frac{y-1}{1-3}$\nবা, $\\frac{x-2}{-4}=\\frac{y-1}{-2}$\nবা, $x-2=2y-2$\n$∴x-2y=0……(i)$\n(i) নং রেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n2x+y+k=0 ...... (ii)\n(ii) নং (2, 1) বিন্দুগামী।\n2 × 2+1+k = 0  ∴k = -5\nk এর মান (ii) নং এ বসিয়ে পাই, 2x + y - 5 = 0 ... (iii)\n$∠EBC$ কোণের সমদ্বিখণ্ডকটি হবে (3, 5) বিন্দুটি ধারণকারী কোণের সমদ্বিখণ্ডক।\nধরি, BC ও BE রেখার সমীকরণদ্বয় যথাক্রমে f(x, y) ও g(x, y)\n$\\frac{x-2y}{\\sqrt{{1}^{2}+(-2{)}^{2}}}=-\\frac{2x+y-5}{\\sqrt{{2}^{2}+{1}^{2}}}$\nবf, $x-2y=-(2x+y-5)$\nবf, $x-2y+2x+y-5=0$\n$∴3x-y-5=0$ (Ans.)\nবিশেষ দ্রষ্টব্য: চিত্র অনুযায়ী $∠EBC$ এর সমদ্বিখণ্ডক একটি হবে।"
+          }
         }
       ],
       "assets": [
@@ -180,35 +219,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq04",
+      "clientId": "jessore-2017-math1st-cq04",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/1st/chapter-4"
       },
       "questionNumber": "04",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "[IMG_0]"
+          "questionText": "[IMG_0]",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$P=\\hat{i}-2\\hat{j}-3\\hat{k},Q=3\\hat{i}-\\hat{j}+2\\hat{k}$ হলে, দেখাও যে, $P+Q$ এবং $P-Q$ পরস্পর লম্ব।",
-          "answerText": "$P+Q=\\hat{i}-2\\hat{j}-3\\hat{k}+3\\hat{i}-\\hat{j}+2\\hat{k}=4\\hat{i}-3\\hat{j}-\\hat{k}$\n$P-Q=\\hat{i}-2\\hat{j}-3\\hat{k}-3\\hat{i}+\\hat{j}-2\\hat{k}=-2\\hat{i}-\\hat{j}-5\\hat{k}$\n$∴(P+Q)\\cdot(P-Q)=4(-2)+(-3)(-1)+(-1)(-5)$\n$=-8+3+5=0$\n$∴(P+Q)$ ও $(P-Q)$ ভেক্টরদ্বয় পরস্পর লম্ব। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$P=\\hat{i}-2\\hat{j}-3\\hat{k},Q=3\\hat{i}-\\hat{j}+2\\hat{k}$ হলে, দেখাও যে, $P+Q$ এবং $P-Q$ পরস্পর লম্ব।"
+          },
+          "solution": {
+            "bn": "$P+Q=\\hat{i}-2\\hat{j}-3\\hat{k}+3\\hat{i}-\\hat{j}+2\\hat{k}=4\\hat{i}-3\\hat{j}-\\hat{k}$\n$P-Q=\\hat{i}-2\\hat{j}-3\\hat{k}-3\\hat{i}+\\hat{j}-2\\hat{k}=-2\\hat{i}-\\hat{j}-5\\hat{k}$\n$∴(P+Q)\\cdot(P-Q)=4(-2)+(-3)(-1)+(-1)(-5)$\n$=-8+3+5=0$\n$∴(P+Q)$ ও $(P-Q)$ ভেক্টরদ্বয় পরস্পর লম্ব। (দেখানো হলো)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "এমন একটি বৃত্তের সমীকরণ নির্ণয় কর যা C, E ও F বিন্দু দিয়ে যায়।",
-          "answerText": "প্রদত্ত বৃত্তটি যেহেতু উভয় অক্ষকে স্পর্শ করে\n$∴h=k=r$\nচিত্র অনুযায়ী $h=4$\n$∴h=k=r=4$\n$∴$ বৃত্তের কেন্দ্র $C(4,k)≡(4,4)$\nE ও F বিন্দু যথাক্রমে বৃত্তের পরিধির উপর x ও y অক্ষে অবস্থিত।\n$∴E(4,0)$ এবং $F(0,4)$\n$C(4,4),E(4,0)$ এবং $F(0,4)$ বিন্দু দিয়ে যায় এরূপ বৃত্তের সমীকরণ নির্ণয় করতে হবে।\nধরি, নির্ণেয় বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+2gx+2fy+c=0$\nবৃত্তটি $C(4,4),E(4,0)$ এবং $F(0,4)$ দিয়ে যায়।\nঅর্থাৎ ${4}^{2}+{4}^{2}+2\\timesg\\times4+2\\timesf\\times4+c=0$\nবা, $8\\text{ }g+8f+32+c=0……$ (i)\nআবার, ${4}^{2}+{0}^{2}+2\\timesg\\times4+2\\timesf\\times0+c=0$\nবা, $8\\text{ }g+16+c=0……$ (ii)\nএবং ${0}^{2}+{4}^{2}+2\\timesg\\times0+2\\timesf\\times4+c=0$\nবা, $8f+16+c=0……$ (iii)\n(i) হতে (ii) বিয়োগ করে পাই,\n$8\\text{ }g+8f+32+c-8\\text{ }g-16-c=0$\nবা, $8f+16=0∴f=-2$\n(i) হতে (iii) বিয়োগ করে পাই, \n$8\\text{ }g+8f+32+c-8f-16-c=0$\nবা, $8\\text{ }g+16=0∴g=-2$\n$g$ এর মান (ii) এ বসিয়ে পাই,\n$8(-2)+16+c=0∴c=0$\n$∴$ নির্ণেয় বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+2\\times(-2)x+2\\times(-2)y+0=0$\n$∴{x}^{2}+{y}^{2}-4x-4y=0\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "এমন একটি বৃত্তের সমীকরণ নির্ণয় কর যা C, E ও F বিন্দু দিয়ে যায়।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত বৃত্তটি যেহেতু উভয় অক্ষকে স্পর্শ করে\n$∴h=k=r$\nচিত্র অনুযায়ী $h=4$\n$∴h=k=r=4$\n$∴$ বৃত্তের কেন্দ্র $C(4,k)≡(4,4)$\nE ও F বিন্দু যথাক্রমে বৃত্তের পরিধির উপর x ও y অক্ষে অবস্থিত।\n$∴E(4,0)$ এবং $F(0,4)$\n$C(4,4),E(4,0)$ এবং $F(0,4)$ বিন্দু দিয়ে যায় এরূপ বৃত্তের সমীকরণ নির্ণয় করতে হবে।\nধরি, নির্ণেয় বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+2gx+2fy+c=0$\nবৃত্তটি $C(4,4),E(4,0)$ এবং $F(0,4)$ দিয়ে যায়।\nঅর্থাৎ ${4}^{2}+{4}^{2}+2\\timesg\\times4+2\\timesf\\times4+c=0$\nবা, $8\\text{ }g+8f+32+c=0……$ (i)\nআবার, ${4}^{2}+{0}^{2}+2\\timesg\\times4+2\\timesf\\times0+c=0$\nবা, $8\\text{ }g+16+c=0……$ (ii)\nএবং ${0}^{2}+{4}^{2}+2\\timesg\\times0+2\\timesf\\times4+c=0$\nবা, $8f+16+c=0……$ (iii)\n(i) হতে (ii) বিয়োগ করে পাই,\n$8\\text{ }g+8f+32+c-8\\text{ }g-16-c=0$\nবা, $8f+16=0∴f=-2$\n(i) হতে (iii) বিয়োগ করে পাই, \n$8\\text{ }g+8f+32+c-8f-16-c=0$\nবা, $8\\text{ }g+16=0∴g=-2$\n$g$ এর মান (ii) এ বসিয়ে পাই,\n$8(-2)+16+c=0∴c=0$\n$∴$ নির্ণেয় বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+2\\times(-2)x+2\\times(-2)y+0=0$\n$∴{x}^{2}+{y}^{2}-4x-4y=0\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "বৃত্তটির $AB$ স্পর্শকের সমান্তরাল অপর স্পর্শকের সমীকরণ নির্ণয় কর।",
-          "answerText": "প্রদত্ত বৃত্তের সমীকরণ, $(x-4{)}^{2}+(y-4{)}^{2}={4}^{2}$\nবা, ${x}^{2}-8x+16+{y}^{2}-8y+16-16=0$\n$∴{x}^{2}+{y}^{2}-8x-8y+16=0$\nএখানে, $g=-4,f=-4$ ও $c=16$\n$(\\frac{8}{5},\\frac{4}{5})$ বিন্দুতে বৃত্তের স্পর্শকের সমীকরণ,\n$x\\times\\frac{8}{5}+y\\times\\frac{4}{5}+(-4)(x+\\frac{8}{5})+(-4)(y+\\frac{4}{5})+16=0$\nবা, $\\frac{8x}{5}+\\frac{4y}{5}-4x-\\frac{32}{5}-4y-\\frac{16}{5}+16=0$\nবা, $8x+4y-20x-32-20y-16+80=0$\nবা, $-12x-16y+32=0$\n$∴3x+4y-8=0……$ (i)\n(i) নং রেখাটির সমান্তরাল সরলরেখার সমীকরণ, $\n3 x+4 y+k_1=0 \\ldots \\ldots$ (ii)\nপ্রদত্ত বৃত্তটির ব্যাসার্ধ = $\\sqrt{(-4{)}^{2}+(-4{)}^{2}-16}$\n$=\\sqrt{32-16}=4$\n$∴$ ব্যাস $=2\\times4=8$\n(i) ও (ii) সমান্তরাল রেখাদ্বয়ের মধবত্তী দূরত্ব $=8$\n$∴\\frac{|-8-{k}_{1}|}{\\sqrt{{3}^{2}+{4}^{2}}}=8$\nবা, $\\frac{|-8-{k}_{1}|}{5}=8\\text{ या, }-8-{k}_{1}=\\pm40$\n$∴{k}_{1}=-8\\pm40$\nনিয়ে, ${k}_{1}=-8+40=32$\nনিয়ে, ${k}_{1}=-8-40=-48$\nচিত্র অনুযায়ী ${k}_{1}=-48$\n$∴$ নির্ণেয় সমান্তরাল স্পর্শকের সমীকরণ,\n$3x+4y-48=0$\n$∴3x+4y=48\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "বৃত্তটির $AB$ স্পর্শকের সমান্তরাল অপর স্পর্শকের সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত বৃত্তের সমীকরণ, $(x-4{)}^{2}+(y-4{)}^{2}={4}^{2}$\nবা, ${x}^{2}-8x+16+{y}^{2}-8y+16-16=0$\n$∴{x}^{2}+{y}^{2}-8x-8y+16=0$\nএখানে, $g=-4,f=-4$ ও $c=16$\n$(\\frac{8}{5},\\frac{4}{5})$ বিন্দুতে বৃত্তের স্পর্শকের সমীকরণ,\n$x\\times\\frac{8}{5}+y\\times\\frac{4}{5}+(-4)(x+\\frac{8}{5})+(-4)(y+\\frac{4}{5})+16=0$\nবা, $\\frac{8x}{5}+\\frac{4y}{5}-4x-\\frac{32}{5}-4y-\\frac{16}{5}+16=0$\nবা, $8x+4y-20x-32-20y-16+80=0$\nবা, $-12x-16y+32=0$\n$∴3x+4y-8=0……$ (i)\n(i) নং রেখাটির সমান্তরাল সরলরেখার সমীকরণ, $\n3 x+4 y+k_1=0 \\ldots \\ldots$ (ii)\nপ্রদত্ত বৃত্তটির ব্যাসার্ধ = $\\sqrt{(-4{)}^{2}+(-4{)}^{2}-16}$\n$=\\sqrt{32-16}=4$\n$∴$ ব্যাস $=2\\times4=8$\n(i) ও (ii) সমান্তরাল রেখাদ্বয়ের মধবত্তী দূরত্ব $=8$\n$∴\\frac{|-8-{k}_{1}|}{\\sqrt{{3}^{2}+{4}^{2}}}=8$\nবা, $\\frac{|-8-{k}_{1}|}{5}=8\\text{ या, }-8-{k}_{1}=\\pm40$\n$∴{k}_{1}=-8\\pm40$\nনিয়ে, ${k}_{1}=-8+40=32$\nনিয়ে, ${k}_{1}=-8-40=-48$\nচিত্র অনুযায়ী ${k}_{1}=-48$\n$∴$ নির্ণেয় সমান্তরাল স্পর্শকের সমীকরণ,\n$3x+4y-48=0$\n$∴3x+4y=48\\text{ (Ans.) }$"
+          }
         }
       ],
       "assets": [
@@ -244,35 +296,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq05",
+      "clientId": "jessore-2017-math1st-cq05",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/1st/chapter-7"
       },
       "questionNumber": "05",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "দৃশ্যকল্প-১: $△XYZ\\Omega\\cosX=\\sinY-\\cosZ$ .\nদৃশ্যকল্প-২: $\\sqrt{1+n}\\cdot\\tan\\frac{\\alpha}{2}=\\sqrt{1-n}\\cdot\\tan\\frac{\\beta}{2}$"
+          "questionText": "দৃশ্যকল্প-১: $△XYZ\\Omega\\cosX=\\sinY-\\cosZ$ .\nদৃশ্যকল্প-২: $\\sqrt{1+n}\\cdot\\tan\\frac{\\alpha}{2}=\\sqrt{1-n}\\cdot\\tan\\frac{\\beta}{2}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "প্রমাণ কর যে, $\\tan{75}^{\\circ}=2+\\sqrt{3}$ .",
-          "answerText": "$\\tan{75}^{\\circ}=\\tan({45}^{\\circ}+{30}^{\\circ})=\\frac{\\tan{45}^{\\circ}+\\tan{30}^{\\circ}}{1-\\tan{45}^{\\circ}\\tan{30}^{\\circ}}$\n$=\\frac{1+\\frac{1}{\\sqrt{3}}}{1-\\frac{1}{\\sqrt{3}}}=\\frac{\\frac{\\sqrt{3}+1}{\\sqrt{3}}}{\\frac{\\sqrt{3}-1}{\\sqrt{3}}}=\\frac{\\sqrt{3}+1}{\\sqrt{3}-1}$\n$=\\frac{(\\sqrt{3}+1)(\\sqrt{3}+1)}{(\\sqrt{3}-1)(\\sqrt{3}+1)}=\\frac{3+\\sqrt{3}+\\sqrt{3}+1}{(\\sqrt{3}{)}^{2}-{1}^{2}}$\n$=\\frac{4+2\\sqrt{3}}{3-1}=\\frac{2(2+\\sqrt{3})}{2}$\n$∴\\tan{75}^{\\circ}=2+\\sqrt{3}$ (প্রমাণিত)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "প্রমাণ কর যে, $\\tan{75}^{\\circ}=2+\\sqrt{3}$ ."
+          },
+          "solution": {
+            "bn": "$\\tan{75}^{\\circ}=\\tan({45}^{\\circ}+{30}^{\\circ})=\\frac{\\tan{45}^{\\circ}+\\tan{30}^{\\circ}}{1-\\tan{45}^{\\circ}\\tan{30}^{\\circ}}$\n$=\\frac{1+\\frac{1}{\\sqrt{3}}}{1-\\frac{1}{\\sqrt{3}}}=\\frac{\\frac{\\sqrt{3}+1}{\\sqrt{3}}}{\\frac{\\sqrt{3}-1}{\\sqrt{3}}}=\\frac{\\sqrt{3}+1}{\\sqrt{3}-1}$\n$=\\frac{(\\sqrt{3}+1)(\\sqrt{3}+1)}{(\\sqrt{3}-1)(\\sqrt{3}+1)}=\\frac{3+\\sqrt{3}+\\sqrt{3}+1}{(\\sqrt{3}{)}^{2}-{1}^{2}}$\n$=\\frac{4+2\\sqrt{3}}{3-1}=\\frac{2(2+\\sqrt{3})}{2}$\n$∴\\tan{75}^{\\circ}=2+\\sqrt{3}$ (প্রমাণিত)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দৃশ্যকল্প-১ এর আলোকে দেখাও যে, ত্রিভুজটি সমকোণী।",
-          "answerText": "দেওয়া আছে, $\\cosX=\\sinY-\\cosZ$\nবা, $\\cosX+\\cosZ=\\sinY$\nবা, $\\cosX+\\cos\\{\\pi-(X+Y)\\}=\\sinY[∵X+Y+Z=\\pi]$\nবা, $\\cosX-\\cos(X+Y)=\\sinY$\nবা, $2\\sin\\frac{2X+Y}{2}\\sin\\frac{Y}{2}=2\\sin\\frac{Y}{2}\\cos\\frac{Y}{2}$\nবা, $\\sin(X+\\frac{Y}{2})=\\cos\\frac{Y}{2}=\\sin(\\frac{\\pi}{2}-\\frac{Y}{2})$\n$∴ X+\\frac{Y}{2}=\\frac{\\pi}{2}-\\frac{Y}{2}$\nবা, $X+Y=\\frac{\\pi}{2}$\n$∴ Z=\\frac{\\pi}{2}$\nঅর্থাৎ $△XYZ$ সমকোণী। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-১ এর আলোকে দেখাও যে, ত্রিভুজটি সমকোণী।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\cosX=\\sinY-\\cosZ$\nবা, $\\cosX+\\cosZ=\\sinY$\nবা, $\\cosX+\\cos\\{\\pi-(X+Y)\\}=\\sinY[∵X+Y+Z=\\pi]$\nবা, $\\cosX-\\cos(X+Y)=\\sinY$\nবা, $2\\sin\\frac{2X+Y}{2}\\sin\\frac{Y}{2}=2\\sin\\frac{Y}{2}\\cos\\frac{Y}{2}$\nবা, $\\sin(X+\\frac{Y}{2})=\\cos\\frac{Y}{2}=\\sin(\\frac{\\pi}{2}-\\frac{Y}{2})$\n$∴ X+\\frac{Y}{2}=\\frac{\\pi}{2}-\\frac{Y}{2}$\nবা, $X+Y=\\frac{\\pi}{2}$\n$∴ Z=\\frac{\\pi}{2}$\nঅর্থাৎ $△XYZ$ সমকোণী। (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দৃশ্যকল্প-২ এর আলোকে দেখাও যে, $\\cos\\beta=\\frac{\\cos\\alpha-n}{1-n\\cos\\alpha}$",
-          "answerText": "দেওয়া আছে, $\\sqrt{1+n}\\tan\\frac{\\alpha}{2}=\\sqrt{1-n}\\cdot\\tan\\frac{\\beta}{2}$\nবা, $\\tan\\frac{\\alpha}{2}=\\sqrt{\\frac{1-n}{1+n}}\\tan\\frac{\\beta}{2}$\nবা, ${\\tan}^{2}\\frac{\\alpha}{2}=\\frac{1-n}{1+n}{\\tan}^{2}\\frac{\\beta}{2}$\nবা, ${\\tan}^{2}\\frac{\\beta}{2}=\\frac{1+n}{1-n}{\\tan}^{2}\\frac{\\alpha}{2}$\nবা, $\\frac{{\\sin}^{2}\\frac{\\beta}{2}}{{\\cos}^{2}\\frac{\\beta}{2}}=\\frac{(1+n){\\sin}^{2}\\frac{\\alpha}{2}}{(1-n){\\cos}^{2}\\frac{\\alpha}{2}}$\nবা, $\\frac{{\\cos}^{2}\\frac{\\beta}{2}}{{\\sin}^{2}\\frac{\\beta}{2}}=\\frac{(1-n){\\cos}^{2}\\frac{\\alpha}{2}}{(1+n){\\sin}^{2}\\frac{\\alpha}{2}}$ या, $\\frac{{\\cos}^{2}\\frac{\\beta}{2}-{\\sin}^{2}\\frac{\\beta}{2}}{{\\cos}^{2}\\frac{\\beta}{2}+{\\sin}^{2}\\frac{\\beta}{2}}=\\frac{(1-n){\\cos}^{2}\\frac{\\alpha}{2}-(1+n){\\sin}^{2}\\frac{\\alpha}{2}}{(1-n){\\cos}^{2}\\frac{\\alpha}{2}+(1+n){\\sin}^{2}\\frac{\\alpha}{2}}$\n[বিয়োজন-যোজন করে]\nবা, $\\frac{\\cos\\beta}{1}=\\frac{({\\cos}^{2}\\frac{\\alpha}{2}-{\\sin}^{2}\\frac{\\alpha}{2})-n({\\cos}^{2}\\frac{\\alpha}{2}+{\\sin}^{2}\\frac{\\alpha}{2})}{({\\cos}^{2}\\frac{\\alpha}{2}+{\\sin}^{2}\\frac{\\alpha}{2})-n({\\cos}^{2}\\frac{\\alpha}{2}-{\\sin}^{2}\\frac{\\alpha}{2})}$\n$∴\\cos\\beta=\\frac{\\cos\\alpha-n}{1-n\\cos\\alpha}$ (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দৃশ্যকল্প-২ এর আলোকে দেখাও যে, $\\cos\\beta=\\frac{\\cos\\alpha-n}{1-n\\cos\\alpha}$"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\sqrt{1+n}\\tan\\frac{\\alpha}{2}=\\sqrt{1-n}\\cdot\\tan\\frac{\\beta}{2}$\nবা, $\\tan\\frac{\\alpha}{2}=\\sqrt{\\frac{1-n}{1+n}}\\tan\\frac{\\beta}{2}$\nবা, ${\\tan}^{2}\\frac{\\alpha}{2}=\\frac{1-n}{1+n}{\\tan}^{2}\\frac{\\beta}{2}$\nবা, ${\\tan}^{2}\\frac{\\beta}{2}=\\frac{1+n}{1-n}{\\tan}^{2}\\frac{\\alpha}{2}$\nবা, $\\frac{{\\sin}^{2}\\frac{\\beta}{2}}{{\\cos}^{2}\\frac{\\beta}{2}}=\\frac{(1+n){\\sin}^{2}\\frac{\\alpha}{2}}{(1-n){\\cos}^{2}\\frac{\\alpha}{2}}$\nবা, $\\frac{{\\cos}^{2}\\frac{\\beta}{2}}{{\\sin}^{2}\\frac{\\beta}{2}}=\\frac{(1-n){\\cos}^{2}\\frac{\\alpha}{2}}{(1+n){\\sin}^{2}\\frac{\\alpha}{2}}$ या, $\\frac{{\\cos}^{2}\\frac{\\beta}{2}-{\\sin}^{2}\\frac{\\beta}{2}}{{\\cos}^{2}\\frac{\\beta}{2}+{\\sin}^{2}\\frac{\\beta}{2}}=\\frac{(1-n){\\cos}^{2}\\frac{\\alpha}{2}-(1+n){\\sin}^{2}\\frac{\\alpha}{2}}{(1-n){\\cos}^{2}\\frac{\\alpha}{2}+(1+n){\\sin}^{2}\\frac{\\alpha}{2}}$\n[বিয়োজন-যোজন করে]\nবা, $\\frac{\\cos\\beta}{1}=\\frac{({\\cos}^{2}\\frac{\\alpha}{2}-{\\sin}^{2}\\frac{\\alpha}{2})-n({\\cos}^{2}\\frac{\\alpha}{2}+{\\sin}^{2}\\frac{\\alpha}{2})}{({\\cos}^{2}\\frac{\\alpha}{2}+{\\sin}^{2}\\frac{\\alpha}{2})-n({\\cos}^{2}\\frac{\\alpha}{2}-{\\sin}^{2}\\frac{\\alpha}{2})}$\n$∴\\cos\\beta=\\frac{\\cos\\alpha-n}{1-n\\cos\\alpha}$ (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -301,35 +366,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq06",
+      "clientId": "jessore-2017-math1st-cq06",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/1st/chapter-7"
       },
       "questionNumber": "06",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$∠E+∠F={65}^{\\circ},∠F-∠E={25}^{\\circ}$"
+          "questionText": "$∠E+∠F={65}^{\\circ},∠F-∠E={25}^{\\circ}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\tan\\beta=\\frac{1}{3}$ হলে, $\\sin2\\beta$ এর মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $\\tan\\beta=\\frac{1}{3}$\n$∴\\sin2\\beta=\\frac{2\\tan\\beta}{1+{\\tan}^{2}\\beta}=\\frac{2\\times\\frac{1}{3}}{1+{(\\frac{1}{3})}^{2}}=\\frac{2}{3}\\times\\frac{9}{10}=\\frac{3}{5}\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\tan\\beta=\\frac{1}{3}$ হলে, $\\sin2\\beta$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\tan\\beta=\\frac{1}{3}$\n$∴\\sin2\\beta=\\frac{2\\tan\\beta}{1+{\\tan}^{2}\\beta}=\\frac{2\\times\\frac{1}{3}}{1+{(\\frac{1}{3})}^{2}}=\\frac{2}{3}\\times\\frac{9}{10}=\\frac{3}{5}\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, $2\\sin(\\pi+\\frac{F}{4})=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}$ .",
-          "answerText": "$∠E+∠F={65}^{\\circ}……\\text{ (i) }$\n$∠F-∠E={25}^{\\circ}……\\text{ (ii) }$\n(i) ও (ii) নং যোগ করে পাই, $2∠F={90}^{\\circ}∴∠F={45}^{\\circ}$\nবামপক্ষ $=2\\sin(\\pi+\\frac{F}{4})=-2\\sin\\frac{F}{4}=-2\\sin\\frac{{45}^{\\circ}}{4}$\n$=-\\sqrt{4{\\sin}^{2}\\frac{{45}^{\\circ}}{4}}=-\\sqrt{2.2{\\sin}^{2}\\frac{{45}^{\\circ}}{4}}=-\\sqrt{2(1-\\cos2.\\frac{{45}^{\\circ}}{4})}$\n$=-\\sqrt{2-2\\cos\\frac{{45}^{\\circ}}{2}}=-\\sqrt{2-\\sqrt{4{\\cos}^{2}\\frac{{45}^{\\circ}}{2}}}$\n$=-\\sqrt{2-\\sqrt{2.2{\\cos}^{2}\\frac{{45}^{\\circ}}{2}}}=-\\sqrt{2-\\sqrt{2(1+\\cos2.\\frac{{45}^{\\circ}}{2})}}$\n$=-\\sqrt{2-\\sqrt{2+2\\cdot\\frac{1}{\\sqrt{2}}}}=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}=$ ডানপক্ষ\n$∴2\\sin(\\pi+\\frac{F}{4})=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}$ (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, $2\\sin(\\pi+\\frac{F}{4})=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}$ ."
+          },
+          "solution": {
+            "bn": "$∠E+∠F={65}^{\\circ}……\\text{ (i) }$\n$∠F-∠E={25}^{\\circ}……\\text{ (ii) }$\n(i) ও (ii) নং যোগ করে পাই, $2∠F={90}^{\\circ}∴∠F={45}^{\\circ}$\nবামপক্ষ $=2\\sin(\\pi+\\frac{F}{4})=-2\\sin\\frac{F}{4}=-2\\sin\\frac{{45}^{\\circ}}{4}$\n$=-\\sqrt{4{\\sin}^{2}\\frac{{45}^{\\circ}}{4}}=-\\sqrt{2.2{\\sin}^{2}\\frac{{45}^{\\circ}}{4}}=-\\sqrt{2(1-\\cos2.\\frac{{45}^{\\circ}}{4})}$\n$=-\\sqrt{2-2\\cos\\frac{{45}^{\\circ}}{2}}=-\\sqrt{2-\\sqrt{4{\\cos}^{2}\\frac{{45}^{\\circ}}{2}}}$\n$=-\\sqrt{2-\\sqrt{2.2{\\cos}^{2}\\frac{{45}^{\\circ}}{2}}}=-\\sqrt{2-\\sqrt{2(1+\\cos2.\\frac{{45}^{\\circ}}{2})}}$\n$=-\\sqrt{2-\\sqrt{2+2\\cdot\\frac{1}{\\sqrt{2}}}}=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}=$ ডানপক্ষ\n$∴2\\sin(\\pi+\\frac{F}{4})=-\\sqrt{2-\\sqrt{2+\\sqrt{2}}}$ (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দেখাও যে, $\\tan∠E\\cdot\\tan2∠E\\cdot\\tan3∠E\\cdot\\tan4∠E=3$ .",
-          "answerText": "$∠E={65}^{\\circ}-∠F={65}^{\\circ}-{45}^{\\circ}={20}^{\\circ}$\nবামপক্ষ $=\\tan∠E\\tan2∠E\\tan3∠E\\tan4∠E$\n$=\\tan{20}^{\\circ}\\tan{40}^{\\circ}\\tan{60}^{\\circ}\\tan{80}^{\\circ}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\tan{40}^{\\circ}\\tan{80}^{\\circ}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\tan({60}^{\\circ}-{20}^{\\circ})\\tan({60}^{\\circ}+{20}^{\\circ})$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{\\tan{60}^{\\circ}-\\tan{20}^{\\circ}}{1+\\tan{60}^{\\circ}\\cdot\\tan{20}^{\\circ}}\\cdot\\frac{\\tan{60}^{\\circ}+\\tan{20}^{\\circ}}{1-\\tan{60}^{\\circ}\\cdot\\tan{20}^{\\circ}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{\\sqrt{3}-\\tan{20}^{\\circ}}{1+\\sqrt{3}\\tan{20}^{\\circ}}\\cdot\\frac{\\sqrt{3}+\\tan{20}^{\\circ}}{1-\\sqrt{3}\\tan{20}^{\\circ}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{(\\sqrt{3}{)}^{2}-\\tan{20}^{\\circ}}{1-{(\\sqrt{3}\\tan{20}^{\\circ})}^{2}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{3-{\\tan}^{2}{20}^{\\circ}}{1-3{\\tan}^{2}{20}^{\\circ}}$\n$=\\sqrt{3}\\times\\frac{3\\tan{20}^{\\circ}-{\\tan}^{3}{20}^{\\circ}}{1-3{\\tan}^{2}{20}^{\\circ}}$\n$=\\sqrt{3}\\tan(3\\cdot{20}^{\\circ})=\\sqrt{3}{\\tan}_{4}{0}^{\\circ}$\n$=\\sqrt{3}\\times\\sqrt{3}=3=5{la}^{\\circ}$\n$∴\\tan∠E\\cdot\\tan2∠E\\cdot\\tan3∠E\\cdot\\tan4∠E=3$ (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দেখাও যে, $\\tan∠E\\cdot\\tan2∠E\\cdot\\tan3∠E\\cdot\\tan4∠E=3$ ."
+          },
+          "solution": {
+            "bn": "$∠E={65}^{\\circ}-∠F={65}^{\\circ}-{45}^{\\circ}={20}^{\\circ}$\nবামপক্ষ $=\\tan∠E\\tan2∠E\\tan3∠E\\tan4∠E$\n$=\\tan{20}^{\\circ}\\tan{40}^{\\circ}\\tan{60}^{\\circ}\\tan{80}^{\\circ}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\tan{40}^{\\circ}\\tan{80}^{\\circ}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\tan({60}^{\\circ}-{20}^{\\circ})\\tan({60}^{\\circ}+{20}^{\\circ})$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{\\tan{60}^{\\circ}-\\tan{20}^{\\circ}}{1+\\tan{60}^{\\circ}\\cdot\\tan{20}^{\\circ}}\\cdot\\frac{\\tan{60}^{\\circ}+\\tan{20}^{\\circ}}{1-\\tan{60}^{\\circ}\\cdot\\tan{20}^{\\circ}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{\\sqrt{3}-\\tan{20}^{\\circ}}{1+\\sqrt{3}\\tan{20}^{\\circ}}\\cdot\\frac{\\sqrt{3}+\\tan{20}^{\\circ}}{1-\\sqrt{3}\\tan{20}^{\\circ}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{(\\sqrt{3}{)}^{2}-\\tan{20}^{\\circ}}{1-{(\\sqrt{3}\\tan{20}^{\\circ})}^{2}}$\n$=\\sqrt{3}\\tan{20}^{\\circ}\\cdot\\frac{3-{\\tan}^{2}{20}^{\\circ}}{1-3{\\tan}^{2}{20}^{\\circ}}$\n$=\\sqrt{3}\\times\\frac{3\\tan{20}^{\\circ}-{\\tan}^{3}{20}^{\\circ}}{1-3{\\tan}^{2}{20}^{\\circ}}$\n$=\\sqrt{3}\\tan(3\\cdot{20}^{\\circ})=\\sqrt{3}{\\tan}_{4}{0}^{\\circ}$\n$=\\sqrt{3}\\times\\sqrt{3}=3=5{la}^{\\circ}$\n$∴\\tan∠E\\cdot\\tan2∠E\\cdot\\tan3∠E\\cdot\\tan4∠E=3$ (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -358,35 +436,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq07",
+      "clientId": "jessore-2017-math1st-cq07",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/math/1st/chapter-9"
       },
       "questionNumber": "07",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$f(x)={x}^{{\\tan}^{-1}x},g(x)={\\log}_{x}a$\n$h(x)=\\sqrt{a+b\\cosx}.$"
+          "questionText": "$f(x)={x}^{{\\tan}^{-1}x},g(x)={\\log}_{x}a$\n$h(x)=\\sqrt{a+b\\cosx}.$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\underset{y\\to0}{lim}\\frac{1-\\cosy}{y}$ এর মান নির্ণয় কর।",
-          "answerText": "$\\begin{matrix} & \\underset{y\\to0}{lim}\\frac{1-\\cosy}{y}\\\\ & =\\underset{y\\to0}{lim}\\frac{2{\\sin}^{2}\\frac{y}{2}}{y}=\\underset{y\\to0}{lim}{(\\frac{\\sin\\frac{y}{2}}{\\frac{y}{2}})}^{2}\\cdot\\frac{y}{2}\\\\ & =\\underset{y\\to0}{lim}{(\\frac{\\sin\\frac{y}{2}}{\\frac{y}{2}})}^{2}\\underset{y\\to0}{lim}\\frac{y}{2}={1}^{2}\\cdot\\frac{0}{2}=0\\text{ (Ans.) }\\end{matrix}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\underset{y\\to0}{lim}\\frac{1-\\cosy}{y}$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix} & \\underset{y\\to0}{lim}\\frac{1-\\cosy}{y}\\\\ & =\\underset{y\\to0}{lim}\\frac{2{\\sin}^{2}\\frac{y}{2}}{y}=\\underset{y\\to0}{lim}{(\\frac{\\sin\\frac{y}{2}}{\\frac{y}{2}})}^{2}\\cdot\\frac{y}{2}\\\\ & =\\underset{y\\to0}{lim}{(\\frac{\\sin\\frac{y}{2}}{\\frac{y}{2}})}^{2}\\underset{y\\to0}{lim}\\frac{y}{2}={1}^{2}\\cdot\\frac{0}{2}=0\\text{ (Ans.) }\\end{matrix}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "$f(x)$ এবং $g(x)$ এর অন্তরজ নির্ণয় কর।",
-          "answerText": "ধরি, $y=f(x)={x}^{{\\tan}^{-1}x}$\nবা, $\\lny=\\ln{x}^{{\\tan}^{-1}x}$\nবা, $\\lny=({\\tan}^{-1}x)(\\lnx)$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}(\\lny)=\\frac{d}{dx}\\{({\\tan}^{-1}x)(\\lnx)\\}$\nবা, $\\frac{1}{y}\\frac{dy}{dx}={\\tan}^{-1}x(\\frac{1}{x})+\\lnx\\cdot\\frac{1}{1+{x}^{2}}$\n$∴\\frac{d}{dx}({x}^{{\\tan}^{-1}x})={x}^{{\\tan}^{-1}x}(\\frac{{\\tan}^{-1}x}{x}+\\frac{\\lnx}{1+{x}^{2}})$\nআবার, ধরি, $y=g(x)={\\log}_{x}a$\nবা, $y={\\log}_{e}a\\times{\\log}_{x}e$ বা, $y=\\lna\\cdot\\frac{1}{\\lnx}$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{dy}{dx}=\\lna\\frac{d}{dx}(\\frac{1}{\\lnx})$\nবা, $\\frac{dy}{dx}=(\\lna)\\frac{-1}{(\\lnx{)}^{2}}\\frac{d}{dx}(\\lnx)$\n$∴\\frac{d}{dx}({\\log}_{x}a)=\\frac{-\\lna}{x(\\lnx{)}^{2}}\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "$f(x)$ এবং $g(x)$ এর অন্তরজ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "ধরি, $y=f(x)={x}^{{\\tan}^{-1}x}$\nবা, $\\lny=\\ln{x}^{{\\tan}^{-1}x}$\nবা, $\\lny=({\\tan}^{-1}x)(\\lnx)$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}(\\lny)=\\frac{d}{dx}\\{({\\tan}^{-1}x)(\\lnx)\\}$\nবা, $\\frac{1}{y}\\frac{dy}{dx}={\\tan}^{-1}x(\\frac{1}{x})+\\lnx\\cdot\\frac{1}{1+{x}^{2}}$\n$∴\\frac{d}{dx}({x}^{{\\tan}^{-1}x})={x}^{{\\tan}^{-1}x}(\\frac{{\\tan}^{-1}x}{x}+\\frac{\\lnx}{1+{x}^{2}})$\nআবার, ধরি, $y=g(x)={\\log}_{x}a$\nবা, $y={\\log}_{e}a\\times{\\log}_{x}e$ বা, $y=\\lna\\cdot\\frac{1}{\\lnx}$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{dy}{dx}=\\lna\\frac{d}{dx}(\\frac{1}{\\lnx})$\nবা, $\\frac{dy}{dx}=(\\lna)\\frac{-1}{(\\lnx{)}^{2}}\\frac{d}{dx}(\\lnx)$\n$∴\\frac{d}{dx}({\\log}_{x}a)=\\frac{-\\lna}{x(\\lnx{)}^{2}}\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "$y=h(x)$ হলে, দেখাও যে, $2y\\cdot\\frac{{d}^{2}y}{{dx}^{2}}+2\\cdot{(\\frac{dy}{dx})}^{2}+{y}^{2}=a$ .",
-          "answerText": "দেওয়া আছে, $y=h(x)$\nবা, $y=\\sqrt{a+b\\cosx}$ বা, ${y}^{2}=a+b\\cosx$ $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}({y}^{2})=\\frac{d}{dx}(a+b\\cosx)\\text{ বা, }2y\\frac{dy}{dx}=-b\\sinx$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}(2y\\frac{dy}{dx})=\\frac{d}{dx}(-b\\sinx)$\nবা, $2y\\frac{{d}^{2}y}{d{x}^{2}}+2\\frac{dy}{dx}\\frac{dy}{dx}=-b\\cosx$\nবা, $2y\\frac{{d}^{2}y}{d{x}^{2}}+2{(\\frac{dy}{dx})}^{2}+a+b\\cosx=a$\n$∴2y\\frac{{d}^{2}y}{{d}^{2}}+2{(\\frac{dy}{dx})}^{2}+{y}^{2}=a$ [(i) নং হতে] (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "$y=h(x)$ হলে, দেখাও যে, $2y\\cdot\\frac{{d}^{2}y}{{dx}^{2}}+2\\cdot{(\\frac{dy}{dx})}^{2}+{y}^{2}=a$ ."
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $y=h(x)$\nবা, $y=\\sqrt{a+b\\cosx}$ বা, ${y}^{2}=a+b\\cosx$ $x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}({y}^{2})=\\frac{d}{dx}(a+b\\cosx)\\text{ বা, }2y\\frac{dy}{dx}=-b\\sinx$\n$x$ এর সাপেক্ষে অন্তরীকরণ করে পাই,\n$\\frac{d}{dx}(2y\\frac{dy}{dx})=\\frac{d}{dx}(-b\\sinx)$\nবা, $2y\\frac{{d}^{2}y}{d{x}^{2}}+2\\frac{dy}{dx}\\frac{dy}{dx}=-b\\cosx$\nবা, $2y\\frac{{d}^{2}y}{d{x}^{2}}+2{(\\frac{dy}{dx})}^{2}+a+b\\cosx=a$\n$∴2y\\frac{{d}^{2}y}{{d}^{2}}+2{(\\frac{dy}{dx})}^{2}+{y}^{2}=a$ [(i) নং হতে] (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -415,35 +506,48 @@
       ]
     },
     {
-      "clientId": "jessore-2017-physics1st-cq08",
+      "clientId": "jessore-2017-math1st-cq08",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "08",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$F(x)=\\frac{{x}^{2}+x+1}{x},H(x)=\\frac{x{e}^{x}}{(x+1{)}^{2}}$"
+          "questionText": "$F(x)=\\frac{{x}^{2}+x+1}{x},H(x)=\\frac{x{e}^{x}}{(x+1{)}^{2}}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$y=(x-2)(x+1)$ বক্ররেখার $x=2$ বিন্দুতে ম্পর্শকের ঢাল নির্ণয় কর।",
-          "answerText": "$y=(x-2)(x+1)={x}^{2}+x-2x-2={x}^{2}-x-2$\n$∴\\frac{dy}{dx}=2x-1$ \nx=2 বিন্দুতে স্পর্শকের ঢাল $=2\\times2-1$ \n$=4-1=3\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$y=(x-2)(x+1)$ বক্ররেখার $x=2$ বিন্দুতে ম্পর্শকের ঢাল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$y=(x-2)(x+1)={x}^{2}+x-2x-2={x}^{2}-x-2$\n$∴\\frac{dy}{dx}=2x-1$ \nx=2 বিন্দুতে স্পর্শকের ঢাল $=2\\times2-1$ \n$=4-1=3\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, $F(x)$ এর লঘুমান, গুরুমান অপেক্ষা বৃহত্তর।",
-          "answerText": "ধরি, $y=F(x)=\\frac{{x}^{2}+x+1}{x}=x+1+\\frac{1}{x}$\n$∴\\frac{dy}{dx}=1+0-\\frac{1}{{x}^{2}}=1-\\frac{1}{{x}^{2}}$\n$∴\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{x}^{3}}$\nলঘুমান ও গুরুমানের জন্য, $\\frac{dy}{dx}=0$\nবা, $1-\\frac{1}{{x}^{2}}=0$ বा, $1=\\frac{1}{{x}^{2}}∴x=\\pm1$\n$x=1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{1}^{3}}=2>0$\n$x=1$ এর জন্য প্রদত্ত ফাংশনটির লঘুমান বিদ্যমান।\n$∴$ লঘুমান $=F(1)=1+1+\\frac{1}{1}=3$\n$x=-1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{(-1{)}^{3}}=-2<0$\n$x=-1$ এর জন্য প্রদত্ত ফাংশনটির গুরুমান বিদ্যমান। গুরুমান $=F(-1)=-1+1+\\frac{1}{-1}=-1$\n$∴F(x)$ ফাংশনটির লঘুমান, গুরুমান অপেক্ষা বৃহতর।\n(দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, $F(x)$ এর লঘুমান, গুরুমান অপেক্ষা বৃহত্তর।"
+          },
+          "solution": {
+            "bn": "ধরি, $y=F(x)=\\frac{{x}^{2}+x+1}{x}=x+1+\\frac{1}{x}$\n$∴\\frac{dy}{dx}=1+0-\\frac{1}{{x}^{2}}=1-\\frac{1}{{x}^{2}}$\n$∴\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{x}^{3}}$\nলঘুমান ও গুরুমানের জন্য, $\\frac{dy}{dx}=0$\nবা, $1-\\frac{1}{{x}^{2}}=0$ বा, $1=\\frac{1}{{x}^{2}}∴x=\\pm1$\n$x=1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{1}^{3}}=2>0$\n$x=1$ এর জন্য প্রদত্ত ফাংশনটির লঘুমান বিদ্যমান।\n$∴$ লঘুমান $=F(1)=1+1+\\frac{1}{1}=3$\n$x=-1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{(-1{)}^{3}}=-2<0$\n$x=-1$ এর জন্য প্রদত্ত ফাংশনটির গুরুমান বিদ্যমান। গুরুমান $=F(-1)=-1+1+\\frac{1}{-1}=-1$\n$∴F(x)$ ফাংশনটির লঘুমান, গুরুমান অপেক্ষা বৃহতর।\n(দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "${\\int}_{0}^{1}H(x)dx$ এর মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $H(x)=\\frac{{xe}^{x}}{(x+1{)}^{2}}$\n$∴\\int\\frac{{x}^{x}}{(x+1{)}^{2}}dx=\\int\\frac{\\{(x+1)-1\\}{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\int{e}^{x}\\cdot\\frac{1}{x+1}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx.$\n$=\\frac{1}{x+1}\\int{e}^{x}dx-\\int\\{\\frac{d}{dx}(\\frac{1}{x+1})\\int{e}^{x}dx\\}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{{e}^{x}}{x+1}+\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx=\\frac{{e}^{x}}{x+1}+c$\n$∴{\\int}_{0}^{1}H(x)dx={\\int}_{0}^{1}\\frac{x{e}^{x}}{(x+1{)}^{2}}dx$\n$={[\\frac{{e}^{x}}{x+1}]}_{0}^{1}$\n$=\\frac{{e}^{1}}{1+1}-\\frac{{e}^{0}}{0+1}=\\frac{e}{2}-1\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "${\\int}_{0}^{1}H(x)dx$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $H(x)=\\frac{{xe}^{x}}{(x+1{)}^{2}}$\n$∴\\int\\frac{{x}^{x}}{(x+1{)}^{2}}dx=\\int\\frac{\\{(x+1)-1\\}{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\int{e}^{x}\\cdot\\frac{1}{x+1}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx.$\n$=\\frac{1}{x+1}\\int{e}^{x}dx-\\int\\{\\frac{d}{dx}(\\frac{1}{x+1})\\int{e}^{x}dx\\}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{{e}^{x}}{x+1}+\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx=\\frac{{e}^{x}}{x+1}+c$\n$∴{\\int}_{0}^{1}H(x)dx={\\int}_{0}^{1}\\frac{x{e}^{x}}{(x+1{)}^{2}}dx$\n$={[\\frac{{e}^{x}}{x+1}]}_{0}^{1}$\n$=\\frac{{e}^{1}}{1+1}-\\frac{{e}^{0}}{0+1}=\\frac{e}{2}-1\\text{ (Ans.) }$"
+          }
         }
       ],
       "assets": [],

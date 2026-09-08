@@ -2,35 +2,48 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "rajshahi-2017-physics1st-cq01",
+      "clientId": "rajshahi-2017-math1st-cq01",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-2"
+        "path": "hsc/math/1st/chapter-2"
       },
       "questionNumber": "01",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k},\\vec{Q}=3\\hat{i}-2\\hat{j}+4\\hat{k}$ এবং $\\vec{R}=\\hat{i}-\\hat{j}+2\\hat{k}$ ."
+          "questionText": "$\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k},\\vec{Q}=3\\hat{i}-2\\hat{j}+4\\hat{k}$ এবং $\\vec{R}=\\hat{i}-\\hat{j}+2\\hat{k}$ .",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\vec{P}$ বিন্দুগা|মী এবং $\\vec{Q}$ ভেক্টরের সমান্তরাল সরলরেখার ভেক্টর সমীকরণ নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k}$ এবং $\\vec{Q}$ $\\vec{r}=\\vec{P}+tQ$ ; যেখানে t যে কোনো স্কেলার\nবা, $\\hat{i}+\\hat{y}+\\hat{k}=3\\hat{i}-3\\hat{j}+4\\hat{k}+t(3\\hat{i}-2\\hat{j}+4\\hat{k})$\nবা, $x\\hat{i}+y\\hat{j}+z\\hat{k}=(3+3t)\\hat{i}-(3+2t)\\hat{j}+(4+4t)\\hat{k}$\nবা, $x\\hat{i}+y\\hat{j}+z\\hat{k}=3(1+t)\\hat{i}-(3+2t)\\hat{j}+4(1+t)\\hat{k}$\nনির্ণেয় সমীকরণ $x\\hat{i}+y\\hat{j}+\\hat{k}=3(1+t)\\hat{i}-(3+2t)\\hat{j}+4(1+t)\\hat{k}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\vec{P}$ বিন্দুগা|মী এবং $\\vec{Q}$ ভেক্টরের সমান্তরাল সরলরেখার ভেক্টর সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k}$ এবং $\\vec{Q}$ $\\vec{r}=\\vec{P}+tQ$ ; যেখানে t যে কোনো স্কেলার\nবা, $\\hat{i}+\\hat{y}+\\hat{k}=3\\hat{i}-3\\hat{j}+4\\hat{k}+t(3\\hat{i}-2\\hat{j}+4\\hat{k})$\nবা, $x\\hat{i}+y\\hat{j}+z\\hat{k}=(3+3t)\\hat{i}-(3+2t)\\hat{j}+(4+4t)\\hat{k}$\nবা, $x\\hat{i}+y\\hat{j}+z\\hat{k}=3(1+t)\\hat{i}-(3+2t)\\hat{j}+4(1+t)\\hat{k}$\nনির্ণেয় সমীকরণ $x\\hat{i}+y\\hat{j}+\\hat{k}=3(1+t)\\hat{i}-(3+2t)\\hat{j}+4(1+t)\\hat{k}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, $\\vec{P}-\\vec{Q}$ ভেক্টরটি $\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টরের সাথে লম্ব।",
-          "answerText": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k}⇋$ এবং $\\vec{Q}=3\\hat{i}-2j+4\\hat{k}$ \n$\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টর = $\\vec{P}\\times\\vec{Q}$\nএখন, $\\vec{P}-\\vec{Q}=3\\hat{i}-3\\hat{j}+4\\hat{k}-3\\hat{i}+2\\hat{j}-4\\hat{k}=-\\hat{j}$\nএবং $\\vec{P}\\times\\vec{Q}=|\\begin{matrix}\\hat{i} & \\hat{j} & \\hat{k}\\\\ 3 & -3 & 4\\\\ 3 & -2 & 4\\end{matrix}|$\n$=\\hat{i}(-12+8)+\\hat{j}(12-12)+\\hat{k}(-6+9)$\n$=-4\\hat{i}+3\\hat{k}$\n$∴(\\vec{P}-\\vec{Q})\\cdot(\\vec{P}\\times\\vec{Q})=-\\hat{j}\\cdot(-4\\hat{i}+3\\hat{k})=0$\nসুতরাং $\\vec{P}-\\vec{Q}$ ভেক্টরটি $\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টরের সাথে লম্ব। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, $\\vec{P}-\\vec{Q}$ ভেক্টরটি $\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টরের সাথে লম্ব।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k}⇋$ এবং $\\vec{Q}=3\\hat{i}-2j+4\\hat{k}$ \n$\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টর = $\\vec{P}\\times\\vec{Q}$\nএখন, $\\vec{P}-\\vec{Q}=3\\hat{i}-3\\hat{j}+4\\hat{k}-3\\hat{i}+2\\hat{j}-4\\hat{k}=-\\hat{j}$\nএবং $\\vec{P}\\times\\vec{Q}=|\\begin{matrix}\\hat{i} & \\hat{j} & \\hat{k}\\\\ 3 & -3 & 4\\\\ 3 & -2 & 4\\end{matrix}|$\n$=\\hat{i}(-12+8)+\\hat{j}(12-12)+\\hat{k}(-6+9)$\n$=-4\\hat{i}+3\\hat{k}$\n$∴(\\vec{P}-\\vec{Q})\\cdot(\\vec{P}\\times\\vec{Q})=-\\hat{j}\\cdot(-4\\hat{i}+3\\hat{k})=0$\nসুতরাং $\\vec{P}-\\vec{Q}$ ভেক্টরটি $\\vec{P}$ এবং $\\vec{Q}$ ভেক্টর দ্বারা গঠিত সমতলের উপর লম্ব ভেক্টরের সাথে লম্ব। (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকে উল্লিখিত ভেক্টরগুলির $\\hat{i},\\hat{j},\\hat{k}$ এর সহগ দ্বারা গঠিত ম্যাট্রিক্স $A$ হলে ${A}^{-1}$ নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k},\\vec{Q}=3\\hat{i}-2\\hat{j}+4\\hat{k}$ এবং $\\vec{k}=\\hat{i}-\\hat{j}+2\\hat{k}$\n$A=[\\begin{matrix}3 & -3 & 4\\\\ 3 & -2 & 4\\\\ 1 & -1 & 2\\end{matrix}]$\n$∴|A|=|\\begin{matrix}3 & -3 & 4\\\\ 3 & -2 & 4\\\\ 1 & -1 & 2\\end{matrix}|$\n$=3(-4+4)-3(4-6)+4(-3+2)$\n$=3\\cdot0-3\\cdot(-2)+4\\cdot(-1)=0+6-4=2$\nA এর সহগুণকসমূহ :\n${A}_{11}=|\\begin{matrix}-2 & 4\\\\ -1 & 2\\end{matrix}|=-4+4=0$\n${A}_{12}=-|\\begin{matrix}3 & 4\\\\ 1 & 2\\end{matrix}|-(6-4)=-2$\n${A}_{13}=|\\begin{matrix}3 & -2\\\\ 1 & -1\\end{matrix}|=-3+2=-1$\n${A}_{21}=-|\\begin{matrix}-3 & 4\\\\ -1 & 2\\end{matrix}|=-(-6+4)=2$\n${A}_{22}=|\\begin{matrix}3 & 4\\\\ 1 & 2\\end{matrix}|=6-4=2$\n${A}_{23}=-|\\begin{matrix}3 & -3\\\\ 1 & -1\\end{matrix}|=-(-3+3)=0$\n${A}_{31}=|\\begin{matrix}-3 & 4\\\\ -2 & 4\\end{matrix}|=-12+8=-4$\n${A}_{32}=-|\\begin{matrix}3 & 4\\\\ 3 & 4\\end{matrix}|=-(12-12)=0$\n${A}_{33}=|\\begin{matrix}3 & -3\\\\ 3 & -2\\end{matrix}|=-6+9=3$\n$AdjA=[\\begin{matrix}{A}_{11} & {A}_{12} & {A}_{13}\\\\ {A}_{21} & {A}_{22} & {A}_{23}\\\\ {A}_{31} & {A}_{32} & {A}_{33}\\end{matrix}]T$\n$=[\\begin{matrix}0 & -2 & -1\\\\ 2 & 2 & 0\\\\ -4 & 0 & 3\\end{matrix}]=[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}]$\n${A}^{-1}=\\frac{\\text{ Adj }A}{|A|}=\\frac{1}{2}[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}]$\nনির্ণেয় ${A}^{-1}=\\frac{1}{2}[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}].$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকে উল্লিখিত ভেক্টরগুলির $\\hat{i},\\hat{j},\\hat{k}$ এর সহগ দ্বারা গঠিত ম্যাট্রিক্স $A$ হলে ${A}^{-1}$ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\vec{P}=3\\hat{i}-3\\hat{j}+4\\hat{k},\\vec{Q}=3\\hat{i}-2\\hat{j}+4\\hat{k}$ এবং $\\vec{k}=\\hat{i}-\\hat{j}+2\\hat{k}$\n$A=[\\begin{matrix}3 & -3 & 4\\\\ 3 & -2 & 4\\\\ 1 & -1 & 2\\end{matrix}]$\n$∴|A|=|\\begin{matrix}3 & -3 & 4\\\\ 3 & -2 & 4\\\\ 1 & -1 & 2\\end{matrix}|$\n$=3(-4+4)-3(4-6)+4(-3+2)$\n$=3\\cdot0-3\\cdot(-2)+4\\cdot(-1)=0+6-4=2$\nA এর সহগুণকসমূহ :\n${A}_{11}=|\\begin{matrix}-2 & 4\\\\ -1 & 2\\end{matrix}|=-4+4=0$\n${A}_{12}=-|\\begin{matrix}3 & 4\\\\ 1 & 2\\end{matrix}|-(6-4)=-2$\n${A}_{13}=|\\begin{matrix}3 & -2\\\\ 1 & -1\\end{matrix}|=-3+2=-1$\n${A}_{21}=-|\\begin{matrix}-3 & 4\\\\ -1 & 2\\end{matrix}|=-(-6+4)=2$\n${A}_{22}=|\\begin{matrix}3 & 4\\\\ 1 & 2\\end{matrix}|=6-4=2$\n${A}_{23}=-|\\begin{matrix}3 & -3\\\\ 1 & -1\\end{matrix}|=-(-3+3)=0$\n${A}_{31}=|\\begin{matrix}-3 & 4\\\\ -2 & 4\\end{matrix}|=-12+8=-4$\n${A}_{32}=-|\\begin{matrix}3 & 4\\\\ 3 & 4\\end{matrix}|=-(12-12)=0$\n${A}_{33}=|\\begin{matrix}3 & -3\\\\ 3 & -2\\end{matrix}|=-6+9=3$\n$AdjA=[\\begin{matrix}{A}_{11} & {A}_{12} & {A}_{13}\\\\ {A}_{21} & {A}_{22} & {A}_{23}\\\\ {A}_{31} & {A}_{32} & {A}_{33}\\end{matrix}]T$\n$=[\\begin{matrix}0 & -2 & -1\\\\ 2 & 2 & 0\\\\ -4 & 0 & 3\\end{matrix}]=[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}]$\n${A}^{-1}=\\frac{\\text{ Adj }A}{|A|}=\\frac{1}{2}[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}]$\nনির্ণেয় ${A}^{-1}=\\frac{1}{2}[\\begin{matrix}0 & 2 & -4\\\\ -2 & 2 & 0\\\\ -1 & 0 & 3\\end{matrix}].$"
+          }
         }
       ],
       "assets": [],
@@ -59,45 +72,58 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq02",
+      "clientId": "rajshahi-2017-math1st-cq02",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-3"
+        "path": "hsc/math/1st/chapter-3"
       },
       "questionNumber": "02",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "A(2, 4), B(3, 1), C(4, 5); 2x-y+2=0, x-2y+3=0."
+          "questionText": "A(2, 4), B(3, 1), C(4, 5); 2x-y+2=0, x-2y+3=0.",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "y-অক্ষ এবং (k, 4) বিন্দু থেকে A(2, 4) বিন্দুর দূরত্ব সমান হলে k এর মান নির্ণয় কর।",
-          "answerText": "$y$ -অক্ষ থেকে $A(2,4)$ বিন্দুর দূরত্ব $=|2|=2$\n$(k,4)$ বিন্দু থেকে $A(2,4)$ বিন্দুর দূরত্ব $=\\sqrt{(k-2{)}^{2}+(4-4{)}^{2}}$\nপ্রশ্নমতে, $\\sqrt{(k-2{)}^{2}+(4-4{)}^{2}}=2$\nবা, $(k-2{)}^{2}+0={2}^{2}$ বা, ${k}^{2}-4k+4=4$\nবা, ${k}^{2}-4k=0 ∴k=0,4$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "y-অক্ষ এবং (k, 4) বিন্দু থেকে A(2, 4) বিন্দুর দূরত্ব সমান হলে k এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$y$ -অক্ষ থেকে $A(2,4)$ বিন্দুর দূরত্ব $=|2|=2$\n$(k,4)$ বিন্দু থেকে $A(2,4)$ বিন্দুর দূরত্ব $=\\sqrt{(k-2{)}^{2}+(4-4{)}^{2}}$\nপ্রশ্নমতে, $\\sqrt{(k-2{)}^{2}+(4-4{)}^{2}}=2$\nবা, $(k-2{)}^{2}+0={2}^{2}$ বা, ${k}^{2}-4k+4=4$\nবা, ${k}^{2}-4k=0 ∴k=0,4$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "C বিন্দু থেকে AB সরলরেখার উপর অংকিত লম্বের পাদবিন্দুর স্থানাঙ্ক নির্ণয় কর।",
-          "answerText": "$AB$ সরলরেখার সমীকরণ, $\\frac{x-2}{2-3}=\\frac{y-4}{4-1}$\nবা, $\\frac{x-2}{-1}=\\frac{y-4}{3}$\nবা, $3x-6=-y+4$\n$∴3x+y-10=0$\n(i) নং সরলরেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n$x-3y+k=0$\n(ii) নং $C(4,5)$ বিন্দুগামী।\n$4-3\\times5+k=0$\nবা, $4-15+k=0 ∴k=11$\n$k$ এর মান\n(ii) নং এ বসিয়ে, $x-3y+11=0$ $$\n(i) নং কে 3 দ্বারা গুণ করে (iii) নং এর সাথে যোগ করেে পাই,\n$9x+3y-30+x-3y+11=0$\nবা, $10x-19=0∴x=\\frac{19}{10}$\n$x$ এর মান (iii) নং এ বসিয়ে পাই,\n$\\frac{19}{10}-3y+11=0$\nবা, $3y=\\frac{19+110}{10}∴y=\\frac{129}{30}=\\frac{43}{10}$\n$∴$ পাদবিন্দুর স্থানাঙ্ক $(x,y)=(\\frac{19}{10},\\frac{43}{10})$ (Ans.)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "C বিন্দু থেকে AB সরলরেখার উপর অংকিত লম্বের পাদবিন্দুর স্থানাঙ্ক নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$AB$ সরলরেখার সমীকরণ, $\\frac{x-2}{2-3}=\\frac{y-4}{4-1}$\nবা, $\\frac{x-2}{-1}=\\frac{y-4}{3}$\nবা, $3x-6=-y+4$\n$∴3x+y-10=0$\n(i) নং সরলরেখার উপর অঙ্কিত লম্ব রেখার সমীকরণ,\n$x-3y+k=0$\n(ii) নং $C(4,5)$ বিন্দুগামী।\n$4-3\\times5+k=0$\nবা, $4-15+k=0 ∴k=11$\n$k$ এর মান\n(ii) নং এ বসিয়ে, $x-3y+11=0$ $$\n(i) নং কে 3 দ্বারা গুণ করে (iii) নং এর সাথে যোগ করেে পাই,\n$9x+3y-30+x-3y+11=0$\nবা, $10x-19=0∴x=\\frac{19}{10}$\n$x$ এর মান (iii) নং এ বসিয়ে পাই,\n$\\frac{19}{10}-3y+11=0$\nবা, $3y=\\frac{19+110}{10}∴y=\\frac{129}{30}=\\frac{43}{10}$\n$∴$ পাদবিন্দুর স্থানাঙ্ক $(x,y)=(\\frac{19}{10},\\frac{43}{10})$ (Ans.)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের আলোকে রেখাদ্বয়ের মধ্যবর্তী সূক্ষ্মকোণের সমদ্বিখন্ডক অক্ষদ্বয়ের সাথে যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "$2x-y+2=0……(iv)$\n$x-2y+3=0……(v)$\n(iv) ও (v) নং এর ক্ষেত্রে, ${a}_{1}=2,{\\text{ }b}_{1}=-1,{a}_{2}=1,{\\text{ }b}_{2}=-2$\nএখানে, ${a}_{1}{a}_{2}+{b}_{1}{b}_{2}=2\\times1+(-1)(-2)=2+2=4>0$\nঅর্থাৎ, ঋণাত্মক চিহ্ন হতে প্রাপ্ত সমদ্বিখণ্ডকটি হবে সূক্মকোণের সমদ্বিখণ্ডক।\n(iv) ও (v) নং রেখাদ্বয়ের মধ্যবত্তী সূক্মকোণের সমদ্বিখন্ডকের সমীকরণ, $\\frac{2x-y+2}{\\sqrt{{2}^{2}+(-1{)}^{2}}}=-\\frac{x-2y+3}{\\sqrt{{1}^{2}+(-2{)}^{2}}}$\nবা, $\\frac{2x-y+2}{\\sqrt{5}}=-\\frac{x-2y+3}{\\sqrt{5}}$\nবা, $2x-y+2=-x+2y-3$\nবা, $3x-3y=-5$ বা, $\\frac{3x}{-5}-\\frac{3y}{-5}=1$\n$∴\\frac{x}{\\frac{-5}{3}}+\\frac{y}{\\frac{5}{3}}=1$ ইহ $x$ -অক্ষকে $P(\\frac{-5}{3},0)$ এবং $y$ -অক্ষকে  $Q(0,\\frac{5}{3})$ বিন্দুতে ছেদ করে । মূলবিন্দু $O(0,0)$\n$∴OP=|-\\frac{5}{3}|=\\frac{5}{3}$ এবং $OQ=\\frac{5}{3}$\n[IMG_0]\n$∴△OPQ$ এর ক্ষেত্রেল $=\\frac{1}{2}\\timesOP\\timesOQ$\n$=\\frac{1}{2}\\times\\frac{5}{3}\\times\\frac{5}{3}$\n$=\\frac{25}{18}$ বগ একক (Ans.)",
-          "assets": [
-            {
-              "sha256": "f81912e57ed445a2616b8154f919079c4fee548c0f82256a5562da84102afbd2",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের আলোকে রেখাদ্বয়ের মধ্যবর্তী সূক্ষ্মকোণের সমদ্বিখন্ডক অক্ষদ্বয়ের সাথে যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$2x-y+2=0……(iv)$\n$x-2y+3=0……(v)$\n(iv) ও (v) নং এর ক্ষেত্রে, ${a}_{1}=2,{\\text{ }b}_{1}=-1,{a}_{2}=1,{\\text{ }b}_{2}=-2$\nএখানে, ${a}_{1}{a}_{2}+{b}_{1}{b}_{2}=2\\times1+(-1)(-2)=2+2=4>0$\nঅর্থাৎ, ঋণাত্মক চিহ্ন হতে প্রাপ্ত সমদ্বিখণ্ডকটি হবে সূক্মকোণের সমদ্বিখণ্ডক।\n(iv) ও (v) নং রেখাদ্বয়ের মধ্যবত্তী সূক্মকোণের সমদ্বিখন্ডকের সমীকরণ, $\\frac{2x-y+2}{\\sqrt{{2}^{2}+(-1{)}^{2}}}=-\\frac{x-2y+3}{\\sqrt{{1}^{2}+(-2{)}^{2}}}$\nবা, $\\frac{2x-y+2}{\\sqrt{5}}=-\\frac{x-2y+3}{\\sqrt{5}}$\nবা, $2x-y+2=-x+2y-3$\nবা, $3x-3y=-5$ বা, $\\frac{3x}{-5}-\\frac{3y}{-5}=1$\n$∴\\frac{x}{\\frac{-5}{3}}+\\frac{y}{\\frac{5}{3}}=1$ ইহ $x$ -অক্ষকে $P(\\frac{-5}{3},0)$ এবং $y$ -অক্ষকে  $Q(0,\\frac{5}{3})$ বিন্দুতে ছেদ করে । মূলবিন্দু $O(0,0)$\n$∴OP=|-\\frac{5}{3}|=\\frac{5}{3}$ এবং $OQ=\\frac{5}{3}$\n[IMG_0]\n$∴△OPQ$ এর ক্ষেত্রেল $=\\frac{1}{2}\\timesOP\\timesOQ$\n$=\\frac{1}{2}\\times\\frac{5}{3}\\times\\frac{5}{3}$\n$=\\frac{25}{18}$ বগ একক (Ans.)"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "f81912e57ed445a2616b8154f919079c4fee548c0f82256a5562da84102afbd2",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "87ffb88e87461deb31f562240b77b0cbe6c61ca326a5f32f633ce77679cee65f",
         "page": 2,
@@ -123,51 +149,64 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq03",
+      "clientId": "rajshahi-2017-math1st-cq03",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-1"
+        "path": "hsc/math/1st/chapter-1"
       },
       "questionNumber": "03",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$f(x)={x}^{2}+3x,g(x)=2x-3$ এবং $A=[\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}]$"
+          "questionText": "$f(x)={x}^{2}+3x,g(x)=2x-3$ এবং $A=[\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}]$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "নির্ণায়কের সাহায্যে সমাধান কর : $x+3y+2=0,2x+y+3=0$",
-          "answerText": "$x+3y+2=0$\n$∴x+3y=-2………....(i)$\nএবং $2x+y+3=0$\n$∴2x+y=-3.......(ii)$\n(i) ও (ii) নং হতে, $x$ ও y এর সহগগুচ্ছ নিয়ে গঠিত নির্ণায়ক\n$D=|\\begin{matrix}1 & 3\\\\ 2 & 1\\end{matrix}|=1-6=-5$\n${D}_{x}=|\\begin{matrix}-2 & 3\\\\ -3 & 1\\end{matrix}|=-2+9=7$\n${D}_{y}=|\\begin{matrix}1 & -2\\\\ 2 & -3\\end{matrix}|=-3+4=1$\n$∴x=\\frac{{D}_{x}}{D}=\\frac{7}{-5}$ এবং $y=\\frac{{D}_{y}}{D}=\\frac{1}{-5}$\n$∴$ নির্ণেয় সমাধান $(x,y)=(\\frac{-7}{5},\\frac{-1}{5})$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "নির্ণায়কের সাহায্যে সমাধান কর : $x+3y+2=0,2x+y+3=0$"
+          },
+          "solution": {
+            "bn": "$x+3y+2=0$\n$∴x+3y=-2………....(i)$\nএবং $2x+y+3=0$\n$∴2x+y=-3.......(ii)$\n(i) ও (ii) নং হতে, $x$ ও y এর সহগগুচ্ছ নিয়ে গঠিত নির্ণায়ক\n$D=|\\begin{matrix}1 & 3\\\\ 2 & 1\\end{matrix}|=1-6=-5$\n${D}_{x}=|\\begin{matrix}-2 & 3\\\\ -3 & 1\\end{matrix}|=-2+9=7$\n${D}_{y}=|\\begin{matrix}1 & -2\\\\ 2 & -3\\end{matrix}|=-3+4=1$\n$∴x=\\frac{{D}_{x}}{D}=\\frac{7}{-5}$ এবং $y=\\frac{{D}_{y}}{D}=\\frac{1}{-5}$\n$∴$ নির্ণেয় সমাধান $(x,y)=(\\frac{-7}{5},\\frac{-1}{5})$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "f(A) + I নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $f(x)={x}^{2}+3x$\n${A}^{2}=A\\timesA=[\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}][\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}]$\n$=[\\begin{matrix}9+2+4 & 3+3-5 & -3+4-6\\\\ 6+6-16 & 2+9+20 & -2+12+24\\\\ -12+10-24 & -4+15+30 & 4+20+36\\end{matrix}]$\n$=[\\begin{matrix}15 & 1 & -5\\\\ -4 & 31 & 34\\\\ -26 & 41 & 60\\end{matrix}]$\n$f(A)+I={A}^{2}+3\\text{ }A+I$\n$=[\\begin{matrix}15 & 1 & -5\\\\ -4 & 31 & 34\\\\ -26 & 41 & 60\\end{matrix}]+[\\begin{matrix}9 & 3 & -3\\\\ 6 & 9 & 12\\\\ -12 & 15 & 18\\end{matrix}]+[\\begin{matrix}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 1\\end{matrix}]$\n$=[\\begin{matrix}25 & 4 & -8\\\\ 2 & 41 & 46\\\\ -38 & 56 & 79\\end{matrix}]\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "f(A) + I নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $f(x)={x}^{2}+3x$\n${A}^{2}=A\\timesA=[\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}][\\begin{matrix}3 & 1 & -1\\\\ 2 & 3 & 4\\\\ -4 & 5 & 6\\end{matrix}]$\n$=[\\begin{matrix}9+2+4 & 3+3-5 & -3+4-6\\\\ 6+6-16 & 2+9+20 & -2+12+24\\\\ -12+10-24 & -4+15+30 & 4+20+36\\end{matrix}]$\n$=[\\begin{matrix}15 & 1 & -5\\\\ -4 & 31 & 34\\\\ -26 & 41 & 60\\end{matrix}]$\n$f(A)+I={A}^{2}+3\\text{ }A+I$\n$=[\\begin{matrix}15 & 1 & -5\\\\ -4 & 31 & 34\\\\ -26 & 41 & 60\\end{matrix}]+[\\begin{matrix}9 & 3 & -3\\\\ 6 & 9 & 12\\\\ -12 & 15 & 18\\end{matrix}]+[\\begin{matrix}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 1\\end{matrix}]$\n$=[\\begin{matrix}25 & 4 & -8\\\\ 2 & 41 & 46\\\\ -38 & 56 & 79\\end{matrix}]\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "gof(x) এর লেখচিত্র অঙ্কন কর।",
-          "answerText": "দেওয়া আছে, $g(x)=2x-3$\n$∴gof(x)=g(f(x))=g({x}^{2}+3x)=2({x}^{2}+3x)-3$\n$=2{x}^{2}+6x-3$\nধরি, $y=2{x}^{2}+6x-3$\nx এর বিভিন্ন বাস্তব মানের জন্য y এর প্রতিসঙ্গী মান নির্ণয় করি:\n[IMG_0]\nউভয় অক্ষ বরাবর 1 বর্গ একক ধরে প্রদত্ত বিন্দুগুলি ছক কাগজে স্থাপন করি।\n[IMG_1]",
-          "assets": [
-            {
-              "sha256": "7f5119870888f4fcd4674643aba3b493eee09ebc6ad3627e58c803241e3a1ea3",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            },
-            {
-              "sha256": "f2481b79e7b162d50bb1ccf6d712a1bd1e1a0f3b61bc4fb309417d030cfad1c3",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "gof(x) এর লেখচিত্র অঙ্কন কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $g(x)=2x-3$\n$∴gof(x)=g(f(x))=g({x}^{2}+3x)=2({x}^{2}+3x)-3$\n$=2{x}^{2}+6x-3$\nধরি, $y=2{x}^{2}+6x-3$\nx এর বিভিন্ন বাস্তব মানের জন্য y এর প্রতিসঙ্গী মান নির্ণয় করি:\n[IMG_0]\nউভয় অক্ষ বরাবর 1 বর্গ একক ধরে প্রদত্ত বিন্দুগুলি ছক কাগজে স্থাপন করি।\n[IMG_1]"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "7f5119870888f4fcd4674643aba3b493eee09ebc6ad3627e58c803241e3a1ea3",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "f2481b79e7b162d50bb1ccf6d712a1bd1e1a0f3b61bc4fb309417d030cfad1c3",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "87ffb88e87461deb31f562240b77b0cbe6c61ca326a5f32f633ce77679cee65f",
         "page": 2,
@@ -193,35 +232,48 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq04",
+      "clientId": "rajshahi-2017-math1st-cq04",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/1st/chapter-4"
       },
       "questionNumber": "04",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "${x}^{2}+{y}^{2}+6x+8y+21=0,{x}^{2}+{y}^{2}=9;x+y=6$"
+          "questionText": "${x}^{2}+{y}^{2}+6x+8y+21=0,{x}^{2}+{y}^{2}=9;x+y=6$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "উদ্দীপকের ১ম বৃত্তের x², y², x এবং y এর সহগগুলি একত্রে ব্যবহার করে কতটি সংখ্যা গঠন করা যায়?",
-          "answerText": "প্রদত্ত ১ম বৃত্তের সমীকরণ, ${x}^{2}+{y}^{2}+6x+8y+21=0$\nসমীকরণটিতে ${x}^{2}$ এর সহগ $1;{y}^{2}$ এর সহপ 1\n$x$ এর সহগ 6 এবং $y$ এর সহগ 8\nএখানে $1,1,6$ ও 8 সহগগুলি অর্থাৎ 4টি সহগের মধ্যে 1 আছে 2টি , 6 ও 8 আছে 1 টি করে।\n$∴$ সহগুলি একত্রে ব্যবহার করে সংখ্যা গঠন কর যায় $=\\frac{4!}{2!}$ টি\n$=\\frac{24}{2}$ টি\n$=12$ টি\n$∴$ সহগগুলি একত্রে ব্যবহার করে 12 টি সংখ্যা গঠন করা যায়।",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "উদ্দীপকের ১ম বৃত্তের x², y², x এবং y এর সহগগুলি একত্রে ব্যবহার করে কতটি সংখ্যা গঠন করা যায়?"
+          },
+          "solution": {
+            "bn": "প্রদত্ত ১ম বৃত্তের সমীকরণ, ${x}^{2}+{y}^{2}+6x+8y+21=0$\nসমীকরণটিতে ${x}^{2}$ এর সহগ $1;{y}^{2}$ এর সহপ 1\n$x$ এর সহগ 6 এবং $y$ এর সহগ 8\nএখানে $1,1,6$ ও 8 সহগগুলি অর্থাৎ 4টি সহগের মধ্যে 1 আছে 2টি , 6 ও 8 আছে 1 টি করে।\n$∴$ সহগুলি একত্রে ব্যবহার করে সংখ্যা গঠন কর যায় $=\\frac{4!}{2!}$ টি\n$=\\frac{24}{2}$ টি\n$=12$ টি\n$∴$ সহগগুলি একত্রে ব্যবহার করে 12 টি সংখ্যা গঠন করা যায়।"
+          }
         },
         {
-          "key": "b",
-          "questionText": "দেখাও যে, উদ্দীপকের বৃত্তদ্বয় পরস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে বহিঃস্থভাবে স্পর্শ করে।",
-          "answerText": "প্রদত্ত ১ম বৃত্ত , ${x}^{2}+{y}^{2}+6x+8y+21=0$\nবা, ${x}^{2}+6x+9+{y}^{2}+8y+16-4=0$\nবা, $(x+3{)}^{2}+(y+4{)}^{2}=4$\nবা, $(x+3{)}^{2}+(y+4{)}^{2}={2}^{2}$\n$∴$ বৃত্তটির কেন্দ্র $(-3,-4)$ এবং ব্যাসার্ধ 2 একক\nপ্রদত্ত ২য়া বৃত্ত, ${x}^{2}+{y}^{2}=9$\nবা, ${x}^{2}+{y}^{2}={3}^{2}$\n$∴$ বৃত্তটির কেন্দ্র $(0,0)$ এবং ব্যাসার্ধ 3 একক\nবৃত্তয়ের কেন্দ্রদ্বয়ের দূরত্ব $=\\sqrt{(-3-0{)}^{2}+(-4-0{)}^{2}}$ একক\n$=\\sqrt{9+16}$ একক \n$=\\sqrt{25}$ একক =5 একক\nবৃত্তদ্বয়ের ব্যাসার্ধদ্বয়ের যোগফল $=(2+3)$ একক\n= 5  একক\n$∴$ বৃত্তদ্বয়ের কেন্দ্রদ্বয়ের দূরত্ব = বৃত্তদ্বয়ের ব্যাসার্ধদ্বয়ের যোগফল\n$∴$ বৃত্বদ্বয় পরস্পরকে বহিঃস্থভাবে স্পর্শ করে।\nআবার, $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দু হতে ১ম বৃত্তের কেন্দ্র $(-3,-4)$ এর দূরত্ব\n$=\\sqrt{{(-\\frac{9}{5}+3)}^{2}+{(-\\frac{12}{5}+4)}^{2}}$ একক\n$=\\sqrt{{(\\frac{6}{5})}^{2}+{(\\frac{8}{5})}^{2}}$ একক\n$=\\sqrt{\\frac{36}{25}+\\frac{64}{25}}$ একক\n$=\\sqrt{\\frac{100}{25}}$ একক\n$=\\sqrt{4}$ একক\n=2  একক = ১ বৃত্তের ব্যাসার্ধ\n$(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে ২য় বৃত্তের কেন্দ্র $(0,0)$ এর দূরত্ব\n$=\\sqrt{{(-\\frac{9}{5}-0)}^{2}+{(-\\frac{12}{5}-0)}^{2}}$ একক\n$=\\sqrt{\\frac{81}{25}+\\frac{144}{25}}$ একক \n$=\\sqrt{\\frac{225}{25}}$ একক\n$=\\sqrt{9}=3$ একক\n= ২য় বৃত্তের ব্যাসার্ধ\n$∴$ বৃত্তদ্বয় পরস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে স্পর্শ করে।\nসুতরাং বৃত্তদ্বয় পর্রস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে বহিঃস্থভাবে স্পর্শ করে। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "দেখাও যে, উদ্দীপকের বৃত্তদ্বয় পরস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে বহিঃস্থভাবে স্পর্শ করে।"
+          },
+          "solution": {
+            "bn": "প্রদত্ত ১ম বৃত্ত , ${x}^{2}+{y}^{2}+6x+8y+21=0$\nবা, ${x}^{2}+6x+9+{y}^{2}+8y+16-4=0$\nবা, $(x+3{)}^{2}+(y+4{)}^{2}=4$\nবা, $(x+3{)}^{2}+(y+4{)}^{2}={2}^{2}$\n$∴$ বৃত্তটির কেন্দ্র $(-3,-4)$ এবং ব্যাসার্ধ 2 একক\nপ্রদত্ত ২য়া বৃত্ত, ${x}^{2}+{y}^{2}=9$\nবা, ${x}^{2}+{y}^{2}={3}^{2}$\n$∴$ বৃত্তটির কেন্দ্র $(0,0)$ এবং ব্যাসার্ধ 3 একক\nবৃত্তয়ের কেন্দ্রদ্বয়ের দূরত্ব $=\\sqrt{(-3-0{)}^{2}+(-4-0{)}^{2}}$ একক\n$=\\sqrt{9+16}$ একক \n$=\\sqrt{25}$ একক =5 একক\nবৃত্তদ্বয়ের ব্যাসার্ধদ্বয়ের যোগফল $=(2+3)$ একক\n= 5  একক\n$∴$ বৃত্তদ্বয়ের কেন্দ্রদ্বয়ের দূরত্ব = বৃত্তদ্বয়ের ব্যাসার্ধদ্বয়ের যোগফল\n$∴$ বৃত্বদ্বয় পরস্পরকে বহিঃস্থভাবে স্পর্শ করে।\nআবার, $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দু হতে ১ম বৃত্তের কেন্দ্র $(-3,-4)$ এর দূরত্ব\n$=\\sqrt{{(-\\frac{9}{5}+3)}^{2}+{(-\\frac{12}{5}+4)}^{2}}$ একক\n$=\\sqrt{{(\\frac{6}{5})}^{2}+{(\\frac{8}{5})}^{2}}$ একক\n$=\\sqrt{\\frac{36}{25}+\\frac{64}{25}}$ একক\n$=\\sqrt{\\frac{100}{25}}$ একক\n$=\\sqrt{4}$ একক\n=2  একক = ১ বৃত্তের ব্যাসার্ধ\n$(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে ২য় বৃত্তের কেন্দ্র $(0,0)$ এর দূরত্ব\n$=\\sqrt{{(-\\frac{9}{5}-0)}^{2}+{(-\\frac{12}{5}-0)}^{2}}$ একক\n$=\\sqrt{\\frac{81}{25}+\\frac{144}{25}}$ একক \n$=\\sqrt{\\frac{225}{25}}$ একক\n$=\\sqrt{9}=3$ একক\n= ২য় বৃত্তের ব্যাসার্ধ\n$∴$ বৃত্তদ্বয় পরস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে স্পর্শ করে।\nসুতরাং বৃত্তদ্বয় পর্রস্পরকে $(-\\frac{9}{5},-\\frac{12}{5})$ বিন্দুতে বহিঃস্থভাবে স্পর্শ করে। (দেখানো হলো)"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের ১ম বৃত্ত ও রেখাটির ছেদবিন্দুগামী এবং ২য় বৃত্তের কেন্দ্রগামী বৃত্তটির দ্বারা x অক্ষ থেকে খন্ডিত জ্যা এর দৈর্ঘ্য নির্ণয় কর।",
-          "answerText": "প্রদত ১ম বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+6x+8y+21=0$ ....... (1)\nএবং সরলরেখাটির সমীকরণ, $x+y=6$ ......... (2)\n(2) নং হতে পাই, $y=6-x$\n(1) নং $\\text{Math input error}$ বসিয়ে পাই,\n${x}^{2}+(6-x{)}^{2}+6x+8(6-x)+21=0$\nবা, $2{x}^{2}-14x+105=0$\nবা, $x=\\frac{-(-14)\\pm\\sqrt{(-14{)}^{2}-4\\times2\\times105}}{2.2}=\\frac{14\\pm\\sqrt{-644}}{4}$\n$∴x=\\frac{7+\\sqrt{161}i}{2},\\frac{7-\\sqrt{161}i}{2}$ ; যা কল্পনিক মান নির্দেশ করে।\nসুতরং সরলরেখাটি ১ম বৃত্তকে ছেদ বা স্পর্শ কোনোটিই করবে না।",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের ১ম বৃত্ত ও রেখাটির ছেদবিন্দুগামী এবং ২য় বৃত্তের কেন্দ্রগামী বৃত্তটির দ্বারা x অক্ষ থেকে খন্ডিত জ্যা এর দৈর্ঘ্য নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "প্রদত ১ম বৃত্তের সমীকরণ,\n${x}^{2}+{y}^{2}+6x+8y+21=0$ ....... (1)\nএবং সরলরেখাটির সমীকরণ, $x+y=6$ ......... (2)\n(2) নং হতে পাই, $y=6-x$\n(1) নং $\\text{Math input error}$ বসিয়ে পাই,\n${x}^{2}+(6-x{)}^{2}+6x+8(6-x)+21=0$\nবা, $2{x}^{2}-14x+105=0$\nবা, $x=\\frac{-(-14)\\pm\\sqrt{(-14{)}^{2}-4\\times2\\times105}}{2.2}=\\frac{14\\pm\\sqrt{-644}}{4}$\n$∴x=\\frac{7+\\sqrt{161}i}{2},\\frac{7-\\sqrt{161}i}{2}$ ; যা কল্পনিক মান নির্দেশ করে।\nসুতরং সরলরেখাটি ১ম বৃত্তকে ছেদ বা স্পর্শ কোনোটিই করবে না।"
+          }
         }
       ],
       "assets": [],
@@ -250,48 +302,60 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq05",
+      "clientId": "rajshahi-2017-math1st-cq05",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/1st/chapter-6"
       },
       "questionNumber": "05",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "[IMG_0]"
+          "questionText": "[IMG_0]",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "x-এর সাপেক্ষে x³sin(lnx) এর অন্তরজ নির্ণয় কর ।",
-          "answerText": "$\\frac{d}{dx}\\{{x}^{3}\\sin(\\lnx)\\}=\\sin(\\lnx)\\cdot\\frac{d}{dx}{x}^{3}+{x}^{3}\\cdot\\frac{d}{dx}\\sin(\\lnx)$\n$=\\sin(\\lnx)\\cdot3{x}^{2}+{x}^{3}\\cdot\\cos(\\lnx)\\cdot\\frac{1}{x}$\n$=3{x}^{2}\\sin(\\lnx)+{x}^{2}\\cos(\\lnx)$\n$={x}^{2}\\{3\\sin(\\lnx)+\\cos(\\lnx)\\}$\nনির্ণেয় অন্তরজ ${x}^{2}\\{3\\sin(\\lnx)+\\cos(\\lnx)\\}$ .",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "x-এর সাপেক্ষে x³sin(lnx) এর অন্তরজ নির্ণয় কর ।"
+          },
+          "solution": {
+            "bn": "$\\frac{d}{dx}\\{{x}^{3}\\sin(\\lnx)\\}=\\sin(\\lnx)\\cdot\\frac{d}{dx}{x}^{3}+{x}^{3}\\cdot\\frac{d}{dx}\\sin(\\lnx)$\n$=\\sin(\\lnx)\\cdot3{x}^{2}+{x}^{3}\\cdot\\cos(\\lnx)\\cdot\\frac{1}{x}$\n$=3{x}^{2}\\sin(\\lnx)+{x}^{2}\\cos(\\lnx)$\n$={x}^{2}\\{3\\sin(\\lnx)+\\cos(\\lnx)\\}$\nনির্ণেয় অন্তরজ ${x}^{2}\\{3\\sin(\\lnx)+\\cos(\\lnx)\\}$ ."
+          }
         },
         {
-          "key": "b",
-          "questionText": "উদ্দীপকের সাহায্যে মান নির্ণয় কর: ${\\cos}^{2}\\alpha+{\\cos}^{2}\\beta+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$",
-          "answerText": "উদ্দীপক হতে, $\\alpha+\\beta+\\gamma=2\\pi$\nবা, $\\alpha+\\beta=2\\pi-\\gamma$\nবা, $\\cos(\\alpha+\\beta)=\\cos(2\\pi-\\gamma)$\nবা, $\\cos(\\alpha+\\beta)=\\cos\\gamma$\nপ্রদত্ত রাশি $={\\cos}^{2}\\alpha+{\\cos}^{2}\\beta+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=\\frac{1}{2}(2{\\cos}^{2}\\alpha+2{\\cos}^{2}\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=\\frac{1}{2}(1+\\cos2\\alpha+1\\cos2\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\frac{1}{2}(\\cos2\\alpha+\\cos2\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\frac{1}{2}\\cdot2\\cos(\\alpha+\\beta)\\cos(\\alpha-\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\cos(\\alpha-\\beta)+\\cos\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\{\\cos(\\alpha-\\beta)+\\cos\\gamma\\}-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\{\\cos(\\alpha-\\beta)+\\cos(\\alpha+\\beta)\\}-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\cdot2\\cos\\alpha\\cdot\\cos\\beta-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+2\\cos\\alpha\\cos\\beta\\cos\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma=1$\nনির্ণেয় মান 1.",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "উদ্দীপকের সাহায্যে মান নির্ণয় কর: ${\\cos}^{2}\\alpha+{\\cos}^{2}\\beta+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$"
+          },
+          "solution": {
+            "bn": "উদ্দীপক হতে, $\\alpha+\\beta+\\gamma=2\\pi$\nবা, $\\alpha+\\beta=2\\pi-\\gamma$\nবা, $\\cos(\\alpha+\\beta)=\\cos(2\\pi-\\gamma)$\nবা, $\\cos(\\alpha+\\beta)=\\cos\\gamma$\nপ্রদত্ত রাশি $={\\cos}^{2}\\alpha+{\\cos}^{2}\\beta+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=\\frac{1}{2}(2{\\cos}^{2}\\alpha+2{\\cos}^{2}\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=\\frac{1}{2}(1+\\cos2\\alpha+1\\cos2\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\frac{1}{2}(\\cos2\\alpha+\\cos2\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\frac{1}{2}\\cdot2\\cos(\\alpha+\\beta)\\cos(\\alpha-\\beta)+{\\cos}^{2}\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\cos(\\alpha-\\beta)+\\cos\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\{\\cos(\\alpha-\\beta)+\\cos\\gamma\\}-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\{\\cos(\\alpha-\\beta)+\\cos(\\alpha+\\beta)\\}-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+\\cos\\gamma\\cdot2\\cos\\alpha\\cdot\\cos\\beta-2\\cos\\alpha\\cos\\beta\\cos\\gamma$\n$=1+2\\cos\\alpha\\cos\\beta\\cos\\gamma-2\\cos\\alpha\\cos\\beta\\cos\\gamma=1$\nনির্ণেয় মান 1."
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের ছায়াঘেরা অংশের ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "এখানে, A কেন্দ্রবিশিষ্ট বৃত্তের ব্যাসার্ধ, r = AB = AC = 6 মি.\n$∠BAC=\\alpha$\n$BD=9$  মি.\n[IMG_0]\n$CE=3$ মি.\n$DE=21$ মি.\n$AD=AB+BD$\n=(6+9) মি. =15 মি.\n$AE=AC+CE$\n= (6+3) মি. = 9 মি.\nADE ত্রিভুজের অর্ধপরিসীমা,\n$S=\\frac{AD+DE+AE}{2}$\n$=\\frac{15+21+9}{2}$ মি.\n$=\\frac{45}{2}$ মি. =22.5 মি.\nADE ত্রিভুজের ক্ষেত্রফল\n$=\\sqrt{S(S-AD)(S-DE)(S-AE)}$\n$=\\sqrt{22.5\\times(22.5-15)\\times(22.5-21)\\times(22.5-9)}$ বর্গ মি.\n$=\\sqrt{22.5\\times7.5\\times1.5\\times13.5}$ বর্গ মি.\n$=\\sqrt{3417.1875}$ বর্গ মি.\n$=58.4567$ বর্গ মি.\n$\\cos\\alpha=\\frac{{AD}^{2}+{AE}^{2}-{DE}^{2}}{2.AD.AE}$\n$=\\frac{(15{)}^{2}+{9}^{2}-(21{)}^{2}}{2\\times15\\times9}$\n$=\\frac{225+81-441}{270}=\\frac{-135}{270}=-\\frac{1}{2}$\nবা, $\\alpha={\\cos}^{-1}(-\\frac{1}{2})={120}^{\\circ}$\n$ABC$ বৃত্তকলার ক্ষেত্রফল $=\\frac{\\pi{\\pi}^{2}\\alpha}{360}=\\frac{3.1416\\times{6}^{2}\\times120}{360}$ বর্গ মি.\n$=37.6992$ বর্গ মি. (প্রায়)\n$∴$ ছায়াঘেরা অংশের ক্ষেত্রফল $=(58.4567-37.6992)$ বর্গ মি.\n$=20.76$ বর্গ.মি. (প্রায়)\nনির্ণেয় ক্ষেত্রফল 20.76 বর্গ মি. (প্রায়)।",
-          "assets": [
-            {
-              "sha256": "03775a3b1f3c9fd8a370570660aac5fae41e5d31d5a81c85889c76d85a8fc61d",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের ছায়াঘেরা অংশের ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "এখানে, A কেন্দ্রবিশিষ্ট বৃত্তের ব্যাসার্ধ, r = AB = AC = 6 মি.\n$∠BAC=\\alpha$\n$BD=9$  মি.\n[IMG_0]\n$CE=3$ মি.\n$DE=21$ মি.\n$AD=AB+BD$\n=(6+9) মি. =15 মি.\n$AE=AC+CE$\n= (6+3) মি. = 9 মি.\nADE ত্রিভুজের অর্ধপরিসীমা,\n$S=\\frac{AD+DE+AE}{2}$\n$=\\frac{15+21+9}{2}$ মি.\n$=\\frac{45}{2}$ মি. =22.5 মি.\nADE ত্রিভুজের ক্ষেত্রফল\n$=\\sqrt{S(S-AD)(S-DE)(S-AE)}$\n$=\\sqrt{22.5\\times(22.5-15)\\times(22.5-21)\\times(22.5-9)}$ বর্গ মি.\n$=\\sqrt{22.5\\times7.5\\times1.5\\times13.5}$ বর্গ মি.\n$=\\sqrt{3417.1875}$ বর্গ মি.\n$=58.4567$ বর্গ মি.\n$\\cos\\alpha=\\frac{{AD}^{2}+{AE}^{2}-{DE}^{2}}{2.AD.AE}$\n$=\\frac{(15{)}^{2}+{9}^{2}-(21{)}^{2}}{2\\times15\\times9}$\n$=\\frac{225+81-441}{270}=\\frac{-135}{270}=-\\frac{1}{2}$\nবা, $\\alpha={\\cos}^{-1}(-\\frac{1}{2})={120}^{\\circ}$\n$ABC$ বৃত্তকলার ক্ষেত্রফল $=\\frac{\\pi{\\pi}^{2}\\alpha}{360}=\\frac{3.1416\\times{6}^{2}\\times120}{360}$ বর্গ মি.\n$=37.6992$ বর্গ মি. (প্রায়)\n$∴$ ছায়াঘেরা অংশের ক্ষেত্রফল $=(58.4567-37.6992)$ বর্গ মি.\n$=20.76$ বর্গ.মি. (প্রায়)\nনির্ণেয় ক্ষেত্রফল 20.76 বর্গ মি. (প্রায়)।"
+          }
         }
       ],
       "assets": [
         {
           "sha256": "03775a3b1f3c9fd8a370570660aac5fae41e5d31d5a81c85889c76d85a8fc61d",
           "role": "stem",
+          "page": 2,
+          "bbox": null
+        },
+        {
+          "sha256": "03775a3b1f3c9fd8a370570660aac5fae41e5d31d5a81c85889c76d85a8fc61d",
+          "role": "solution",
           "page": 2,
           "bbox": null
         }
@@ -321,35 +385,48 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq06",
+      "clientId": "rajshahi-2017-math1st-cq06",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-9"
+        "path": "hsc/math/1st/chapter-9"
       },
       "questionNumber": "06",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$f(x)=\\frac{1}{\\sinx},g(x)=\\frac{1}{\\tanx},h(x)=x$"
+          "questionText": "$f(x)=\\frac{1}{\\sinx},g(x)=\\frac{1}{\\tanx},h(x)=x$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "মান নির্ণয় কর: $\\underset{x\\to2}{lim}\\frac{4-{x}^{2}}{3-\\sqrt{{x}^{2}+5}}$",
-          "answerText": "$\\begin{matrix} & \\underset{x\\to2}{lim}\\frac{4-{x}^{2}}{3-\\sqrt{{x}^{2}+5}}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{(3-\\sqrt{{x}^{2}+5})(3+\\sqrt{{x}^{2}+5})}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{{3}^{2}-{(\\sqrt{{x}^{2}+5})}^{2}}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{9-{x}^{2}-5}\\\\ & =\\underset{x\\to2}{lim}(3+\\sqrt{{x}^{2}+5})\\\\ & =3+3=6\\text{ (Ans.) }\\end{matrix}$",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "মান নির্ণয় কর: $\\underset{x\\to2}{lim}\\frac{4-{x}^{2}}{3-\\sqrt{{x}^{2}+5}}$"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix} & \\underset{x\\to2}{lim}\\frac{4-{x}^{2}}{3-\\sqrt{{x}^{2}+5}}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{(3-\\sqrt{{x}^{2}+5})(3+\\sqrt{{x}^{2}+5})}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{{3}^{2}-{(\\sqrt{{x}^{2}+5})}^{2}}\\\\ & =\\underset{x\\to2}{lim}\\frac{(4-{x}^{2})(3+\\sqrt{{x}^{2}+5})}{9-{x}^{2}-5}\\\\ & =\\underset{x\\to2}{lim}(3+\\sqrt{{x}^{2}+5})\\\\ & =3+3=6\\text{ (Ans.) }\\end{matrix}$"
+          }
         },
         {
-          "key": "b",
-          "questionText": "মূল নিয়মে $x$ এর সাপেক্ষে $\\frac{f(x)}{g(x)}$ এর অন্তরজ নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $f(x)=\\frac{1}{\\sinx}$ এবং $g(x)=\\frac{1}{\\tanx}$\n$∴\\frac{f(x)}{g(x)}=\\frac{\\frac{1}{\\sinx}}{\\frac{1}{\\tanx}}=\\frac{\\tanx}{\\sinx}=\\frac{1}{\\sinx}\\times\\frac{\\sinx}{\\cosx}=\\secx$\nধরি, $p(x)=\\frac{f(x)}{g(x)}=\\secx$\n$∴p(x+h)=\\sec(x+h)$\nআমরা জানি, $\\frac{d}{dx}\\{p(x)\\}=\\underset{h\\to0}{lim}\\frac{p(x+h)-p(x)}{h}$\n$∴\\frac{d}{dx}\\{\\frac{f(x)}{g(x)}\\}=\\frac{d}{dx}(\\secx)$\n$=\\underset{h\\to0}{lim}\\frac{\\sec(x+h)-\\secx}{h}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{1}{\\cos(x+h)}-\\frac{1}{\\cosx}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{\\cosx-\\cos(x+h)}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{2\\sin(\\frac{x+x+h}{2})\\sin(\\frac{x+h-x}{2})}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{2\\sin(x+\\frac{h}{2})\\sin\\frac{h}{2}}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{\\sin\\frac{h}{2}}{\\frac{h}{2}}\\times\\frac{lim}{h\\to0}\\frac{\\sin(x+\\frac{h}{2})}{\\cosx\\cos(x+h)}$\n$=1\\times\\frac{\\sinx}{\\cosx\\cdot\\cosx}=\\frac{1}{\\cosx}\\cdot\\frac{\\sinx}{\\cosx}$\n$=\\secx\\tanx$\n$∴\\frac{d}{dx}(\\secx)=\\secx\\tanx(Ans.)$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "মূল নিয়মে $x$ এর সাপেক্ষে $\\frac{f(x)}{g(x)}$ এর অন্তরজ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $f(x)=\\frac{1}{\\sinx}$ এবং $g(x)=\\frac{1}{\\tanx}$\n$∴\\frac{f(x)}{g(x)}=\\frac{\\frac{1}{\\sinx}}{\\frac{1}{\\tanx}}=\\frac{\\tanx}{\\sinx}=\\frac{1}{\\sinx}\\times\\frac{\\sinx}{\\cosx}=\\secx$\nধরি, $p(x)=\\frac{f(x)}{g(x)}=\\secx$\n$∴p(x+h)=\\sec(x+h)$\nআমরা জানি, $\\frac{d}{dx}\\{p(x)\\}=\\underset{h\\to0}{lim}\\frac{p(x+h)-p(x)}{h}$\n$∴\\frac{d}{dx}\\{\\frac{f(x)}{g(x)}\\}=\\frac{d}{dx}(\\secx)$\n$=\\underset{h\\to0}{lim}\\frac{\\sec(x+h)-\\secx}{h}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{1}{\\cos(x+h)}-\\frac{1}{\\cosx}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{\\cosx-\\cos(x+h)}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{2\\sin(\\frac{x+x+h}{2})\\sin(\\frac{x+h-x}{2})}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{1}{h}\\{\\frac{2\\sin(x+\\frac{h}{2})\\sin\\frac{h}{2}}{\\cosx\\cos(x+h)}\\}$\n$=\\underset{h\\to0}{lim}\\frac{\\sin\\frac{h}{2}}{\\frac{h}{2}}\\times\\frac{lim}{h\\to0}\\frac{\\sin(x+\\frac{h}{2})}{\\cosx\\cos(x+h)}$\n$=1\\times\\frac{\\sinx}{\\cosx\\cdot\\cosx}=\\frac{1}{\\cosx}\\cdot\\frac{\\sinx}{\\cosx}$\n$=\\secx\\tanx$\n$∴\\frac{d}{dx}(\\secx)=\\secx\\tanx(Ans.)$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "দেখাও যে, $h(x)+\\frac{1}{\\text{ }h(x)}$ এর গুরুমান তার লঘুমান অপেক্ষা ক্ষদ্রতর।",
-          "answerText": "দেওয়া আছে, $h(x)=x∴h(x)+\\frac{1}{\\text{ }h(x)}=x+\\frac{1}{x}$\nধরি, $y-x+\\frac{1}{x}∴\\frac{dy}{dx}-1-\\frac{1}{{x}^{2}}$\nগুরুমান ও লঘুমানের জন্য, $\\frac{dy}{dx}=0$\nবা, $1-\\frac{1}{{x}^{2}}=0$ বা, ${x}^{2}=$ বা, $x=\\pm1$\nআবার, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{x}^{3}}$\n$x=1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{1}=2>0$\n$∴x=1$ বিন্দুতে, ফাংশनটির লঘুমান বিদ্যমান।\nঅতএব, লঘুমাन $=1+\\frac{1}{1}=2$\n$x=-1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{(-1{)}^{3}}=-2<0$\n$∴x=-1$ বিন্দুতে, ফাংশনটির গুরুমান বিদ্যমান।\nঅতএব, গুরুমান $=(-1)+\\frac{1}{-1}=-2$\nসুতরাং, ফাংশনটির গুরুমান, লঘুমান অপেক্ষা ক্ষুদ্রতর। (দেখানো হলো)",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "দেখাও যে, $h(x)+\\frac{1}{\\text{ }h(x)}$ এর গুরুমান তার লঘুমান অপেক্ষা ক্ষদ্রতর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $h(x)=x∴h(x)+\\frac{1}{\\text{ }h(x)}=x+\\frac{1}{x}$\nধরি, $y-x+\\frac{1}{x}∴\\frac{dy}{dx}-1-\\frac{1}{{x}^{2}}$\nগুরুমান ও লঘুমানের জন্য, $\\frac{dy}{dx}=0$\nবা, $1-\\frac{1}{{x}^{2}}=0$ বা, ${x}^{2}=$ বা, $x=\\pm1$\nআবার, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{{x}^{3}}$\n$x=1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{1}=2>0$\n$∴x=1$ বিন্দুতে, ফাংশनটির লঘুমান বিদ্যমান।\nঅতএব, লঘুমাन $=1+\\frac{1}{1}=2$\n$x=-1$ হলে, $\\frac{{d}^{2}y}{{dx}^{2}}=\\frac{2}{(-1{)}^{3}}=-2<0$\n$∴x=-1$ বিন্দুতে, ফাংশনটির গুরুমান বিদ্যমান।\nঅতএব, গুরুমান $=(-1)+\\frac{1}{-1}=-2$\nসুতরাং, ফাংশনটির গুরুমান, লঘুমান অপেক্ষা ক্ষুদ্রতর। (দেখানো হলো)"
+          }
         }
       ],
       "assets": [],
@@ -378,35 +455,48 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq07",
+      "clientId": "rajshahi-2017-math1st-cq07",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "07",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$f(x)=\\frac{\\lnx}{{x}^{2}+1}......(i),$ g(x)=x^2+1....... (ii)$"
+          "questionText": "$f(x)=\\frac{\\lnx}{{x}^{2}+1}......(i),$ g(x)=x^2+1....... (ii)$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\int{(\\sin\\frac{x}{2}+\\cos\\frac{x}{2})}^{2}dx$ নির্ণয় কর।",
-          "answerText": "$\\int{(\\sin\\frac{x}{2}+\\cos\\frac{x}{2})}^{2}dx$\n$=\\int({\\sin}^{2}\\frac{x}{2}+{\\cos}^{2}\\frac{x}{2}+2\\sin\\frac{x}{2}\\cos\\frac{x}{2})dx$\n$=\\int(1+\\sin2\\cdot\\frac{x}{2})dx$\n$=\\int(1+\\sinx)dx$\n$=x-\\cosx+c$ [c একটি সমাকলন ধ্রুবক] (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\int{(\\sin\\frac{x}{2}+\\cos\\frac{x}{2})}^{2}dx$ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\int{(\\sin\\frac{x}{2}+\\cos\\frac{x}{2})}^{2}dx$\n$=\\int({\\sin}^{2}\\frac{x}{2}+{\\cos}^{2}\\frac{x}{2}+2\\sin\\frac{x}{2}\\cos\\frac{x}{2})dx$\n$=\\int(1+\\sin2\\cdot\\frac{x}{2})dx$\n$=\\int(1+\\sinx)dx$\n$=x-\\cosx+c$ [c একটি সমাকলন ধ্রুবক] (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "(i) বক্ররেখার $x=2$ বিন্দুতে ম্পর্শকের সমীকরণ নির্ণয় কর।",
-          "answerText": "ধরি, $y=f(x)=\\frac{\\lnx}{{x}^{2}+1}$\n${f}^{′}(x)=\\frac{({x}^{2}+1)\\frac{d}{dx}(\\lnx)-\\lnx\\frac{d}{dx}({x}^{2}+1)}{{({x}^{2}+1)}^{2}}$\n$=\\frac{({x}^{2}+1)\\frac{1}{x}-\\lnx\\cdot2x}{{({x}^{2}+1)}^{2}}$\n$=\\frac{{x}^{2}+1-2{x}^{2}\\lnx}{x}$\n$=\\frac{{x}^{2}+1-2{x}^{2}\\lnx}{x{({x}^{2}+1)}^{2}}$\n$x=2$ বিन्দুতে ${f}^{′}(x)=\\frac{{2}^{2}+1-2\\times{2}^{2}\\times\\ln2}{2{({2}^{2}+1)}^{2}}=\\frac{5-8\\ln2}{50}$\n$x=2$ হলে $y=\\frac{\\ln2}{{2}^{2}+1}=\\frac{\\ln2}{5}$\n$(2,\\frac{\\ln2}{5})$ বিন্দুতে স্পর্শকের সমীকরণ, \n$y-\\frac{\\ln2}{5}=\\frac{5-8\\ln2}{50}(x-2)$\nবা, $50y-10\\ln2=(5-8\\ln2)x-10+16\\ln2$\n$∴(5-8\\ln2)x-50y-10+26\\ln2=0\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "(i) বক্ররেখার $x=2$ বিন্দুতে ম্পর্শকের সমীকরণ নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "ধরি, $y=f(x)=\\frac{\\lnx}{{x}^{2}+1}$\n${f}^{′}(x)=\\frac{({x}^{2}+1)\\frac{d}{dx}(\\lnx)-\\lnx\\frac{d}{dx}({x}^{2}+1)}{{({x}^{2}+1)}^{2}}$\n$=\\frac{({x}^{2}+1)\\frac{1}{x}-\\lnx\\cdot2x}{{({x}^{2}+1)}^{2}}$\n$=\\frac{{x}^{2}+1-2{x}^{2}\\lnx}{x}$\n$=\\frac{{x}^{2}+1-2{x}^{2}\\lnx}{x{({x}^{2}+1)}^{2}}$\n$x=2$ বিन्দুতে ${f}^{′}(x)=\\frac{{2}^{2}+1-2\\times{2}^{2}\\times\\ln2}{2{({2}^{2}+1)}^{2}}=\\frac{5-8\\ln2}{50}$\n$x=2$ হলে $y=\\frac{\\ln2}{{2}^{2}+1}=\\frac{\\ln2}{5}$\n$(2,\\frac{\\ln2}{5})$ বিন্দুতে স্পর্শকের সমীকরণ, \n$y-\\frac{\\ln2}{5}=\\frac{5-8\\ln2}{50}(x-2)$\nবা, $50y-10\\ln2=(5-8\\ln2)x-10+16\\ln2$\n$∴(5-8\\ln2)x-50y-10+26\\ln2=0\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "${\\int}_{0}^{1}f(x).g(x)dx$ এর মান নির্ণয় কর।",
-          "answerText": "$\\begin{matrix} & {\\int}_{0}^{1}f(x)\\cdotg(x)dx={\\int}_{0}^{1}\\frac{\\lnx}{{x}^{2}+1}({x}^{2}+1)dx\\\\ & ={\\int}_{0}^{1}\\lnxdx\\\\ & ∴\\int\\lnxdx=\\lnx\\intdx-\\int[\\frac{d}{dx}(\\lnx)\\intdx]dx\\\\ & =x\\lnx-\\int\\frac{1}{x}\\cdotxdx\\\\ & =x\\lnx-x+c\\\\ & ∴{\\int}_{0}^{1}f(x)g(x)dx=[x\\lnx-x{]}_{0}^{1}\\\\ & =(0-1)-0=-1\\text{ (Ans.) }\\\\ & \\end{matrix}$",
-          "assets": []
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "${\\int}_{0}^{1}f(x).g(x)dx$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\begin{matrix} & {\\int}_{0}^{1}f(x)\\cdotg(x)dx={\\int}_{0}^{1}\\frac{\\lnx}{{x}^{2}+1}({x}^{2}+1)dx\\\\ & ={\\int}_{0}^{1}\\lnxdx\\\\ & ∴\\int\\lnxdx=\\lnx\\intdx-\\int[\\frac{d}{dx}(\\lnx)\\intdx]dx\\\\ & =x\\lnx-\\int\\frac{1}{x}\\cdotxdx\\\\ & =x\\lnx-x+c\\\\ & ∴{\\int}_{0}^{1}f(x)g(x)dx=[x\\lnx-x{]}_{0}^{1}\\\\ & =(0-1)-0=-1\\text{ (Ans.) }\\\\ & \\end{matrix}$"
+          }
         }
       ],
       "assets": [],
@@ -435,45 +525,58 @@
       ]
     },
     {
-      "clientId": "rajshahi-2017-physics1st-cq08",
+      "clientId": "rajshahi-2017-math1st-cq08",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-10"
+        "path": "hsc/math/1st/chapter-10"
       },
       "questionNumber": "08",
       "formatCode": "cq",
       "translations": {
         "bn": {
-          "stimulusText": "$\\frac{{x}^{2}}{36}+\\frac{{y}^{2}}{25}=1,x=3;f(x)=x{e}^{x},g(x)=(x+1{)}^{3}$"
+          "questionText": "$\\frac{{x}^{2}}{36}+\\frac{{y}^{2}}{25}=1,x=3;f(x)=x{e}^{x},g(x)=(x+1{)}^{3}$",
+          "solutionText": null
         }
       },
       "parts": [
         {
-          "key": "a",
-          "questionText": "$\\cotx=\\frac{1}{9}$ হলে $\\sec2x$ এর মান নির্ণয় কর।",
-          "answerText": "দেওয়া আছে, $\\cotx=\\frac{1}{9}$ বা, ${\\cot}^{2}x=\\frac{1}{81}$\nবা, $\\frac{{\\cos}^{2}x}{{\\sin}^{2}x}=\\frac{1}{81}$ বা, $81{\\cos}^{2}x=1-{\\cos}^{2}x$\nবা, ${\\cos}^{2}x=\\frac{1}{82}$ বা, $2{\\cos}^{2}x=\\frac{2}{82}$\nবা, $2{\\cos}^{2}x-1=\\frac{1}{41}-1$ বा, $\\cos2x=\\frac{-40}{41}$\nবা, $\\frac{1}{\\sec2x}=\\frac{-40}{41}∴\\sec2x=\\frac{-41}{40}$ (Ans.)",
-          "assets": []
+          "ordinal": 1,
+          "key": "A",
+          "prompt": {
+            "bn": "$\\cotx=\\frac{1}{9}$ হলে $\\sec2x$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "দেওয়া আছে, $\\cotx=\\frac{1}{9}$ বা, ${\\cot}^{2}x=\\frac{1}{81}$\nবা, $\\frac{{\\cos}^{2}x}{{\\sin}^{2}x}=\\frac{1}{81}$ বা, $81{\\cos}^{2}x=1-{\\cos}^{2}x$\nবা, ${\\cos}^{2}x=\\frac{1}{82}$ বা, $2{\\cos}^{2}x=\\frac{2}{82}$\nবা, $2{\\cos}^{2}x-1=\\frac{1}{41}-1$ বा, $\\cos2x=\\frac{-40}{41}$\nবা, $\\frac{1}{\\sec2x}=\\frac{-40}{41}∴\\sec2x=\\frac{-41}{40}$ (Ans.)"
+          }
         },
         {
-          "key": "b",
-          "questionText": "${\\int}_{0}^{3}\\frac{f(x)}{\\frac{d}{dx}\\{g(x)\\}}dx$ এর মান নির্ণয় কর।",
-          "answerText": "${\\int}_{0}^{3}\\frac{f(x)}{\\frac{d}{dx}\\{g(x)\\}}dx={\\int}_{0}^{3}\\frac{{x}^{x}}{\\frac{d}{dx}(x+1{)}^{3}}dx={\\int}_{0}^{3}\\frac{{x}^{x}}{3(x+1{)}^{2}}$\nএখন, $\\int\\frac{{xe}^{x}}{(x+1{)}^{2}}dx=\\int\\frac{\\{(x+1)-1\\}{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\int{e}^{x}\\cdot\\frac{1}{x+1}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{1}{x+1}\\int{e}^{x}dx-\\int\\{\\frac{d}{dx}(\\frac{1}{x+1})\\int{e}^{x}dx\\}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{{e}^{x}}{x+1}+\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx=\\frac{{e}^{x}}{x+1}+c$\n$∴{\\int}_{0}^{3}\\frac{{xe}^{x}}{3(x+1{)}^{2}}=\\frac{1}{3}{[\\frac{{e}^{x}}{x+1}]}_{0}^{3}=\\frac{1}{3}(\\frac{{e}^{3}}{3+1}-\\frac{{e}^{0}}{0+1})$\n$=\\frac{1}{3}(\\frac{{e}^{3}}{4}-1)=\\frac{1}{12}({e}^{3}-4)\\text{ (Ans.) }$",
-          "assets": []
+          "ordinal": 2,
+          "key": "B",
+          "prompt": {
+            "bn": "${\\int}_{0}^{3}\\frac{f(x)}{\\frac{d}{dx}\\{g(x)\\}}dx$ এর মান নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "${\\int}_{0}^{3}\\frac{f(x)}{\\frac{d}{dx}\\{g(x)\\}}dx={\\int}_{0}^{3}\\frac{{x}^{x}}{\\frac{d}{dx}(x+1{)}^{3}}dx={\\int}_{0}^{3}\\frac{{x}^{x}}{3(x+1{)}^{2}}$\nএখন, $\\int\\frac{{xe}^{x}}{(x+1{)}^{2}}dx=\\int\\frac{\\{(x+1)-1\\}{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\int{e}^{x}\\cdot\\frac{1}{x+1}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{1}{x+1}\\int{e}^{x}dx-\\int\\{\\frac{d}{dx}(\\frac{1}{x+1})\\int{e}^{x}dx\\}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx$\n$=\\frac{{e}^{x}}{x+1}+\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx-\\int\\frac{{e}^{x}}{(x+1{)}^{2}}dx=\\frac{{e}^{x}}{x+1}+c$\n$∴{\\int}_{0}^{3}\\frac{{xe}^{x}}{3(x+1{)}^{2}}=\\frac{1}{3}{[\\frac{{e}^{x}}{x+1}]}_{0}^{3}=\\frac{1}{3}(\\frac{{e}^{3}}{3+1}-\\frac{{e}^{0}}{0+1})$\n$=\\frac{1}{3}(\\frac{{e}^{3}}{4}-1)=\\frac{1}{12}({e}^{3}-4)\\text{ (Ans.) }$"
+          }
         },
         {
-          "key": "c",
-          "questionText": "উদ্দীপকের উপবৃত্ত এবং সরলরেখা দ্বারা আবদ্ধ ক্ষুদ্রতর অংশের ক্ষেত্রফল নির্ণয় কর।",
-          "answerText": "$\\frac{{x}^{2}}{36}+\\frac{{y}^{2}}{25}=1………\\text{ (i) }$\n$x=3………\\text{ (ii) }$\n(i) নং এ y =0 বসিয়ে পাই,\n[IMG_0]\n$\\frac{{x}^{2}}{36}=1$\n$∴x=\\pm6$\nউপবৃত্তটি x-অক্ষকে $(6,0)$ ও $(-6,0)$ বিন্দুতে ছেদ করে।\n(i) নং হতে, $\\frac{{y}^{2}}{25}=1-\\frac{{x}^{2}}{36}$\nবা, $\\frac{{y}^{2}}{25}=\\frac{1}{36}(36-{x}^{2}) ∴y=\\pm\\frac{5}{6}\\sqrt{36-{x}^{2}}$\n(i) ও (ii) নং দ্বারা আবদ্ধ ক্ষদ্রতর অংশের ক্ষেত্রফল\n$=2{\\int}_{3}^{6}\\frac{5}{6}\\sqrt{{6}^{2}-{x}^{2}}dx$ [x অক্ষের উপরে $y$ ধনাত্মক]\n$=\\frac{5}{3}{[\\frac{x}{2}\\sqrt{{6}^{2}-{x}^{2}}+\\frac{{6}^{2}}{2}{\\sin}^{-1}\\frac{x}{6}]}_{3}^{6}$\n$=\\frac{5}{3}[(0-\\frac{3}{2}\\sqrt{27})+18({\\sin}^{-1}1-{\\sin}^{-1}\\frac{1}{2})]$\n$=\\frac{-5}{2}\\times3\\sqrt{3}+30(\\frac{\\pi}{2}-\\frac{\\pi}{6})=30\\times\\frac{\\pi}{3}-\\frac{15\\sqrt{3}}{2}$\n$=10\\pi-\\frac{15\\sqrt{3}}{2}$ বর্গ একক (Ans.)",
-          "assets": [
-            {
-              "sha256": "8304f8ca01bcc0d39fe0c69e08c57e7aad9cc95b5d210d0256460b0f8d02bf17",
-              "role": "part-c-answer",
-              "page": 2,
-              "bbox": null
-            }
-          ]
+          "ordinal": 3,
+          "key": "C",
+          "prompt": {
+            "bn": "উদ্দীপকের উপবৃত্ত এবং সরলরেখা দ্বারা আবদ্ধ ক্ষুদ্রতর অংশের ক্ষেত্রফল নির্ণয় কর।"
+          },
+          "solution": {
+            "bn": "$\\frac{{x}^{2}}{36}+\\frac{{y}^{2}}{25}=1………\\text{ (i) }$\n$x=3………\\text{ (ii) }$\n(i) নং এ y =0 বসিয়ে পাই,\n[IMG_0]\n$\\frac{{x}^{2}}{36}=1$\n$∴x=\\pm6$\nউপবৃত্তটি x-অক্ষকে $(6,0)$ ও $(-6,0)$ বিন্দুতে ছেদ করে।\n(i) নং হতে, $\\frac{{y}^{2}}{25}=1-\\frac{{x}^{2}}{36}$\nবা, $\\frac{{y}^{2}}{25}=\\frac{1}{36}(36-{x}^{2}) ∴y=\\pm\\frac{5}{6}\\sqrt{36-{x}^{2}}$\n(i) ও (ii) নং দ্বারা আবদ্ধ ক্ষদ্রতর অংশের ক্ষেত্রফল\n$=2{\\int}_{3}^{6}\\frac{5}{6}\\sqrt{{6}^{2}-{x}^{2}}dx$ [x অক্ষের উপরে $y$ ধনাত্মক]\n$=\\frac{5}{3}{[\\frac{x}{2}\\sqrt{{6}^{2}-{x}^{2}}+\\frac{{6}^{2}}{2}{\\sin}^{-1}\\frac{x}{6}]}_{3}^{6}$\n$=\\frac{5}{3}[(0-\\frac{3}{2}\\sqrt{27})+18({\\sin}^{-1}1-{\\sin}^{-1}\\frac{1}{2})]$\n$=\\frac{-5}{2}\\times3\\sqrt{3}+30(\\frac{\\pi}{2}-\\frac{\\pi}{6})=30\\times\\frac{\\pi}{3}-\\frac{15\\sqrt{3}}{2}$\n$=10\\pi-\\frac{15\\sqrt{3}}{2}$ বর্গ একক (Ans.)"
+          }
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "sha256": "8304f8ca01bcc0d39fe0c69e08c57e7aad9cc95b5d210d0256460b0f8d02bf17",
+          "role": "solution",
+          "page": 2,
+          "bbox": null
+        }
+      ],
       "provenance": {
         "sourceDocumentSha256": "87ffb88e87461deb31f562240b77b0cbe6c61ca326a5f32f633ce77679cee65f",
         "page": 2,

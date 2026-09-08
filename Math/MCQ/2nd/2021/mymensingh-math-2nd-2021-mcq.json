@@ -2,9 +2,9 @@
   "schemaVersion": "ezpz-content-import-v2",
   "items": [
     {
-      "clientId": "mymensingh-2021-physics1st-q1",
+      "clientId": "mymensingh-2021-math2nd-q1",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "1",
       "formatCode": "mcq_single",
@@ -17,7 +17,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "(0, 2)"
@@ -25,7 +25,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "(2, 0)"
@@ -33,7 +33,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "(1, 0)"
@@ -41,7 +41,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "(0, 1)"
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q2",
+      "clientId": "mymensingh-2021-math2nd-q2",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "2",
       "formatCode": "mcq_single",
@@ -89,7 +89,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "y+3=0"
@@ -97,7 +97,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "y-3=0"
@@ -105,7 +105,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "x+3=0"
@@ -113,7 +113,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "x-3=0"
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q3",
+      "clientId": "mymensingh-2021-math2nd-q3",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "3",
       "formatCode": "mcq_single",
@@ -161,7 +161,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "উপবৃত্ত"
@@ -169,7 +169,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "বৃত্ত"
@@ -177,7 +177,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "পরাবৃত্ত"
@@ -185,7 +185,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "অধিবৃত্ত"
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q4",
+      "clientId": "mymensingh-2021-math2nd-q4",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "4",
       "formatCode": "mcq_single",
@@ -233,7 +233,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "সরলরেখা"
@@ -241,7 +241,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "পরাবৃত্ত"
@@ -249,7 +249,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "অধিবৃত্ত"
@@ -257,7 +257,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "উপবৃত্ত"
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q5",
+      "clientId": "mymensingh-2021-math2nd-q5",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "5",
       "formatCode": "mcq_single",
@@ -305,7 +305,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$2x=\\pm\\sqrt{3}$"
@@ -313,7 +313,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$x=\\pm2\\sqrt{3}$"
@@ -321,7 +321,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$y=\\pm2\\sqrt{3}$"
@@ -329,7 +329,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$y=\\pm3\\sqrt{2}$"
@@ -362,9 +362,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q6",
+      "clientId": "mymensingh-2021-math2nd-q6",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "6",
       "formatCode": "mcq_single",
@@ -377,7 +377,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\sqrt{3}}{2}$"
@@ -385,7 +385,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\sqrt{\\frac{3}{2}}$"
@@ -393,7 +393,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{1}{2\\sqrt{2}}$"
@@ -401,7 +401,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{1}{2}$"
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q7",
+      "clientId": "mymensingh-2021-math2nd-q7",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "7",
       "formatCode": "mcq_single",
@@ -449,7 +449,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-9"
@@ -457,7 +457,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "-4"
@@ -465,7 +465,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "4"
@@ -473,7 +473,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "9"
@@ -506,9 +506,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q8",
+      "clientId": "mymensingh-2021-math2nd-q8",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-6"
+        "path": "hsc/math/2nd/chapter-6"
       },
       "questionNumber": "8",
       "formatCode": "mcq_single",
@@ -521,7 +521,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$(0,\\text{ }\\pm4)$"
@@ -529,7 +529,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$(\\pm4,\\text{ }0)$"
@@ -537,7 +537,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$(0,\\text{ }\\pm5)$"
@@ -545,7 +545,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$(\\pm5,\\text{ }0)$"
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q9",
+      "clientId": "mymensingh-2021-math2nd-q9",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/2nd/chapter-8"
       },
       "questionNumber": "9",
       "formatCode": "mcq_single",
@@ -593,7 +593,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "P"
@@ -601,7 +601,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "2P"
@@ -609,7 +609,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3P"
@@ -617,7 +617,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "4P"
@@ -650,9 +650,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q10",
+      "clientId": "mymensingh-2021-math2nd-q10",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/2nd/chapter-8"
       },
       "questionNumber": "10",
       "formatCode": "mcq_single",
@@ -665,7 +665,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "30°"
@@ -673,7 +673,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "45°"
@@ -681,7 +681,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "60°"
@@ -689,7 +689,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "120°"
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q11",
+      "clientId": "mymensingh-2021-math2nd-q11",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/2nd/chapter-8"
       },
       "questionNumber": "11",
       "formatCode": "mcq_single",
@@ -737,7 +737,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "1N"
@@ -745,7 +745,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "2N"
@@ -753,7 +753,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "3N"
@@ -761,7 +761,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "5N"
@@ -794,9 +794,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q12",
+      "clientId": "mymensingh-2021-math2nd-q12",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/2nd/chapter-8"
       },
       "questionNumber": "12",
       "formatCode": "mcq_single",
@@ -809,7 +809,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "60°"
@@ -817,7 +817,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "90°"
@@ -825,7 +825,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "120°"
@@ -833,7 +833,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "210°"
@@ -866,9 +866,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q13",
+      "clientId": "mymensingh-2021-math2nd-q13",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-8"
+        "path": "hsc/math/2nd/chapter-8"
       },
       "questionNumber": "13",
       "formatCode": "mcq_single",
@@ -881,7 +881,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i and ii"
@@ -889,7 +889,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i and iii"
@@ -897,7 +897,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii and iii"
@@ -905,7 +905,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii and iii"
@@ -938,9 +938,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q14",
+      "clientId": "mymensingh-2021-math2nd-q14",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "14",
       "formatCode": "mcq_single",
@@ -953,7 +953,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-3, -1"
@@ -961,7 +961,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "0, 3"
@@ -969,7 +969,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "-1, 3"
@@ -977,7 +977,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "1, 3"
@@ -1010,9 +1010,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q15",
+      "clientId": "mymensingh-2021-math2nd-q15",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "15",
       "formatCode": "mcq_single",
@@ -1025,7 +1025,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "5"
@@ -1033,7 +1033,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "6"
@@ -1041,7 +1041,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "7"
@@ -1049,7 +1049,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "8"
@@ -1082,9 +1082,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q16",
+      "clientId": "mymensingh-2021-math2nd-q16",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "16",
       "formatCode": "mcq_single",
@@ -1097,7 +1097,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$6{x}^{2}-3x+1=0$"
@@ -1105,7 +1105,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$5{x}^{2}+3x-1=0$"
@@ -1113,7 +1113,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$5{x}^{2}-3x+1=0$"
@@ -1121,7 +1121,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$3{x}^{2}-5x+1=0$"
@@ -1154,9 +1154,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q17",
+      "clientId": "mymensingh-2021-math2nd-q17",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "17",
       "formatCode": "mcq_single",
@@ -1169,7 +1169,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "${x}^{2}-2x+2=0$"
@@ -1177,7 +1177,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "${x}^{2}+2x-2=0$"
@@ -1185,7 +1185,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "${x}^{2}-2x-2=0$"
@@ -1193,7 +1193,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "${x}^{2}+2x+2=0$"
@@ -1226,9 +1226,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q18",
+      "clientId": "mymensingh-2021-math2nd-q18",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "18",
       "formatCode": "mcq_single",
@@ -1241,7 +1241,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "-2"
@@ -1249,7 +1249,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "0"
@@ -1257,7 +1257,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "1"
@@ -1265,7 +1265,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "3"
@@ -1298,9 +1298,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q19",
+      "clientId": "mymensingh-2021-math2nd-q19",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-4"
+        "path": "hsc/math/2nd/chapter-4"
       },
       "questionNumber": "19",
       "formatCode": "mcq_single",
@@ -1313,7 +1313,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i and ii"
@@ -1321,7 +1321,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "i and iii"
@@ -1329,7 +1329,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii and iii"
@@ -1337,7 +1337,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "i, ii and iii"
@@ -1370,9 +1370,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q20",
+      "clientId": "mymensingh-2021-math2nd-q20",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "20",
       "formatCode": "mcq_single",
@@ -1385,7 +1385,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "$2n\\pi\\pm\\alpha$"
@@ -1393,7 +1393,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$n\\pi\\pm\\alpha$"
@@ -1401,7 +1401,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$n\\pi+(-1{)}^{n}\\alpha$"
@@ -1409,7 +1409,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$n\\pi-(-1{)}^{n}\\alpha$"
@@ -1442,9 +1442,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q21",
+      "clientId": "mymensingh-2021-math2nd-q21",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "21",
       "formatCode": "mcq_single",
@@ -1457,7 +1457,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$n\\pi-(-1{)}^{n}\\frac{\\pi}{6},\\text{ }n∈z$"
@@ -1465,7 +1465,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$n\\pi+(-1{)}^{n}\\frac{\\pi}{6},\\text{ }n∈z$"
@@ -1473,7 +1473,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{n\\pi}{2}-(-1{)}^{n}\\frac{\\pi}{12},\\text{ }n∈z$"
@@ -1481,7 +1481,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{n\\pi}{2}+(-1{)}^{n}\\frac{\\pi}{12},\\text{ }n∈z$"
@@ -1514,9 +1514,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q22",
+      "clientId": "mymensingh-2021-math2nd-q22",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "22",
       "formatCode": "mcq_single",
@@ -1529,7 +1529,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\sqrt{3}}{5}$"
@@ -1537,7 +1537,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{\\sqrt{3}}{4}$"
@@ -1545,7 +1545,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$\\frac{4}{5}$"
@@ -1553,7 +1553,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$\\frac{5}{4}$"
@@ -1586,9 +1586,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q23",
+      "clientId": "mymensingh-2021-math2nd-q23",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "23",
       "formatCode": "mcq_single",
@@ -1601,7 +1601,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "$(asec\\theta,\\text{ }bcosec\\theta)$"
@@ -1609,7 +1609,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "$(bsec\\theta,\\text{ }acosec\\theta)$"
@@ -1617,7 +1617,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": true,
           "body": {
             "bn": "$(acos\\theta,\\text{ }bsin\\theta)$"
@@ -1625,7 +1625,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "$(asin\\theta,\\text{ }bcos\\theta)$"
@@ -1658,9 +1658,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q24",
+      "clientId": "mymensingh-2021-math2nd-q24",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "24",
       "formatCode": "mcq_single",
@@ -1673,7 +1673,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": true,
           "body": {
             "bn": "[-1, 1]"
@@ -1681,7 +1681,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": false,
           "body": {
             "bn": "(-1, 1]"
@@ -1689,7 +1689,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "(-1, 1)"
@@ -1697,7 +1697,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "[-1, 1)"
@@ -1730,9 +1730,9 @@
       ]
     },
     {
-      "clientId": "mymensingh-2021-physics1st-q25",
+      "clientId": "mymensingh-2021-math2nd-q25",
       "curriculum": {
-        "path": "hsc/physics/1st/chapter-7"
+        "path": "hsc/math/2nd/chapter-7"
       },
       "questionNumber": "25",
       "formatCode": "mcq_single",
@@ -1745,7 +1745,7 @@
       "choices": [
         {
           "ordinal": 1,
-          "key": "a",
+          "key": "A",
           "isCorrect": false,
           "body": {
             "bn": "i and ii"
@@ -1753,7 +1753,7 @@
         },
         {
           "ordinal": 2,
-          "key": "b",
+          "key": "B",
           "isCorrect": true,
           "body": {
             "bn": "i and iii"
@@ -1761,7 +1761,7 @@
         },
         {
           "ordinal": 3,
-          "key": "c",
+          "key": "C",
           "isCorrect": false,
           "body": {
             "bn": "ii and iii"
@@ -1769,7 +1769,7 @@
         },
         {
           "ordinal": 4,
-          "key": "d",
+          "key": "D",
           "isCorrect": false,
           "body": {
             "bn": "i, ii and iii"

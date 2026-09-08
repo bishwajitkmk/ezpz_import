@@ -1,12 +1,48 @@
 (async function () {
   const params = new URLSearchParams(location.search);
+
+  // Subject and paper are read from the page's own `sub` label, never
+  // hardcoded. The old `subjectPath: 'physics/1st'` constant was left at its
+  // default on every Chemistry, Math and Physics-2nd scrape, which filed all
+  // of that content under Physics 1st Paper and made it collide with the
+  // real Physics rows on (subject, paper, board, year, question number).
+  const SUBJECTS = [
+    [/chem/i, 'chemistry'],
+    [/bio/i, 'biology'],
+    [/math/i, 'math'],
+    [/phys/i, 'physics'],
+  ];
+
+  function subjectPathFrom(label) {
+    const override = params.get('subjectPath');
+    if (override) return override;
+    const found = SUBJECTS.find(([pattern]) => pattern.test(label));
+    const paper = (label.match(/1st|2nd/i) || [])[0];
+    if (!found || !paper) return null;
+    return `${found[1]}/${paper.toLowerCase()}`;
+  }
+
   const CONFIG = {
     board: params.get('boardName') || 'Unknown',
     year: Number(params.get('year')) || null,
     subjectLabel: params.get('sub') || 'Unknown',
-    subjectPath: 'physics/1st', // change per subject, e.g. 'math/1st', 'chemistry/2nd'
+    subjectPath: subjectPathFrom(params.get('sub') || ''),
+    // The paper is only ever Bengali or English; the scraper writes whichever
+    // language the page is currently showing. Run it once per language and
+    // the two passes merge on clientId.
+    locale: params.get('lang') === 'en' ? 'en' : 'bn',
+    // Fallback chapter for pages that do not print "Chapter N" anywhere.
+    chapterFallback: params.get('chapter') || null,
     page: Number(params.get('current')) || null,
   };
+
+  if (!CONFIG.subjectPath) {
+    console.error(
+      `Cannot tell the subject and paper from sub="${CONFIG.subjectLabel}". ` +
+      'Re-run with &subjectPath=chemistry/2nd (or the right subject/paper).'
+    );
+    return;
+  }
 
   async function sha256Hex(text) {
     const data = new TextEncoder().encode(text);
@@ -16,9 +52,11 @@
       .join('');
   }
 
-  CONFIG.sourceDocumentSha256 = await sha256Hex(
-    `${CONFIG.board}-${CONFIG.year}-${CONFIG.subjectLabel}`
-  );
+  // Provenance has to point at something a reviewer can re-open. Hashing the
+  // label string gave every question of a paper the same meaningless digest,
+  // so hash the page URL the questions were actually read from.
+  CONFIG.sourceUrl = location.origin + location.pathname + location.search;
+  CONFIG.sourceDocumentSha256 = await sha256Hex(CONFIG.sourceUrl);
 
   const GREEK = {
     'α': '\\alpha', 'β': '\\beta', 'γ': '\\gamma', 'Γ': '\\Gamma', 'δ': '\\delta', 'Δ': '\\Delta',
@@ -201,10 +239,21 @@
     const questionEl = card.querySelector('div.noto.font-medium');
     const questionText = questionEl ? texify(questionEl) : '';
 
+    // p.poppins alone missed the chapter on some pages and left curriculum.path
+    // null for the whole file, so fall back to the card text, then to the last
+    // chapter seen, then to the ?chapter= override.
     const chapterEl = card.querySelector('p.poppins');
-    const chapterMatch = chapterEl ? chapterEl.textContent.match(/Chapter\s*(\d+)/i) : null;
-    const chapterNumber = chapterMatch ? chapterMatch[1] : lastChapterNumber;
-    if (chapterNumber) lastChapterNumber = chapterNumber;
+    const chapterMatch =
+      (chapterEl && chapterEl.textContent.match(/Chapter\s*(\d+)/i)) ||
+      card.textContent.match(/Chapter\s*(\d+)/i);
+    const chapterNumber = chapterMatch
+      ? chapterMatch[1]
+      : lastChapterNumber || CONFIG.chapterFallback;
+    const chapterIsExact = Boolean(chapterMatch);
+    if (chapterMatch) lastChapterNumber = chapterMatch[1];
+    if (!chapterNumber) {
+      console.warn(`No chapter found for question ${questionNumber} — pass &chapter=N.`);
+    }
 
     const choiceButtons = Array.from(card.querySelectorAll('button')).filter((b) =>
       b.querySelector('span.rounded-full')
@@ -212,18 +261,23 @@
     if (choiceButtons.length === 0) return null;
 
     const choices = choiceButtons.map((btn, i) => {
-      const key = btn.querySelector('span.rounded-full').textContent.trim();
+      // The page prints a b c d; the question bank keys Latin options A B C D.
+      // Lower case keys never matched an existing question, so every re-scrape
+      // came back as a new item instead of the one already in the bank.
+      const rawKey = btn.querySelector('span.rounded-full').textContent.trim();
+      const key = /^[a-z]$/.test(rawKey) ? rawKey.toUpperCase() : rawKey;
       const textEl = btn.querySelector('div.noto');
       const isCorrect = btn.className.includes('emerald');
       return {
         ordinal: i + 1,
         key,
         isCorrect,
-        body: { bn: textEl ? texify(textEl) : '' },
+        body: { [CONFIG.locale]: textEl ? texify(textEl) : '' },
       };
     });
 
-    if (!choices.some((c) => c.isCorrect)) {
+    const answerFound = choices.some((c) => c.isCorrect);
+    if (!answerFound) {
       console.warn(`No correct choice detected for question ${questionNumber} — check reveal logic / class names.`);
     }
 
@@ -243,7 +297,7 @@
       questionNumber,
       formatCode: 'mcq_single',
       translations: {
-        bn: {
+        [CONFIG.locale]: {
           questionText,
           solutionText,
         },
@@ -254,9 +308,11 @@
         sourceDocumentSha256: CONFIG.sourceDocumentSha256,
         page: CONFIG.page,
         bbox: null,
-        extractorModel: 'human',
+        extractorModel: 'ezpz-mcq-scraper',
         promptVersion: 'import-json-guide-2026-09',
-        confidence: 1,
+        // Under 0.8 sends the item to review, which is where anything with a
+        // missing answer or a guessed chapter belongs.
+        confidence: answerFound && chapterIsExact ? 1 : 0.5,
       },
       sources: [
         {
@@ -278,6 +334,19 @@
 
   window.__scrapedItems = window.__scrapedItems || [];
 
+  // A second pass over the same paper in the other language must fill in the
+  // missing locale, not overwrite the first pass. clientId carries no
+  // language, so the two passes line up item by item and choice by choice.
+  function mergeItem(existing, incoming) {
+    const merged = { ...incoming };
+    merged.translations = { ...existing.translations, ...incoming.translations };
+    merged.choices = incoming.choices.map((choice) => {
+      const previous = existing.choices.find((c) => c.key === choice.key);
+      return previous ? { ...choice, body: { ...previous.body, ...choice.body } } : choice;
+    });
+    return merged;
+  }
+
   async function scrapePage() {
     const cards = findCards();
     let added = 0;
@@ -292,12 +361,26 @@
         window.__scrapedItems.push(item);
         added++;
       } else {
-        window.__scrapedItems[idx] = item;
+        window.__scrapedItems[idx] = mergeItem(window.__scrapedItems[idx], item);
         updated++;
       }
     }
 
-    console.log(`Added ${added}, updated ${updated}. Total: ${window.__scrapedItems.length}`);
+    const languages = new Set();
+    window.__scrapedItems.forEach((item) => {
+      Object.keys(item.translations).forEach((locale) => languages.add(locale));
+    });
+    console.log(
+      `Added ${added}, updated ${updated}. Total: ${window.__scrapedItems.length}. ` +
+      `Languages: ${[...languages].join(', ')}.`
+    );
+    if (languages.size === 1) {
+      console.log(
+        `Only ${[...languages][0]} captured. If this paper also has the other ` +
+        'language, switch the page to it and re-run with &lang=' +
+        (CONFIG.locale === 'bn' ? 'en' : 'bn') + ' before downloading.'
+      );
+    }
     return window.__scrapedItems;
   }
 
